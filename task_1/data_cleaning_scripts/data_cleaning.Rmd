@@ -1,0 +1,42 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(readr)
+
+```
+
+
+```{r}
+raw_decathlon_data <- read_rds("~/data_cleaning_project/task_1/raw_data/decathlon.rds")
+
+```
+
+```{r}
+view(raw_decathlon_data)
+raw_decathlon_data
+head(raw_decathlon_data)
+
+names(raw_decathlon_data)
+
+```
+
+```{r}
+class(raw_decathlon_data$`100m`)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
