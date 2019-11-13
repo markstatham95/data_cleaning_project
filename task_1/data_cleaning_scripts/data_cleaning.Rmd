@@ -20,21 +20,63 @@ view(raw_decathlon_data)
 raw_decathlon_data
 head(raw_decathlon_data)
 
-names(raw_decathlon_data)
+view(raw_decathlon_data)
 
 ```
+
 
 ```{r}
-class(raw_decathlon_data$`100m`)
+library(janitor)
 ```
 
 
 
+```{r}
+clean_decathlon <- clean_names(raw_decathlon_data)
+```
 
 
 
+```{r}
+clean_decathlon <- clean_decathlon %>%
+  rownames_to_column(var = "athlete_name")
+
+view(clean_decathlon)
+```
+
+Now to make all the names lower case in athlete_names
+
+```{r}
+clean_decathlon <- clean_decathlon %>% 
+  mutate(athlete_name = tolower(athlete_name))
+
+view(clean_decathlon)
+```
 
 
+```{r}
+clean_decathlon <- clean_decathlon %>% 
+  pivot_longer(cols = c(x100m, 
+                        long_jump, 
+                        shot_put,
+                        x400m, 
+                        x110m_hurdle,
+                        discus,
+                        high_jump, 
+                        pole_vault,
+                        javeline, 
+                        x1500m), 
+               names_to = "events", 
+               values_to = "scores")
+```
+
+
+
+Now export to a csv
+
+```{r}
+write_csv(clean_decathlon, "~/data_cleaning_project/task_1/clean_data/clean_decathlon.csv"
+```
 
 
 

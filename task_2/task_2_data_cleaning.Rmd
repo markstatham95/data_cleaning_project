@@ -1,0 +1,70 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(readr)
+```
+
+```{r}
+raw_cake <- read_csv("raw_data/cake/cake-ingredients-1961.csv")
+
+cake_names <- read_csv("raw_data/cake/cake_ingredient_code.csv")
+```
+
+
+
+
+```{r}
+#pivot longer the raw_cake tibble 
+
+cake_pivot <- raw_cake %>% 
+  pivot_longer(cols = -Cake, 
+               names_to = "code", 
+               values_to = "number")
+```
+
+
+
+Now need to do a join 
+```{r}
+cake_joined <- left_join(cake_pivot, cake_names, "code")
+```
+
+
+Now get clean data by getting rid of abbreviations 
+
+```{r}
+cake_clean <- cake_joined %>% 
+  select(-code)
+```
+
+Remove nas
+```{r}
+cake_clean <- cake_clean %>% 
+  drop_na()
+```
+
+
+lower case ingredients 
+```{r}
+cake_clean <- cake_clean %>% 
+  mutate(ingredient = tolower(ingredient)) %>% 
+  mutate(Cake = tolower(Cake))
+```
+
+
+```{r}
+library(janitor)
+
+cake_clean <- clean_names(cake_clean)
+```
+
+Export to csv 
+```{r}
+write_csv(cake_clean, "clean_data/cake_clean.csv")
+
+```
+

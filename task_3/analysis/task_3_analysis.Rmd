@@ -1,0 +1,77 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Task 3 Analysis 
+
+```{r}
+library(tidyverse)
+library(here)
+
+seabird_clean <- read_csv("~/data_cleaning_project/task_3/clean_data/seabird_clean.csv")
+```
+
+
+
+
+
+Which bird had the most individual sightings?
+```{r}
+
+dim(seabird_clean)
+
+
+seabird_clean %>% 
+  group_by(species) %>% 
+  summarise(sightings_no = n()) %>%
+  arrange(desc(sightings_no)) %>% 
+  top_n(1)
+```
+2. Which bird had the highest total count?
+```{r}
+seabird_clean %>% 
+  group_by(species) %>%
+  summarise(total_count = sum(count)) %>% 
+  arrange(desc(total_count))
+
+#problem here - when i pull these commands through a lot of the data comes back as na - for example 'wandering albatross sensu lato pl2' should be in the top counts, but comes back as na...
+
+
+
+
+```
+
+
+3. Which bird had the highest total count above a latitude of -30?
+```{r}
+seabird_clean %>% 
+  filter(lat > -30) %>% 
+  group_by(species) %>% 
+  summarise(total_count = sum(count)) %>% 
+  top_n(1)
+```
+
+
+4. How many different types of birds were only ever seen in groups of 1?
+
+```{r}
+seabird_clean %>% 
+  mutate(group_of_one = count == 1) %>%
+  filter(group_of_one == TRUE) %>%
+  summarise(n_distinct(species))
+
+#not sure if this is quite right -- could I have included species who were sometimes seen as single birds and sometimes seen as more than one? 
+  
+```
+
+
+5. How many penguins were seen? (Hint: there are many types of penguin)
+
+```{r}
+seabird_clean %>% 
+  filter(str_detect(species, "penguin")) %>% 
+  summarise(n(), na.rm = TRUE)
+  
+```
+

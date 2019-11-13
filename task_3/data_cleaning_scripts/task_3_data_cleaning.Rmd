@@ -1,0 +1,69 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+Data cleaning task 3
+
+
+```{r}
+library(tidyverse)
+library(readr)
+
+library(readxl)
+```
+
+```{r}
+ship_data <- read_excel("raw_data/seabirds.xls", sheet = 1)
+```
+
+```{r}
+here::here()
+bird_data <- read_excel("raw_data/seabirds.xls", sheet = 2)
+
+head(ship_data)
+head(bird_data)
+```
+
+```{r}
+seabird_observation <- left_join(ship_data, bird_data, "RECORD ID")
+```
+
+
+```{r}
+library(janitor)
+
+seabird_observation <- clean_names(seabird_observation)
+
+view(seabird_observation)
+seabird_obs_clean <- seabird_observation %>% 
+  select(record_id, lat, long, species_common_name_taxon_age_sex_plumage_phase, count)
+
+
+```
+
+
+
+
+need to rename that horrible names column 
+```{r}
+seabird_clean <- seabird_obs_clean %>% 
+  rename(species = species_common_name_taxon_age_sex_plumage_phase)
+```
+
+
+and change the cases 
+```{r}
+seabird_clean <- seabird_clean %>%
+  mutate(species = str_to_lower(species))
+```
+
+
+and export... as I think its clean enough
+```{r}
+
+library(here)
+write_csv(seabird_clean, here("/clean_data/seabird_clean.csv"))
+```
+
+
+
