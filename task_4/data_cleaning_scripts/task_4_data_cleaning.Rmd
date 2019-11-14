@@ -262,15 +262,15 @@ full_candy <- candy_clean %>%
   mutate(country = str_replace_all(country, "endland", "uk")) %>%
   mutate(country = str_replace_all(country, "murrika", "usa")) %>%
   mutate(country = str_replace_all(country, "alaska", "usa")) %>%
-  mutate(country = str_replace_all(country, "soviet canukistan", NA_character_)) %>%
-  mutate(country = str_replace_all(country, "canada'", "canada")) %>%
-  mutate(country = str_replace_all(country, "not usa", NA_character_)) %>%
-  mutate(country = str_replace_all(country, "ud", NA_character_)) %>%
-  mutate(country = str_replace_all(country, "canae", NA_character_)) %>%
-  mutate(country = str_replace_all(country, "can", NA_character_)) %>%
+  mutate(country = if_else(country == "soviet canukstan", NA_character_, country)) %>%
+  mutate(country = if_else(country == "canada`", "canada", country)) %>%
+  mutate(country = if_else(country == "not usa", NA_character_, country)) %>%
+  mutate(country = if_else(country == "ud", NA_character_, country)) %>%
+  mutate(country = if_else(country == "canae", "canada", country)) %>%
+  mutate(country = if_else(country == "can", "canada", country)) %>%
   mutate(country = str_replace_all(country, "^a$", NA_character_)) %>%
   mutate(country = str_replace_all(country, "^1$", NA_character_)) %>%
-  mutate(country = str_replace_all(country, "i don't know anymore", NA_character_)) %>%
+  mutate(country = if_else(country == "i don't know anymore", NA_character_, country)) %>%
   mutate(country = str_replace_all(country, "^netherlands$", "the netherlands"))
    
     
@@ -278,7 +278,7 @@ full_candy %>%
   distinct(country)
            
 
- 
+ table(full_candy$country)
 
 #it is done!!!
 
@@ -301,6 +301,25 @@ library(outliers)
 class(full_candy$age)
 age_zscores <- outliers::scores(unique(full_candy$age))
 
+full_test <- full_candy %>%
+  select(age) %>%
+  drop_na()
+
+scores()
+
+median(full_test$age)
+
+mean(full_test$age)
+
+# I will set the age limit at 65 because the data is probably skewed - there will be more younger people taking the survey 
+
+table(full_test$age)
+
+full_candy_no_outliers <- full_candy %>%
+  filter(age < 65)
+
+
+
 age_zscores
 
 is_age_outlier <- age_zscores > 3 | age_zscores < -3
@@ -312,8 +331,13 @@ full_candy <- full_candy %>%
 head(full_candy)
 
 
-#i'm going to remove any data with age as above 
+#i'm going to remove any data with age as above 100 - because the z scores stuff isn't working... 
 
+full_candy_sans_outliers <- full_candy %>%
+  filter(age < 100)
+
+
+table(full_candy_sans_outliers$age)
 ```
 
 

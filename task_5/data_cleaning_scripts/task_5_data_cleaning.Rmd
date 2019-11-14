@@ -1,0 +1,186 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Data Cleaning - RWA data 
+
+```{r}
+library(tidyverse)
+library(janitor)
+library(here)
+
+```
+
+
+Load in the data 
+```{r}
+rwa_raw <- read_csv(here("raw_data/rwa.csv"))
+
+
+```
+
+Check dimensions, names etc
+```{r}
+dim(rwa_raw)
+
+#9881 by 90 - thats a lot of columns - should I try to make the data long??
+
+names(rwa_raw)
+
+rwa_clean_names <- clean_names(rwa_raw)
+  
+names(rwa_clean_names)
+```
+Need to add a column with the respondent number before we pivot longer 
+```{r}
+rwa_numbered <- rwa_clean_names %>%
+  rownames_to_column(var = "respondent")
+```
+
+
+
+
+
+
+
+Need to rework the reverse order questions a bit before we pivot 
+
+```{r}
+
+names(rwa_numbered)
+
+
+#write a function that subtracts 10
+
+
+
+subtract10 <- function(x){
+  10 - x
+}
+
+#now apply this function across the columns that need to be reversed - using mutate_at()
+rwa_reversed <- rwa_numbered %>%
+  mutate_at(.funs = subtract10, .vars = c("q4", "q6", "q8", "q9", "q11", "q13", "q15", "q20", "q21"))
+
+  
+```
+
+
+
+
+
+Now to turn data into long format - pivoting on the authoritarianism questions 
+```{r}
+
+rwa_pivot <- rwa_reversed %>%
+  pivot_longer(cols = starts_with("q"),
+               names_to = "auth_q", 
+               values_to = "response")
+
+names(rwa_pivot)
+
+#I only need: respondent, ip_country, education, urban, gender, engnat, age, testelapse, hand, age, religion, voted, race, marries, auth_q, response
+
+rwa_clean <- rwa_pivot %>%
+  select(-matches("e[1-9]*[0-9]+")) %>%
+  select(-starts_with("vc")) %>%
+  select(-starts_with("ti")) %>%
+  select(-introelapse, -surveyelapse) %>%
+  select(-starts_with("scr")) %>%
+  select(-surveyaccurate)
+
+
+head(rwa_clean)
+```
+
+Now want to make the other columns more interpretable 
+
+```{r}
+#start with urban -- change to childhood_area 
+
+
+
+
+rwa_clean <- rwa_clean %>%
+  mutate(urban = recode(urban, `0` = NA_character_, `1` = "rural", `2` = "suburban", `3` = "urban"))
+
+
+#now the same with gender 
+
+rwa_clean <- rwa_clean %>%
+  mutate(gender = recode(gender, `0` = NA_character_, `1` = "male", `2` = "female", `3` = "other"))
+
+#now hand 
+rwa_clean <- rwa_clean %>%
+  mutate(hand = recode(hand, `0` = NA_character_, `1` = "right", `2` = "left", `3` = "both"))
+
+#now orientation
+
+rwa_clean <- rwa_clean %>%
+  mutate(orientation = recode(orientation, `0` = NA_character_, `1` = "heterosexual", `2` = "bisexual", `3` = "homosexual", `4` = "asexual", `5` = "other"))
+
+
+#now race 
+
+rwa_clean <- rwa_clean %>%
+  mutate(race = recode(race, `0` = NA_character_, `1` = "asian", `2` = "arab", `3` = "black", `4` = "white/indigenous aus & american", `5` = "other"))
+
+#voted in past year
+
+rwa_clean <- rwa_clean %>%
+  mutate(voted = recode(voted, `0` = NA_character_, `1` = "yes", `2` = "no"))
+
+#married
+rwa_clean <- rwa_clean %>%
+  mutate(married = recode(married, `0` = NA_character_, `1` = "never married", `2` = "currently married", `3` = "previously married"))
+
+
+#religion 
+
+rwa_clean <- rwa_clean %>%
+  mutate(religion = recode(religion, `0` = NA_character_, `1` = "agnostic", `2` = "atheist", `3` = "buddhist", `4` = "catholic", `5` = "mormon", `6` = "protestant", `7` = "other christian", `8` = "hindu", `9` = "jewish", `10` = "muslim", `11` = "sikh", `12` = "other"))
+
+#education
+
+rwa_clean <- rwa_clean %>%
+  mutate(education = recode(education, `0` = NA_character_, `1` = "less than high school", `2` = "high school", `3` = "university degree", `4` = "graduate degree"))
+
+
+
+head(rwa_clean)
+```
+
+
+```{r}
+head(rwa_clean)
+```
+
+Finally, I need to create a rwa score for each respondent 
+
+```{r}
+
+rwa_clean <- rwa_clean %>%
+  group_by(respondent) %>%
+  filter(auth_q %in% c("q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22")) %>%
+  mutate(rwa_score = mean(response))
+
+
+
+
+view(rwa_clean)
+
+```
+
+
+
+
+
+I think that is as clean as I need for some analysis 
+
+write to a csv
+
+```{r}
+write_csv(rwa_clean, "~/data_cleaning_project/task_5/clean_data/rwa_clean.csv")
+```
+

@@ -1,0 +1,165 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# Task 5 Analysis  
+
+
+```{r echo=FALSE}
+
+library(tidyverse)
+library(here)
+```
+
+
+### First, load in the data  
+
+```{r}
+rwa_data <- read_csv("clean_data/rwa_clean.csv")
+
+head(rwa_data)
+
+#its read in respondent as a double - not sure if that will be a problem later on.. probs not
+
+```
+
+
+
+## 1. What’s the average RWA score for each gender?
+
+```{r}
+
+
+rwa_data %>%
+  group_by(gender) %>%
+  summarise(mean(rwa_score))
+
+
+
+```
+
+
+## 2. What’s the average RWA score for left handed people vs. right handed people.
+```{r}
+
+rwa_data %>%
+  group_by(hand) %>%
+  summarise(mean(rwa_score))
+
+```
+
+## 3.What’s the average family size for each type of childhood? 
+```{r}
+
+rwa_data %>%
+  group_by(urban) %>%
+  summarise(mean(familysize))
+
+
+```
+
+
+## 4.What’s the average time to take the test for each education level?
+```{r}
+
+rwa_data %>%
+  group_by(education) %>%
+  summarise(mean(testelapse))
+
+```
+
+
+## 5. Create a plot of results of question 4.
+
+```{r}
+test_elapse_by_ed <- rwa_data %>%
+  group_by(education) %>%
+  drop_na() %>%
+  summarise(test_elapse_by_ed = mean(testelapse))
+
+view(test_elapse_by_ed)
+
+ggplot(test_elapse_by_ed, aes(x = education, y = test_elapse_by_ed)) + geom_bar(stat = "identity")
+```
+
+
+
+## 6. What’s the average RWA score for people aged
+
+### a. Under 18
+```{r}
+rwa_data %>%
+  filter(age < 18) %>%
+  summarise(mean(rwa_score))
+
+rwa_data %>%
+  filter(age < 18) %>%
+  summarise(n_distinct(respondent))
+```
+
+### b. 18-25
+```{r}
+rwa_data %>%
+  filter(between(age, 18, 25)) %>%
+  summarise(mean(rwa_score))
+
+rwa_data %>%
+  filter(between(age, 18, 25)) %>%
+  summarise(n_distinct(respondent))
+```
+
+
+### c. 26 - 40
+
+```{r}
+rwa_data %>%
+  filter(between(age, 26, 40)) %>%
+  summarise(mean(rwa_score))
+
+rwa_data %>%
+  filter(between(age, 26, 40)) %>%
+  summarise(n_distinct(respondent))
+```
+### d. 41 - 60
+```{r}
+rwa_data %>%
+  filter(between(age, 41, 60)) %>%
+  summarise(mean(rwa_score))
+
+rwa_data %>%
+  filter(between(age, 41, 60)) %>%
+  summarise(n_distinct(respondent))
+```
+
+### e. 60 plus
+```{r}
+rwa_data %>%
+  filter(age > 60) %>%
+  summarise(mean(rwa_score))
+
+
+#how many in this group??
+
+rwa_data %>%
+  filter(age > 60) %>%
+  summarise(n_distinct(respondent))
+```
+
+
+It seems a bit strange that the authoritarianism score goes down with age... will have a look at other aspects of the data to try to explain why - it may be because the bulk of the respondents are under 30. Median age is 27 and mean is 32.5
+
+
+could create an age_groups colum 
+```{r}
+
+rwa_data %>%
+  mutate(age_groups = )
+
+mean(rwa_data$age)
+median(rwa_data$age)
+
+table(rwa_data$age)
+```
+
+

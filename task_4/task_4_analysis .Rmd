@@ -13,6 +13,7 @@ library(tidyverse)
 full_candy <- read_csv("clean_data/full_candy.csv", col_types = "ccicccd"
 
 head(full_candy)
+
 ```
 
 
@@ -46,34 +47,9 @@ mean(full_candy$age, na.rm = TRUE)
 
 #have a horrendous outlier in the ages column!!
 
-
-#going to create a dataset without outliers 
-
-library(outliers)
-
-
-class(full_candy$age)
-age_zscores <- outliers::scores(unique(full_candy$age))
-
-age_zscores
-
-is_age_outlier <- age_zscores > 3 | age_zscores < -3
-
-full_candy <- full_candy %>%
-  mutate(is_age_outlier = is_age_outlier)
-
-head(full_candy)
-
+## go back to question and filter for non-outliers - set age limit at 70 
 full_candy %>%
-  group_by(trick_or_treat) %>%
-  summarise(mean(age, na.rm = TRUE))
-
-
-full_candy %>% 
-  arrange(desc(age))
-
-## go back to question and filter for non-outliers 
-full_candy_sans_outliers %>%
+  filter(age < 70) %>%
   group_by(trick_or_treat) %>%
   summarise(mean(age, na.rm = TRUE))
 
@@ -192,12 +168,29 @@ full_candy_rating_ordinal %>%
   arrange(desc(candy_popularity)) %>%
   top_n(1)
 
+full_candy_rating_ordinal %>%
+  filter(year == 2016) %>%
+  group_by(candy) %>%
+  summarise(candy_popularity = sum(rating_ordinal, na.rm = TRUE)) %>%
+  arrange(desc(candy_popularity)) %>%
+  top_n(1)
+
+full_candy_rating_ordinal %>%
+  filter(year == 2017) %>%
+  group_by(candy) %>%
+  summarise(candy_popularity = sum(rating_ordinal, na.rm = TRUE)) %>%
+  arrange(desc(candy_popularity)) %>%
+  top_n(1)
+
 
   
 ```
 
 8.What was the most popular candy bar by this rating for people in US, Canada, UK and all other countries?
 ```{r}
+
+full_candy_rating_ordinal %>%
+  distinct(country)
 
 #for the US 
 full_candy_rating_ordinal %>%
@@ -206,6 +199,15 @@ full_candy_rating_ordinal %>%
   summarise(candy_popularity = sum(rating_ordinal, na.rm = TRUE)) %>%
   arrange(desc(candy_popularity)) %>%
   top_n(1)
+
+#for canada
+full_candy_rating_ordinal %>%
+  filter(country == "canada") %>%
+  group_by(candy) %>%
+  summarise(candy_popularity = sum(rating_ordinal, na.rm = TRUE)) %>%
+  arrange(desc(candy_popularity)) %>%
+  top_n(1) 
+
 
 #for the uk
 
