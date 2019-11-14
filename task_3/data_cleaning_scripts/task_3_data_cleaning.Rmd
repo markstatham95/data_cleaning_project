@@ -57,6 +57,44 @@ seabird_clean <- seabird_clean %>%
   mutate(species = str_to_lower(species))
 ```
 
+Realised during my analysis that I have a lot of nas -- wondering what to do about them
+Going to try to isolate the observations that have no bird recorded 
+```{r}
+seabird_clean %>%
+  filter(species == "[no birds recorded]")
+
+#so to drop i will select only the cases that are not that value 
+
+seabird_clean <- seabird_clean %>%
+  filter(species != "[no birds recorded]")
+```
+
+What about count as NA? 
+
+Should I impute the values or drop them? 
+
+
+```{r}
+seabird_clean %>% 
+  filter(is.na(count))
+
+
+seabird_clean %>% 
+  filter(count == 99999)
+
+boxplot(seabird_clean$count)
+
+seabird_clean %>% 
+  select(count) %>% 
+```
+ 
+ 
+In the parts of the analysis where this was a problem - I just removed NA values in my code - that seemed like a reasonable solution 
+
+
+
+
+
 
 and export... as I think its clean enough
 ```{r}

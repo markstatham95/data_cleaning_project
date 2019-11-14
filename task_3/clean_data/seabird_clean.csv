@@ -45,7 +45,6 @@ record_id,lat,long,species,count
 1086007,-39.18333333333333,146.28333333333333,royal albatross sensu lato ad,1
 1086007,-39.18333333333333,146.28333333333333,sooty shearwater,1
 1086007,-39.18333333333333,146.28333333333333,australasian gannet,1
-1087001,NA,NA,[no birds recorded],NA
 1087002,-39.666666666666664,154.16666666666666,wandering albatross sensu lato imm,3
 1087002,-39.666666666666664,154.16666666666666,royal albatross sensu lato ad,2
 1087002,-39.666666666666664,154.16666666666666,black-browed albatross sensu lato ad,3
@@ -456,7 +455,6 @@ record_id,lat,long,species,count
 1104008,-32,151,pomarine skua ad,2
 1104008,-32,151,pomarine skua subad,4
 1104008,-32,151,tern (unidentified),50
-1104009,-32,151,NA,NA
 1104010,-32,151,pomarine skua ad,NA
 1104010,-32,151,jaeger (unidentified),NA
 1104011,-33,154,wandering albatross sensu lato pl1,1
@@ -880,9 +878,6 @@ record_id,lat,long,species,count
 1114013,-59,127,prion (unidentified),3
 1114014,-59,125,giant petrel sensu lato subad,1
 1114014,-59,125,prion (unidentified),1
-1114015,-60,118,[no birds recorded],NA
-1114016,-60,118,[no birds recorded],NA
-1114017,-60,115,[no birds recorded],NA
 1114018,-61,109.63333333333334,prion (unidentified),2
 1114019,-61,108,prion (unidentified),7
 1114019,-61,108,white-chinned petrel,1
@@ -972,7 +967,6 @@ record_id,lat,long,species,count
 1114043,-64,62,wilson's storm petrel,6
 1114043,-64,62,antarctic petrel,11
 1114043,-64,62,snow petrel,2
-1114044,-66.43333333333334,62.65,[no birds recorded],NA
 2001001,-40,148,short-tailed shearwater,60
 2001001,-40,148,red-billed gull ad,2
 2001002,-40,148,short-tailed shearwater,250
@@ -1574,7 +1568,6 @@ record_id,lat,long,species,count
 2006048,-44,173,wandering albatross sensu lato pl3,1
 2006048,-44,173,cape petrel,1
 2056001,-30,153,red-billed gull ad,2
-2056002,-30,153,[no birds recorded],NA
 2056003,-30,153,cape petrel,1
 2056004,-30,153,fluttering shearwater,1
 2056005,-30,153,wandering albatross sensu lato subad,1
@@ -1588,7 +1581,6 @@ record_id,lat,long,species,count
 2056010,-30,153,black-browed albatross sensu lato juv,1
 2056010,-30,153,australasian gannet ad,2
 2056011,-30,153,yellow-nosed mollymawk sensu lato ad,1
-2056012,-30,153,[no birds recorded],NA
 2056013,-30,153,yellow-nosed mollymawk sensu lato ad,1
 2056013,-30,153,providence petrel,1
 2056013,-30,153,crested tern ad,1
@@ -1604,7 +1596,6 @@ record_id,lat,long,species,count
 2056018,-31,153,wandering albatross sensu lato juv,1
 2056018,-31,153,fluttering shearwater,1
 2056018,-31,153,crested tern,1
-2056019,-31,153,[no birds recorded],NA
 2056020,-31,153,yellow-nosed mollymawk sensu lato ad,1
 2056020,-31,153,providence petrel,1
 2056021,-31,153,black-browed mollymawk ad,1
@@ -1933,7 +1924,6 @@ record_id,lat,long,species,count
 2119003,-38,145,australasian gannet juv,1
 2119003,-38,145,crested tern ad,5
 2119004,-38,145,short-tailed shearwater,100
-2119005,-38,145,[no birds recorded],NA
 2119006,-38,145,black-browed albatross sensu lato juv,1
 2119006,-38,145,shy / white-capped mollymawk ad,2
 2119006,-38,145,shy / white-capped mollymawk subad,1
@@ -1972,7 +1962,6 @@ record_id,lat,long,species,count
 2135001,-54,158,white-headed petrel,3
 2135001,-54,158,antarctic type prion,3
 2135001,-54,158,white-bellied storm petrel,3
-2135002,-53,157,[no birds recorded],NA
 2135003,-53,157,wandering albatross sensu lato,1
 2135003,-53,157,sooty shearwater,1
 2135004,-53,157,wandering albatross sensu lato ad,2
@@ -2167,7 +2156,6 @@ record_id,lat,long,species,count
 2136022,-66,70,snow petrel,2
 2136023,-68,71,snow petrel,2
 2136024,-68,71,wilson's storm petrel,2
-2136025,-69,73,[no birds recorded],NA
 2136026,-68,73,wilson's storm petrel,1
 2136027,-67,73,antarctic fulmar,1
 2136027,-67,73,wilson's storm petrel,1
@@ -2233,7 +2221,6 @@ record_id,lat,long,species,count
 2136045,-51,105,shearwater (unidentified),1
 2136046,-50,107,white-headed petrel,1
 2136046,-50,107,grey petrel,1
-2136047,-49,111,[no birds recorded],NA
 2136048,-48,111,white-headed petrel,2
 2136048,-48,111,shearwater (unidentified),1
 2136049,-48,113,wandering albatross sensu lato ad,1
@@ -2274,7 +2261,6 @@ record_id,lat,long,species,count
 2137001,-39.86666666666667,144.43333333333334,northern giant petrel,1
 2137001,-39.86666666666667,144.43333333333334,shearwater (unidentified),11
 2137001,-39.86666666666667,144.43333333333334,white-faced storm petrel,1
-2137002,-47.6,150.36666666666667,[no birds recorded],NA
 2137003,-48.85,151.75,black-browed albatross sensu lato,2
 2137003,-48.85,151.75,white-headed petrel,1
 2137003,-48.85,151.75,mottled petrel,1
@@ -3123,7 +3109,6 @@ record_id,lat,long,species,count
 3114022,-37,157,black-browed albatross sensu lato subad,1
 3114023,-37,153,grey-faced petrel,1
 3114024,-37,153,grey-faced petrel,1
-3114025,-37,153,[no birds recorded],NA
 3114026,-38,152,short-tailed shearwater,1
 3114027,-38,152,wandering albatross sensu lato pl2,1
 3114028,-38,152,wandering albatross sensu lato pl2,1
@@ -3132,7 +3117,6 @@ record_id,lat,long,species,count
 3114029,-38,151,grey-faced petrel,2
 3114030,-38,148,shy / white-capped mollymawk ad,2
 3114030,-38,148,sooty shearwater,5
-3114031,-39,147,[no birds recorded],NA
 3114032,-39,146,shy / white-capped mollymawk ad,1
 3114032,-39,146,short-tailed shearwater,3700
 3114032,-39,146,red-billed gull ad,1
@@ -3148,15 +3132,9 @@ record_id,lat,long,species,count
 3114036,-39,145,short-tailed shearwater,10000
 3115001,-38,142,australasian gannet ad,6
 3115002,-38,141,australasian gannet ad,6
-3115003,-38,141,[no birds recorded],NA
-3115004,-38,140,[no birds recorded],NA
-3115005,-38,140,[no birds recorded],NA
 3115006,-38,140,mollymawk (unidentified),1
-3115007,-38,140,[no birds recorded],NA
 3115008,-37,139,mollymawk (unidentified),1
 3115008,-37,139,crested tern ad,8
-3116001,-37,139,[no birds recorded],NA
-3116002,-37,139,[no birds recorded],NA
 3116003,-38,140,wandering albatross sensu lato pl4,1
 3116003,-38,140,short-tailed shearwater,30
 3116003,-38,140,pomarine skua subad drk,1
@@ -3172,7 +3150,6 @@ record_id,lat,long,species,count
 3116006,-39,147,black-browed albatross sensu lato subad,1
 3116007,-38,147,prion (unidentified),2
 3116008,-38,147,short-tailed shearwater,20
-3116009,-38,147,[no birds recorded],NA
 3116010,-38,148,shy / white-capped mollymawk ad,2
 3116010,-38,148,australasian gannet subad,2
 3116010,-38,148,red-billed gull ad,4
@@ -3578,7 +3555,6 @@ record_id,lat,long,species,count
 3121008,-56,113,shearwater (unidentified),12
 3121008,-56,113,storm-petrel (unidentified),1
 3121009,-54,118,shearwater (unidentified),1
-3121010,-54,119,[no birds recorded],NA
 3121011,-53,119,black / white-bellied storm-petrel,4
 3121012,-53,120,black / white-bellied storm-petrel,4
 3121013,-51,123,white-headed petrel,1
@@ -4635,7 +4611,6 @@ record_id,lat,long,species,count
 4116004,-34,172,australasian gannet ad,3
 4116005,-34,171,grey-faced petrel,2
 4116006,-34,171,black-winged petrel,1
-4116007,-34,171,[no birds recorded],NA
 4116008,-35,166,gadfly petrel (unidentified),2
 4116009,-35,166,wandering albatross sensu lato pl2,1
 4116010,-35,165,wandering albatross sensu lato pl3,2
@@ -4648,7 +4623,6 @@ record_id,lat,long,species,count
 4116014,-35.75,164.5,tropicbird (unidentified),1
 4116015,-35,164,wandering albatross sensu lato pl3,1
 4116016,-35,163,wandering albatross sensu lato pl3,1
-4116017,-36,159,[no birds recorded],NA
 4116018,-36,159,all dark petrel (unidentified),1
 4116019,-36,158,grey-faced petrel,1
 4116020,-36,158,grey-faced petrel,1
@@ -4785,7 +4759,6 @@ record_id,lat,long,species,count
 4119007,-36,165,flesh-footed shearwater,1
 4119008,-36,164,flesh-footed shearwater,1
 4119008,-36,164,black-winged petrel,2
-4119009,-37,159,[no birds recorded],NA
 4119010,-37,158,all dark petrel (unidentified),1
 4119011,-37,157,grey-faced petrel,6
 4120001,-38,142,black-browed albatross sensu lato ad,3
@@ -4857,17 +4830,12 @@ record_id,lat,long,species,count
 4120017,-35,118,flesh-footed shearwater,1000
 4120018,-35,117,yellow-nosed mollymawk sensu lato ad,1
 4120018,-35,117,flesh-footed shearwater,10
-4121001,-34,114,[no birds recorded],NA
-4121002,-34,115,[no birds recorded],NA
 4121003,-34,115,flesh-footed shearwater,3
 4121003,-34,115,australasian gannet subad,1
 4121004,-34,115,yellow-nosed mollymawk sensu lato subad,1
 4121004,-34,115,flesh-footed shearwater,4
-4121005,-36,121,[no birds recorded],NA
-4121006,-36,121,[no birds recorded],NA
 4121007,-36,122,all dark shearwater (unidentified),1
 4121008,-36,122,mollymawk (unidentified),1
-4121009,-36,122,[no birds recorded],NA
 4121010,-37,123,great-winged / grey-faced petrel,1
 4121011,-38,129,wandering albatross sensu lato pl3,1
 4121011,-38,129,wandering albatross sensu lato pl4,1
@@ -5524,7 +5492,6 @@ record_id,lat,long,species,count
 4132008,-40.25,143.65,shy / white-capped mollymawk,2
 4132008,-40.25,143.65,short-tailed shearwater,8
 4132009,-40.3,143.65,short-tailed shearwater,4
-4132010,-42.416666666666664,143.41666666666666,[no birds recorded],NA
 4132011,-42.53333333333333,143.41666666666666,wandering albatross sensu lato subad,1
 4132011,-42.53333333333333,143.41666666666666,black-browed albatross sensu lato subad,1
 4132011,-42.53333333333333,143.41666666666666,giant petrel sensu lato,1
@@ -5689,7 +5656,6 @@ record_id,lat,long,species,count
 4132058,-58.96666666666667,142.75,wilson's storm petrel,3
 4132058,-58.96666666666667,142.75,black-bellied storm petrel,4
 4132059,-59.63333333333333,142.73333333333332,short-tailed / sooty shearwater,21
-4132060,-59.81666666666667,142.71666666666667,[no birds recorded],NA
 4132061,-63.666666666666664,142.3,sooty shearwater,2
 4132061,-63.666666666666664,142.3,short-tailed / sooty shearwater,24
 4132062,-64.75,142.33333333333334,black-browed albatross sensu lato ad,1
@@ -5788,7 +5754,6 @@ record_id,lat,long,species,count
 4132089,-64.6,117.7,antarctic fulmar,9
 4132089,-64.6,117.7,mottled petrel,1
 4132090,-64.6,117.23333333333333,cape petrel,1
-4132091,-64.55,116.58333333333333,[no birds recorded],NA
 4132092,-64.53333333333333,116.51666666666667,antarctic fulmar,11
 4132092,-64.53333333333333,116.51666666666667,cape petrel,1
 4132093,-64.51666666666667,116.06666666666666,antarctic fulmar,3
@@ -5806,7 +5771,6 @@ record_id,lat,long,species,count
 4132097,-64.5,111.56666666666666,wilson's storm petrel,1
 4132097,-64.5,111.56666666666666,arctic tern,5
 4132097,-64.5,111.56666666666666,snow petrel,1
-4132098,-64.5,111.13333333333334,[no birds recorded],NA
 4132099,-65,108.91666666666667,cape petrel,9
 4132099,-65,108.91666666666667,south polar skua,1
 4132099,-65,108.91666666666667,arctic tern,122
@@ -5892,15 +5856,10 @@ record_id,lat,long,species,count
 4133015,-63.516666666666666,113.13333333333334,wilson's storm petrel,1
 4133016,-63.1,114.46666666666667,wilson's storm petrel,1
 4133017,-63.016666666666666,115.46666666666667,wilson's storm petrel,3
-4133018,-62.95,115.85,[no birds recorded],NA
 4133019,-62.85,116.23333333333333,mottled petrel,1
 4133019,-62.85,116.23333333333333,white-chinned petrel,1
-4133020,-62.63333333333333,117.1,[no birds recorded],NA
-4133021,-61.53333333333333,120.05,[no birds recorded],NA
 4133022,-61.516666666666666,120.2,sooty shearwater,120
 4133023,-61.483333333333334,120.33333333333333,sooty shearwater,3
-4133024,-61.46666666666667,120.46666666666667,[no birds recorded],NA
-4133025,-61.43333333333333,120.66666666666667,[no birds recorded],NA
 4133026,-61.416666666666664,120.78333333333333,sooty shearwater,40
 4133027,-61,121,black-browed albatross sensu lato ad,1
 4133027,-61,121,sooty shearwater,250
@@ -5942,12 +5901,10 @@ record_id,lat,long,species,count
 4133041,-59.78333333333333,129.13333333333333,black-bellied storm petrel,2
 4133042,-59.75,129.31666666666666,white-headed petrel,1
 4133042,-59.75,129.31666666666666,black-bellied storm petrel,1
-4133043,-59.583333333333336,130.21666666666667,[no birds recorded],NA
 4133044,-59.5,130.58333333333334,black-browed albatross sensu lato ad,1
 4133044,-59.5,130.58333333333334,grey-headed mollymawk ad,1
 4133044,-59.5,130.58333333333334,grey-headed mollymawk subad,1
 4133044,-59.5,130.58333333333334,sooty shearwater,1
-4133045,-59.43333333333333,130.95,[no birds recorded],NA
 4133046,-59.36666666666667,131.28333333333333,black-browed albatross sensu lato ad,1
 4133046,-59.36666666666667,131.28333333333333,sooty shearwater,6
 4133047,-59.266666666666666,131.93333333333334,short-tailed / sooty shearwater,1
@@ -5983,7 +5940,6 @@ record_id,lat,long,species,count
 4133060,-56.96666666666667,149.25,white-chinned petrel,1
 4133060,-56.96666666666667,149.25,short-tailed / sooty shearwater,1
 4133060,-56.96666666666667,149.25,black-bellied storm petrel,1
-4133061,-56.516666666666666,152.86666666666667,[no birds recorded],NA
 4133062,-56.46666666666667,152.48333333333332,white-headed petrel,1
 4133062,-56.46666666666667,152.48333333333332,mottled petrel,1
 4133062,-56.46666666666667,152.48333333333332,short-tailed / sooty shearwater,1
@@ -6013,7 +5969,6 @@ record_id,lat,long,species,count
 4133069,-56.1,156.26666666666668,mottled petrel,1
 4133069,-56.1,156.26666666666668,prion (unidentified),2
 4133069,-56.1,156.26666666666668,white-bellied storm petrel,2
-4133070,NA,NA,[no birds recorded],NA
 4133071,NA,NA,subantarctic skua,1
 4133072,NA,NA,northern giant petrel,1
 4133072,NA,NA,subantarctic skua,1
@@ -6166,7 +6121,6 @@ record_id,lat,long,species,count
 4135001,-42,140,all dark shearwater (unidentified),19
 4135002,-42,140,shy / white-capped / salvin's /  chatham mollymawk,2
 4135002,-42,140,prion (unidentified),1
-4135003,-42,140,[no birds recorded],NA
 4135004,-43,139,wandering albatross sensu lato subad,1
 4135004,-43,139,white-chinned petrel,2
 4135005,-45,137,wandering albatross sensu lato subad,1
@@ -6182,7 +6136,6 @@ record_id,lat,long,species,count
 4135008,-46,135,white-chinned petrel,1
 4135008,-46,135,short-tailed shearwater,3
 4135009,-48,133,white-headed petrel,1
-4135010,-48,133,[no birds recorded],NA
 4135011,-49,132,wandering albatross sensu lato ad,1
 4135011,-49,132,prion (unidentified),2
 4135011,-49,132,white-chinned petrel,1
@@ -6346,9 +6299,7 @@ record_id,lat,long,species,count
 4135062,-63,94,arctic tern,101
 4135062,-63,94,antarctic petrel,41
 4135062,-63,94,snow petrel,1
-4135063,-63,93,[no birds recorded],NA
 4135064,-63,93,snow petrel,2
-4135065,-64,92,[no birds recorded],NA
 4135066,-64,91,arctic tern,20
 4135066,-64,91,snow petrel,2
 4135067,-65,91,snow petrel,3
@@ -6357,7 +6308,6 @@ record_id,lat,long,species,count
 4135069,-65,91,snow petrel,2
 4135070,-64,90,south polar skua,1
 4135070,-64,90,emperor penguin,1
-4135071,-64,88,[no birds recorded],NA
 4135072,-63,87,cape petrel,1
 4135072,-63,87,snow petrel,1
 4135073,-63,87,southern giant petrel,1
@@ -6492,14 +6442,11 @@ record_id,lat,long,species,count
 5010012,-35,166,black-winged petrel,1
 5010013,-35,166,wandering albatross sensu lato pl4,1
 5010014,-35,166,wandering albatross sensu lato pl1,1
-5010015,-35,166,[no birds recorded],NA
-5010016,-35,165,[no birds recorded],NA
 5010017,-35,165,flesh-footed shearwater,1
 5010018,-35,165,wandering albatross sensu lato pl3,1
 5010019,-35,165,wandering albatross sensu lato pl3,1
 5010020,-35,164,wandering albatross sensu lato pl3,1
 5010020,-35,164,wandering albatross sensu lato pl4,1
-5010021,-36,160,[no birds recorded],NA
 5010022,-36,159,wandering albatross sensu lato pl3,1
 5010022,-36,159,flesh-footed shearwater,1
 5010023,-36,158,all dark petrel (unidentified),1
@@ -6507,9 +6454,7 @@ record_id,lat,long,species,count
 5010024,-36,158,red-tailed tropicbird ad,2
 5010025,-36,158,red-tailed tropicbird ad,2
 5010026,-36,158,red-tailed tropicbird ad,1
-5010027,-36,158,[no birds recorded],NA
 5010028,-37,158,red-tailed tropicbird ad,1
-5010029,-37,157,[no birds recorded],NA
 5010030,-38,153,wandering albatross sensu lato pl2,1
 5010030,-38,153,wandering albatross sensu lato pl3,1
 5010030,-38,153,wandering albatross sensu lato pl4,1
@@ -6520,7 +6465,6 @@ record_id,lat,long,species,count
 5010034,-38,151,grey-faced petrel,1
 5010035,-38,151,grey-faced petrel,2
 5010036,-38,151,grey-faced petrel,1
-5010037,-38,151,[no birds recorded],NA
 5010038,-38,150,wandering albatross sensu lato pl2,1
 5010038,-38,150,sooty shearwater,1
 5010039,-38,145,prion (unidentified),15
@@ -6529,15 +6473,12 @@ record_id,lat,long,species,count
 5010040,-38,145,short-tailed shearwater,150
 5010041,-38,145,short-tailed shearwater,10
 5010041,-38,145,pacific gull ad,1
-5010042,-38,145,[no birds recorded],NA
-5010043,-38,144,[no birds recorded],NA
 5010044,-38,144,australasian gannet ad,1
 5010045,-38,144,australasian gannet ad,2
 5010045,-38,144,arctic skua,3
 5010045,-38,144,red-billed gull ad,100
 5010045,-38,144,crested tern ad,4
 5011001,-38,141,yellow-nosed mollymawk sensu lato ad,1
-5011002,-38,141,[no birds recorded],NA
 5011003,-38,141,australasian gannet ad,2
 5011003,-38,141,red-billed gull ad,2
 5011004,-38,141,yellow-nosed mollymawk sensu lato ad,6
@@ -6579,11 +6520,7 @@ record_id,lat,long,species,count
 5012008,-38,141,australasian gannet ad,4
 5012008,-38,141,australasian gannet subad,5
 5012009,-39,147,pacific gull ad,1
-5012010,-38,147,[no birds recorded],NA
-5012011,-38,148,[no birds recorded],NA
-5012012,-38,148,[no birds recorded],NA
 5012013,-38,148,arctic skua lght,2
-5012014,-38,148,[no birds recorded],NA
 5012015,-38,148,wandering albatross sensu lato pl3,1
 5012016,-38,148,wandering albatross sensu lato pl4,1
 5012016,-38,148,grey-faced petrel,1
@@ -6616,7 +6553,6 @@ record_id,lat,long,species,count
 5012026,-37,155,wandering albatross sensu lato pl2,1
 5012027,-36,160,wandering albatross sensu lato pl2,1
 5012027,-36,160,wandering albatross sensu lato pl3,2
-5012028,-36,161,[no birds recorded],NA
 5012029,-36,161,grey-faced petrel,2
 5012029,-36,161,black-winged petrel,1
 5012030,-36,162,grey-faced petrel,2
@@ -6625,9 +6561,7 @@ record_id,lat,long,species,count
 5012032,-36,162,wandering albatross sensu lato pl1,1
 5012032,-36,162,grey-faced petrel,2
 5012032,-36,162,black-winged petrel,2
-5012033,-36,162,[no birds recorded],NA
 5012034,-36,163,grey-faced petrel,1
-5012035,-35,168,[no birds recorded],NA
 5012036,-35,169,grey-faced petrel,11
 5012036,-35,169,grey noddy,1
 5012037,-35,169,grey-faced petrel,1
@@ -6754,7 +6688,6 @@ record_id,lat,long,species,count
 5014004,-37,139,yellow-nosed mollymawk sensu lato ad,1
 5014004,-37,139,great-winged / grey-faced petrel,5
 5015001,-34,138,arctic skua subad lght,4
-5015002,-35,138,[no birds recorded],NA
 5015003,-35,138,australasian gannet ad,2
 5015004,-35,138,crested tern ad,1
 5015005,-35,138,flesh-footed shearwater,2
@@ -6767,7 +6700,6 @@ record_id,lat,long,species,count
 5015007,-35,138,crested tern ad,1
 5015008,-35,138,short-tailed shearwater,2
 5015008,-35,138,arctic skua drk,4
-5015009,-36,138,[no birds recorded],NA
 5015010,-36,138,black-browed albatross sensu lato subad,1
 5015010,-36,138,all dark petrel (unidentified),3
 5015010,-36,138,arctic skua drk,1
@@ -6918,7 +6850,6 @@ record_id,lat,long,species,count
 5016008,-44,142,white-headed petrel,1
 5016008,-44,142,white-chinned petrel,1
 5016008,-44,142,short-tailed / sooty shearwater,1
-5016009,-44,142,[no birds recorded],NA
 5016010,-44,142,wandering albatross sensu lato ad,1
 5016010,-44,142,shy / white-capped / salvin's /  chatham mollymawk,1
 5016010,-44,142,white-headed petrel,1
@@ -7126,7 +7057,6 @@ record_id,lat,long,species,count
 5017013,-67,62,southern giant petrel subad,1
 5017013,-67,62,antarctic fulmar,4
 5017013,-67,62,cape petrel,4
-5017014,-67,62,[no birds recorded],NA
 5017015,-65.23333333333333,65,light-mantled sooty albatross ad,2
 5017015,-65.23333333333333,65,blue petrel,5
 5017015,-65.23333333333333,65,white-chinned petrel,4
@@ -7247,7 +7177,6 @@ record_id,lat,long,species,count
 5017042,-63,92,white-chinned petrel,6
 5017043,-62,93,blue petrel,1
 5017043,-62,93,white-chinned petrel,1
-5017044,-62,93,[no birds recorded],NA
 5017045,-62,94,white-chinned petrel,1
 5017046,-62,94,cape petrel,1
 5017047,-62,94,cape petrel,1
@@ -7412,7 +7341,6 @@ record_id,lat,long,species,count
 5018009,-38,143,sooty shearwater,10
 5018009,-38,143,australasian gannet ad,1
 5018009,-38,143,australasian gannet subad,1
-5018010,-38,143,[no birds recorded],NA
 5018011,-38,143,sooty shearwater,3
 5018011,-38,143,australasian gannet ad,2
 5021001,-41,139,black-browed albatross sensu lato ad,1
@@ -7574,7 +7502,6 @@ record_id,lat,long,species,count
 5023033,-33,152,wedge-tailed shearwater,1
 5023034,-33,151,wedge-tailed shearwater,1
 5023034,-33,151,pomarine skua lght,1
-5023035,-33,151,[no birds recorded],NA
 5026001,-34,173,prion (unidentified),2
 5026001,-34,173,flesh-footed shearwater,3
 5026002,-34,173,black-browed albatross sensu lato ad,1
@@ -7667,11 +7594,9 @@ record_id,lat,long,species,count
 5029002,-35.25,174.5,australasian gannet ad,15
 5029003,-34,174,prion (unidentified),10
 5029003,-34,174,australasian gannet ad,47
-5029004,-34,173,[no birds recorded],NA
 5029005,-34,173,little shearwater,1
 5029006,-34,173,prion (unidentified),6
 5029007,-34.666666666666664,173.56666666666666,yellow-nosed mollymawk sensu lato,1
-5029008,-34,173,[no birds recorded],NA
 5029009,-34,173,wandering albatross sensu lato pl2,1
 5029010,-34,173,wandering albatross sensu lato pl2,1
 5029010,-34,173,black-browed albatross sensu lato ad,1
@@ -7857,7 +7782,6 @@ record_id,lat,long,species,count
 5031001,-34,138,australasian gannet ad,1
 5031001,-34,138,crested tern ad,2
 5031002,-34,138,crested tern ad,1
-5031003,-35,138,[no birds recorded],NA
 5031004,-35,138,australasian gannet ad,1
 5031004,-35,138,crested tern ad,2
 5031005,-35,138,australasian gannet ad,2
@@ -8392,7 +8316,6 @@ record_id,lat,long,species,count
 5121007,-34,169,wandering albatross sensu lato pl1,3
 5121007,-34,169,wandering albatross sensu lato pl3,2
 5121007,-34,169,cook's petrel,2
-5121008,-34,164,[no birds recorded],NA
 5121009,-34,163,wandering albatross sensu lato pl4,1
 5121010,-34,162,wandering albatross sensu lato pl1,2
 5121010,-34,162,wandering albatross sensu lato pl2,1
@@ -9256,7 +9179,6 @@ record_id,lat,long,species,count
 6004009,-33,162,wedge-tailed shearwater,3
 6004010,-33,162,grey-faced petrel,2
 6004010,-33,162,black-winged petrel,1
-6004011,-33,161,[no birds recorded],NA
 6004012,-33,161,grey-faced petrel,8
 6004012,-33,161,black-winged petrel,1
 6004013,-33,160,grey-faced petrel,3
@@ -9302,7 +9224,6 @@ record_id,lat,long,species,count
 6006002,-38,144,short-tailed shearwater,50000
 6006002,-38,144,crested tern ad,3
 6006003,-38,152,wandering albatross sensu lato pl3,1
-6006004,-38,152,[no birds recorded],NA
 6006005,-38,153,wandering albatross sensu lato pl2,1
 6006005,-38,153,wandering albatross sensu lato pl3,1
 6006006,-38,153,wandering albatross sensu lato pl1,1
@@ -9314,7 +9235,6 @@ record_id,lat,long,species,count
 6006008,-37,154,wandering albatross sensu lato pl1,1
 6006008,-37,154,wandering albatross sensu lato pl3,1
 6006008,-37,154,gould's petrel,1
-6006009,-36,161,[no birds recorded],NA
 6006010,-36,162,gould's petrel,5
 6006011,-36,163,wandering albatross sensu lato pl1,1
 6006011,-36,163,gould's petrel,3
@@ -9424,12 +9344,10 @@ record_id,lat,long,species,count
 6007019,-33,157,flesh-footed shearwater,1
 6007019,-33,157,little shearwater,1
 6007019,-33,157,black-winged petrel,1
-6008001,-33,151,[no birds recorded],NA
 6008002,-33,151,pomarine skua,2
 6008003,-33,152,wedge-tailed shearwater,3
 6008004,-33.833333333333336,152.36666666666667,jaeger (unidentified) subad,27
 6008005,-33,152,grey-faced petrel,1
-6008006,-34,159,[no birds recorded],NA
 6008007,-34,160,grey-faced petrel,1
 6008007,-34,160,wedge-tailed shearwater,1
 6008007,-34,160,black-winged petrel,1
@@ -9526,13 +9444,11 @@ record_id,lat,long,species,count
 6018025,-46.75,136.61666666666667,short-tailed shearwater,7
 6018026,-46.833333333333336,136.2,royal / wandering albatross,1
 6018026,-46.833333333333336,136.2,white-headed petrel,1
-6018027,-47.13333333333333,135.85,[no birds recorded],NA
 6018028,-47.25,135.75,short-tailed / sooty shearwater,3
 6018029,-47.36666666666667,135.61666666666667,black-browed albatross sensu lato,1
 6018029,-47.36666666666667,135.61666666666667,white-headed petrel,1
 6018029,-47.36666666666667,135.61666666666667,prion (unidentified),1
 6018029,-47.36666666666667,135.61666666666667,short-tailed / sooty shearwater,50
-6018030,-47.56666666666667,135.36666666666667,[no birds recorded],NA
 6018031,-47.666666666666664,135.25,white-headed petrel,1
 6018031,-47.666666666666664,135.25,petrel (unidentified),1
 6018032,-47.8,135.1,prion (unidentified),1
@@ -9541,13 +9457,11 @@ record_id,lat,long,species,count
 6018033,-47.9,135,white-headed petrel,1
 6018033,-47.9,135,white-chinned petrel,1
 6018033,-47.9,135,short-tailed / sooty shearwater,2
-6018034,-49.333333333333336,133.23333333333332,[no birds recorded],NA
 6018035,-49.81666666666667,132.7,short-tailed / sooty shearwater,2
 6018036,-50.016666666666666,132.43333333333334,prion (unidentified),1
 6018036,-50.016666666666666,132.43333333333334,short-tailed / sooty shearwater,3
 6018037,-50.11666666666667,132.26666666666668,white-headed petrel,2
 6018037,-50.11666666666667,132.26666666666668,short-tailed / sooty shearwater,1
-6018038,-50.35,131.86666666666667,[no birds recorded],NA
 6018039,-51.75,129.96666666666667,white-headed petrel,1
 6018039,-51.75,129.96666666666667,prion (unidentified),1
 6018039,-51.75,129.96666666666667,short-tailed / sooty shearwater,2
@@ -9646,7 +9560,6 @@ record_id,lat,long,species,count
 6018073,-67.95,75.13333333333334,cape petrel,2
 6018073,-67.95,75.13333333333334,wilson's storm petrel,2
 6018073,-67.95,75.13333333333334,antarctic petrel,1
-6018074,-68.1,75.85,[no birds recorded],NA
 6018075,-67.9,75.6,antarctic fulmar,3
 6018075,-67.9,75.6,wilson's storm petrel,1
 6018076,-64.95,75.23333333333333,light-mantled sooty albatross,1
@@ -9709,7 +9622,6 @@ record_id,lat,long,species,count
 6018090,-56.56666666666667,101.43333333333334,prion (unidentified),28
 6018090,-56.56666666666667,101.43333333333334,white-chinned petrel,6
 6018091,-55.15,105.65,white-headed petrel,18
-6018092,-55.05,105.85,[no birds recorded],NA
 6018093,-54.8,106.65,white-headed petrel,3
 6018093,-54.8,106.65,prion (unidentified),5
 6018093,-54.8,106.65,short-tailed / sooty shearwater,16
@@ -9858,7 +9770,6 @@ record_id,lat,long,species,count
 6019012,-46.88333333333333,150.7,grey-headed mollymawk,1
 6019012,-46.88333333333333,150.7,prion (unidentified),4
 6019012,-46.88333333333333,150.7,white-chinned petrel,1
-6019013,-45.333333333333336,150.26666666666668,[no birds recorded],NA
 6019014,-45.28333333333333,150.25,wandering albatross sensu lato ad,1
 6019014,-45.28333333333333,150.25,black-browed albatross sensu lato ad,2
 6019014,-45.28333333333333,150.25,black-browed albatross sensu lato subad,1
@@ -9962,7 +9873,6 @@ record_id,lat,long,species,count
 6026013,-35,169,wandering albatross sensu lato pl2,1
 6026014,-35,169,wandering albatross sensu lato pl2,1
 6026014,-35,169,buller's shearwater,1
-6026015,-37,165,[no birds recorded],NA
 6026016,-37,164,buller's shearwater,2
 6026017,-37,164,wandering albatross sensu lato pl2,1
 6026017,-37,164,grey-faced petrel,1
@@ -9973,7 +9883,6 @@ record_id,lat,long,species,count
 6026018,-37,164,black-winged petrel,2
 6026019,-37,163,wandering albatross sensu lato pl1,1
 6026019,-37,163,black-winged petrel,1
-6026020,-38,162,[no birds recorded],NA
 6026021,-39,157,wandering albatross sensu lato pl2,1
 6026021,-39,157,wandering albatross sensu lato pl3,2
 6026021,-39,157,wandering albatross sensu lato pl4,1
@@ -10351,12 +10260,10 @@ record_id,lat,long,species,count
 6031012,-35,152,providence petrel,1
 6031012,-35,152,wedge-tailed shearwater,2
 6031012,-35,152,short-tailed shearwater,20
-6031013,-35,153,[no birds recorded],NA
 6031014,-35,153,grey-faced petrel,2
 6031014,-35,153,providence petrel,1
 6031014,-35,153,wedge-tailed shearwater,2
 6031015,-35,153,wedge-tailed shearwater,1
-6031016,-35,153,[no birds recorded],NA
 6031017,-38,156,wandering albatross sensu lato pl2,1
 6031017,-38,156,gould's petrel,1
 6031017,-38,156,short-tailed / sooty shearwater,1
@@ -10639,14 +10546,10 @@ record_id,lat,long,species,count
 6033016,-35,175,grey-faced petrel,30
 6033016,-35,175,prion (unidentified),20
 6033017,-34,171,grey-faced petrel,2
-6033018,-34,171,[no birds recorded],NA
 6033019,-34,171,giant petrel sensu lato,1
 6033019,-34,171,prion (unidentified),1
 6033020,-34,170,black-browed albatross sensu lato ad,1
 6033020,-34,170,grey-faced petrel,2
-6033021,-34,170,[no birds recorded],NA
-6033022,-34,169,[no birds recorded],NA
-6033023,-34,169,[no birds recorded],NA
 6033024,-34,169,wandering albatross sensu lato pl2,1
 6033025,-34,169,wandering albatross sensu lato pl2,1
 6033025,-34,169,cape petrel,1
@@ -10655,9 +10558,6 @@ record_id,lat,long,species,count
 6033027,-34,168,wandering albatross sensu lato pl1,1
 6033027,-34,168,grey-faced petrel,1
 6033028,-34,165,grey-faced petrel,1
-6033029,-34,165,[no birds recorded],NA
-6033030,-34,165,[no birds recorded],NA
-6033031,-34,165,[no birds recorded],NA
 6033032,-34,165,grey-faced petrel,3
 6033032,-34,165,prion (unidentified),2
 6033033,-34,164,wandering albatross sensu lato pl2,1
@@ -11237,12 +11137,10 @@ record_id,lat,long,species,count
 6037052,-40,171,wandering albatross sensu lato,5
 6037052,-40,171,white-chinned petrel,1
 6037052,-40,171,buller's shearwater,5
-6038001,-35,174,[no birds recorded],NA
 6038002,-34,173,cook's petrel,4
 6038003,-35,171,cook's petrel,2
 6038004,-35,165,short-tailed / sooty shearwater,1
 6038005,-36,163,storm-petrel (unidentified),1
-6038006,-36,161,[no birds recorded],NA
 6038007,-37,156,gadfly petrel (unidentified),1
 6038007,-37,156,short-tailed shearwater,1
 6038007,-37,156,fluttering shearwater,3
@@ -11258,10 +11156,7 @@ record_id,lat,long,species,count
 6039004,-37,157,wandering albatross sensu lato ad,7
 6039005,-36,160,wandering albatross sensu lato,2
 6039005,-36,160,all dark petrel (unidentified),1
-6039006,-36,162,[no birds recorded],NA
-6039007,-35,167,[no birds recorded],NA
 6039008,-35,168,petrel (unidentified),2
-6039009,-34,170,[no birds recorded],NA
 6039010,-34,171,buller's shearwater,1
 6039010,-34,171,australasian gannet ad,1
 6041001,-39,171,wandering albatross sensu lato pl1,6
@@ -12108,8 +12003,6 @@ record_id,lat,long,species,count
 6055021,-33.916666666666664,153.43333333333334,gould's petrel,1
 6055022,-33,153,grey-faced petrel,3
 6055022,-33,153,wedge-tailed shearwater,2
-6055023,-33,152,[no birds recorded],NA
-6055024,-33,152,[no birds recorded],NA
 6055025,-33,152,all dark petrel (unidentified),1
 6055026,-33,152,grey-faced petrel,1
 6055026,-33,152,providence petrel,2
@@ -12229,7 +12122,6 @@ record_id,lat,long,species,count
 6059001,-33,151,yellow-nosed mollymawk sensu lato subad,1
 6059002,-33,151,fluttering shearwater,1
 6059003,-33,152,cape petrel,1
-6059004,-34,158,[no birds recorded],NA
 6059005,-34,158,wandering albatross sensu lato pl1,2
 6059005,-34,158,wandering albatross sensu lato pl2,2
 6059005,-34,158,wandering albatross sensu lato pl3,1
@@ -12510,8 +12402,6 @@ record_id,lat,long,species,count
 6063003,-34,172,buller's shearwater,28
 6063003,-34,172,sooty shearwater,5
 6063003,-34,172,australasian gannet ad,32
-6063004,-34,171,[no birds recorded],NA
-6063005,-34,171,[no birds recorded],NA
 6063006,-34,171,wandering albatross sensu lato pl2,1
 6063006,-34,171,cape petrel,1
 6063006,-34,171,grey-faced petrel,1
@@ -12540,7 +12430,6 @@ record_id,lat,long,species,count
 6063014,-33,162,white-headed petrel,1
 6063014,-33,162,sooty shearwater,5
 6063014,-33,162,short-tailed shearwater,45
-6063015,-33,161,[no birds recorded],NA
 6063016,-33,161,grey-faced petrel,3
 6063016,-33,161,sooty shearwater,4
 6063017,-33,154,cape petrel,1
@@ -12671,7 +12560,6 @@ record_id,lat,long,species,count
 6068002,-34,138,black-faced cormorant,1
 6068002,-34,138,arctic skua drk,2
 6068002,-34,138,crested tern ad,1
-6068003,-35,138,[no birds recorded],NA
 6068004,-35,137,arctic skua lght,1
 6068004,-35,137,red-billed gull ad,2
 6068005,-35,137,arctic skua,1
@@ -12767,8 +12655,6 @@ record_id,lat,long,species,count
 6074004,-40,147,short-tailed shearwater,50
 6074005,-39,146,giant petrel sensu lato,3
 6074005,-39,146,red-billed gull ad,2
-6075001,-38,144,[no birds recorded],NA
-6075002,-38,143,[no birds recorded],NA
 6075003,-38,143,wandering albatross sensu lato pl3,1
 6075003,-38,143,giant petrel sensu lato,1
 6075003,-38,143,short-tailed shearwater,10
@@ -12987,7 +12873,6 @@ record_id,lat,long,species,count
 7003029,-36,160,grey-faced petrel,1
 7003029,-36,160,buller's shearwater,3
 7003029,-36,160,black-winged petrel,1
-7003030,-36,160,[no birds recorded],NA
 7003031,-36,160,grey-faced petrel,2
 7003031,-36,160,gould's petrel,3
 7003031,-36,160,white-naped petrel,1
@@ -13015,11 +12900,9 @@ record_id,lat,long,species,count
 7003038,-36,159,gould's petrel,1
 7003038,-36,159,wedge-tailed shearwater,1
 7003038,-36,159,white-naped petrel,1
-7003039,-36,159,[no birds recorded],NA
 7003040,-36,159,grey-faced petrel,1
 7003040,-36,159,wedge-tailed shearwater,1
 7003040,-36,159,black-winged petrel,1
-7003041,-36,159,[no birds recorded],NA
 7003042,-36,159,grey-faced petrel,2
 7003042,-36,159,wedge-tailed shearwater,1
 7003042,-36,159,black-winged petrel,1
@@ -13028,7 +12911,6 @@ record_id,lat,long,species,count
 7003044,-36,158,grey-faced petrel,2
 7003045,-36,158,wandering albatross sensu lato pl2,1
 7003046,-36,158,wandering albatross sensu lato pl2,1
-7003047,-36,158,[no birds recorded],NA
 7003048,-36,158,wandering albatross sensu lato pl3,1
 7003048,-36,158,wedge-tailed shearwater,1
 7003049,-35,158,grey-faced petrel,8
@@ -13051,7 +12933,6 @@ record_id,lat,long,species,count
 7003057,-34,153,grey-faced petrel,1
 7003058,-34,153,wedge-tailed shearwater,2
 7003059,-34,153,wedge-tailed shearwater,2
-7003060,-34,153,[no birds recorded],NA
 7003061,-34,153,wedge-tailed shearwater,2
 7003062,-34,153,wedge-tailed shearwater,3
 7003063,-34,153,wedge-tailed shearwater,6
@@ -13060,7 +12941,6 @@ record_id,lat,long,species,count
 7003065,-34,152,wedge-tailed shearwater,2
 7003066,-34,152,wedge-tailed shearwater,2
 7003067,-34,152,grey-faced petrel,4
-7003068,-34,152,[no birds recorded],NA
 7003069,-34,151,wedge-tailed shearwater,3
 7003070,-33,151,wedge-tailed shearwater,3
 7003070,-33,151,pomarine skua,1
@@ -13103,10 +12983,8 @@ record_id,lat,long,species,count
 7004015,-35,156,grey-faced petrel,5
 7004015,-35,156,wedge-tailed shearwater,2
 7004016,-35,156,grey-faced petrel,1
-7004017,-35,157,[no birds recorded],NA
 7004018,-35,157,grey-faced petrel,1
 7004019,-36,157,grey-faced petrel,1
-7004020,-36,157,[no birds recorded],NA
 7004021,-36,157,wedge-tailed shearwater,2
 7004022,-36,157,grey-faced petrel,1
 7004022,-36,157,wedge-tailed shearwater,60
@@ -13149,9 +13027,6 @@ record_id,lat,long,species,count
 7004035,-36,159,wedge-tailed shearwater,20
 7004035,-36,159,pomarine skua,2
 7004035,-36,159,black-winged petrel,2
-7004036,-37,162,[no birds recorded],NA
-7004037,-37,162,[no birds recorded],NA
-7004038,-37,162,[no birds recorded],NA
 7004039,-37,163,grey-faced petrel,1
 7004039,-37,163,black-winged petrel,2
 7004040,-37,163,grey-faced petrel,1
@@ -13163,9 +13038,6 @@ record_id,lat,long,species,count
 7004042,-37,163,black-winged petrel,1
 7004043,-37,163,black-winged petrel,1
 7004044,-37,163,grey-faced petrel,2
-7004045,-37,163,[no birds recorded],NA
-7004046,-37,164,[no birds recorded],NA
-7004047,-37,164,[no birds recorded],NA
 7004048,-37,164,black-winged petrel,1
 7004049,-37,164,black-winged petrel,2
 7004050,-37,164,gould's petrel,1
@@ -13229,7 +13101,6 @@ record_id,lat,long,species,count
 7004073,-40,172,buller's shearwater,1
 7004073,-40,172,australasian gannet ad,2
 7004073,-40,172,black-winged petrel,1
-7005001,-39,170,[no birds recorded],NA
 7005002,-38,167,wandering albatross sensu lato ad,1
 7005002,-38,167,great-winged / grey-faced petrel,1
 7005002,-38,167,petrel (unidentified),1
@@ -13282,10 +13153,7 @@ record_id,lat,long,species,count
 7005021,-34,154,wedge-tailed shearwater,50
 7005022,-34,154,gould's petrel,1
 7005022,-34,154,wedge-tailed shearwater,50
-7005023,-35,154,[no birds recorded],NA
-7005024,-35,155,[no birds recorded],NA
 7005025,-36,158,great-winged / grey-faced petrel,6
-7005026,-36,158,[no birds recorded],NA
 7005027,-36,158,wandering albatross sensu lato ad,1
 7005027,-36,158,great-winged / grey-faced petrel,1
 7005028,-37,161,wandering albatross sensu lato,2
@@ -13342,7 +13210,6 @@ record_id,lat,long,species,count
 7006004,-34,164,fluttering shearwater,1
 7006005,-33,162,short-tailed shearwater,1
 7006006,-33,160,great-winged / grey-faced petrel,1
-7006007,-33,154,[no birds recorded],NA
 7010001,-40,148,wandering albatross sensu lato pl3,1
 7010001,-40,148,short-tailed shearwater,230
 7010001,-40,148,white-faced storm petrel,6
@@ -13401,7 +13268,6 @@ record_id,lat,long,species,count
 7012001,-35,138,arctic skua subad lght,3
 7013001,-36,138,shy / white-capped mollymawk,1
 7013001,-36,138,jaeger (unidentified),2
-7013002,-36,138,[no birds recorded],NA
 7013003,-36,138,australasian gannet ad,1
 7013004,-36,139,australasian gannet juv,1
 7013005,-36,139,short-tailed shearwater,2
@@ -13413,11 +13279,9 @@ record_id,lat,long,species,count
 7013008,-38,144,black-browed albatross sensu lato subad,1
 7013008,-38,144,australasian gannet ad,1
 7013008,-38,144,crested tern ad,1
-7013009,-38,144,[no birds recorded],NA
 7014001,-39,146,short-tailed shearwater,100
 7014001,-39,146,australasian gannet subad,2
 7014001,-39,146,red-billed gull ad,1
-7014002,-39,147,[no birds recorded],NA
 7014003,-39,147,jaeger (unidentified) drk,4
 7014004,-38,147,australasian gannet subad,2
 7014004,-38,147,jaeger (unidentified),2
@@ -13475,7 +13339,6 @@ record_id,lat,long,species,count
 7018002,-38,141,yellow-nosed mollymawk sensu lato,5
 7018002,-38,141,australasian gannet ad,24
 7018002,-38,141,crested tern,20
-7019001,-38,144,[no birds recorded],NA
 7019002,-38,143,subantarctic skua,1
 7019003,-38,143,black-browed albatross sensu lato ad,1
 7019003,-38,143,sooty shearwater,1
@@ -13704,7 +13567,6 @@ record_id,lat,long,species,count
 7023012,-38,147,australasian gannet ad,2
 7023012,-38,147,crested tern ad,7
 7023012,-38,147,crested tern subad,2
-7023013,-38,147,[no birds recorded],NA
 7023014,-38,142,black-browed albatross sensu lato ad,2
 7023014,-38,142,black-browed albatross sensu lato subad,1
 7023014,-38,142,prion (unidentified),4
@@ -13745,7 +13607,6 @@ record_id,lat,long,species,count
 7025004,-38,142,fluttering shearwater,1
 7025004,-38,142,red-billed gull ad,8
 7025004,-38,142,crested tern ad,1
-7025005,-38,142,[no birds recorded],NA
 7026001,-40,146,yellow-nosed mollymawk sensu lato subad,2
 7026001,-40,146,northern giant petrel ad,1
 7026001,-40,146,giant petrel sensu lato subad,1
@@ -13808,11 +13669,9 @@ record_id,lat,long,species,count
 7027007,-32,153,wandering albatross sensu lato pl2,1
 7027007,-32,153,wandering albatross sensu lato pl3,1
 7027008,-29,153,australasian gannet ad,1
-7027009,-29,153,[no birds recorded],NA
 7027010,-28,153,wandering albatross sensu lato pl3,1
 7027011,-27,153,wandering albatross sensu lato pl3,1
 7027011,-27,153,booby (unidentified) subad,2
-7027012,-24,153,[no birds recorded],NA
 7032001,-34,172,wandering albatross sensu lato ad,2
 7032001,-34,172,black-browed albatross sensu lato ad,1
 7032001,-34,172,giant petrel sensu lato ad,8
@@ -13837,7 +13696,6 @@ record_id,lat,long,species,count
 7032007,-34,161,giant petrel sensu lato ad,3
 7032008,-34,160,giant petrel sensu lato ad,2
 7032009,-33,155,giant petrel sensu lato ad,2
-7032010,-34,154,[no birds recorded],NA
 7032011,-33,152,giant petrel sensu lato,2
 7033002,-35,154,wandering albatross sensu lato ad,2
 7033002,-35,154,wandering albatross sensu lato,2
@@ -13863,7 +13721,6 @@ record_id,lat,long,species,count
 7034001,-34,166,cape petrel,1
 7034002,-34,164,wandering albatross sensu lato,5
 7034002,-34,164,giant petrel sensu lato ad,1
-7038001,-39,168,[no birds recorded],NA
 7038002,-38,168,wandering albatross sensu lato juv,1
 7038002,-38,168,buller's shearwater,3
 7038003,-38,167,black-browed albatross sensu lato,1
@@ -13932,11 +13789,8 @@ record_id,lat,long,species,count
 7041003,-40,173,shearwater (unidentified),20
 7041003,-40,173,australasian gannet ad,5
 7041003,-40,173,southern black-backed gull,1
-7041004,-39,168,[no birds recorded],NA
 7041005,-39,168,black-browed albatross sensu lato ad,1
-7041006,-39,168,[no birds recorded],NA
 7041007,-38,167,albatross (unidentified),1
-7041008,-38,167,[no birds recorded],NA
 7041009,-38,167,wandering albatross sensu lato,2
 7041010,-38,167,wandering albatross sensu lato,1
 7041010,-38,167,black-browed albatross sensu lato ad,1
@@ -13945,7 +13799,6 @@ record_id,lat,long,species,count
 7041012,-38,166,wandering albatross sensu lato,1
 7041012,-38,166,black-browed albatross sensu lato ad,1
 7041013,-38,166,black-browed albatross sensu lato ad,1
-7041014,-37,162,[no birds recorded],NA
 7041015,-37,161,great-winged / grey-faced petrel,1
 7041016,-37,161,wandering albatross sensu lato juv,1
 7041017,-37,161,wandering albatross sensu lato juv,1
@@ -14263,7 +14116,6 @@ record_id,lat,long,species,count
 7066015,-39,166,wandering albatross sensu lato pl2,1
 7066015,-39,166,great-winged / grey-faced petrel,1
 7066016,-39,167,great-winged / grey-faced petrel,2
-7066017,-40,171,[no birds recorded],NA
 7066018,-40,172,prion (unidentified),1
 7066019,-40,172,shy / white-capped / salvin's /  chatham mollymawk,1
 7066019,-40,172,giant petrel sensu lato,1
@@ -14282,7 +14134,6 @@ record_id,lat,long,species,count
 7067001,-40,173,sooty shearwater,10
 7067001,-40,173,australasian gannet ad,50
 7067001,-40,173,white-fronted tern,5
-7067002,-39,169,[no birds recorded],NA
 7067003,-38,166,wandering albatross sensu lato pl3,1
 7067003,-38,166,black-browed albatross sensu lato,2
 7067004,-37,162,wandering albatross sensu lato pl3,1
@@ -14668,9 +14519,7 @@ record_id,lat,long,species,count
 7070035,-46,170,southern black-backed gull ad,1
 7072001,-34,171,buller's shearwater,7
 7072001,-34,171,petrel (unidentified),20
-7072002,-34,170,[no birds recorded],NA
 7072003,-34,168,wandering albatross sensu lato subad,1
-7072004,-34,163,[no birds recorded],NA
 7072005,-34,161,wandering albatross sensu lato juv,1
 7072005,-34,161,black-browed albatross sensu lato ad,1
 7072005,-34,161,giant petrel sensu lato,1
@@ -14999,7 +14848,6 @@ record_id,lat,long,species,count
 7084008,-40,172,prion (unidentified),10
 7084008,-40,172,southern black-backed gull,2
 7084009,-39,170,wandering albatross sensu lato pl1,1
-7084010,-39,170,[no birds recorded],NA
 7084011,-39.53333333333333,170.25,grey-faced petrel,1
 7084011,-39.53333333333333,170.25,buller's shearwater,5
 7084011,-39.53333333333333,170.25,black-winged petrel,1
@@ -15057,7 +14905,6 @@ record_id,lat,long,species,count
 7084030,-37.016666666666666,161.78333333333333,wandering albatross sensu lato pl3,1
 7084030,-37.016666666666666,161.78333333333333,grey-faced petrel,3
 7084030,-37.016666666666666,161.78333333333333,black-winged petrel,4
-7084031,-36.416666666666664,159.63333333333333,[no birds recorded],NA
 7084032,-36,159,wandering albatross sensu lato pl2,1
 7084032,-36,159,grey-faced petrel,2
 7084032,-36,159,black-winged petrel,2
@@ -15396,7 +15243,6 @@ record_id,lat,long,species,count
 7091021,-31,153,wedge-tailed shearwater,4
 7091021,-31,153,short-tailed shearwater,155
 7091022,-27,153,wandering albatross sensu lato pl3,1
-7091023,-27,153,[no birds recorded],NA
 7091024,-27,153,wedge-tailed shearwater,5
 7091025,-27,153,australasian gannet subad,2
 7091025,-27,153,crested tern ad,1
@@ -15406,9 +15252,7 @@ record_id,lat,long,species,count
 7091028,-26,153,crested tern,30
 7093001,-19,147,brown booby subad,1
 7093001,-19,147,crested tern ad,2
-7093002,-21,150,[no birds recorded],NA
 7093003,-22,151,crested tern ad,5
-7093004,-22,151,[no birds recorded],NA
 7093005,-22,151,wedge-tailed shearwater,60
 7093006,-22,151,wedge-tailed shearwater,45
 7093006,-22,151,brown booby ad,2
@@ -15423,7 +15267,6 @@ record_id,lat,long,species,count
 7093009,-23,151,noddy (unidentified),2
 7093010,-23,151,wedge-tailed shearwater,17
 7093010,-23,151,brown booby ad,2
-7093011,-26,153,[no birds recorded],NA
 7093012,-27,153,wedge-tailed shearwater,20
 7093012,-27,153,crested tern ad,3
 7093013,-28,153,wedge-tailed shearwater,3
@@ -15619,8 +15462,6 @@ record_id,lat,long,species,count
 7099003,-38,142,white-faced storm petrel,1
 7099003,-38,142,arctic skua,1
 7099003,-38,142,crested tern,2
-8001001,-35,154,[no birds recorded],NA
-8001002,-35,154,[no birds recorded],NA
 8001003,-36,156,wandering albatross sensu lato pl2,1
 8001003,-36,156,grey-faced petrel,5
 8001003,-36,156,gould's petrel,2
@@ -15722,11 +15563,9 @@ record_id,lat,long,species,count
 8005015,-38,166,jaeger (unidentified),1
 8005016,-38.416666666666664,166.16666666666666,grey-faced petrel,1
 8005017,-38,166,grey-faced petrel,1
-8005018,-38.3,165.85,[no birds recorded],NA
 8005019,-38.266666666666666,165.73333333333332,grey-faced petrel,1
 8005020,-38,165,grey-faced petrel,1
 8005020,-38,165,black-winged petrel,1
-8005021,-37,161,[no birds recorded],NA
 8005022,-37,161.58333333333334,grey-faced petrel,1
 8005022,-37,161.58333333333334,black-winged petrel,2
 8005023,-36.86666666666667,161.35,wandering albatross sensu lato pl2,2
@@ -16066,10 +15905,7 @@ record_id,lat,long,species,count
 8013020,-41,149,mollymawk (unidentified),4
 8013020,-41,149,australasian gannet,1
 8013021,-40.13333333333333,147.2,australasian gannet,1
-8013022,-40.05,147.08333333333334,[no birds recorded],NA
-8013023,-39.96666666666667,147.03333333333333,[no birds recorded],NA
 8013024,-39.95,146.93333333333334,short-tailed shearwater,1
-8013025,-39,146,[no birds recorded],NA
 8013026,-38.583333333333336,144.58333333333334,black-browed albatross sensu lato,2
 8013026,-38.583333333333336,144.58333333333334,red-billed gull,10
 8013027,-38,144,wandering albatross sensu lato pl3,2
@@ -16118,7 +15954,6 @@ record_id,lat,long,species,count
 8014013,-39,156,wandering albatross sensu lato pl3,2
 8014013,-39,156,black-browed albatross sensu lato,2
 8014013,-39,156,grey-faced petrel,2
-8014014,-39,159,[no birds recorded],NA
 8014015,-39,159,wandering albatross sensu lato pl2,1
 8014015,-39,159,short-tailed / sooty shearwater,3
 8014016,-39,159,wandering albatross sensu lato pl2,1
@@ -16149,7 +15984,6 @@ record_id,lat,long,species,count
 8014020,-39,161,black-browed albatross sensu lato,1
 8014020,-39,161,prion (unidentified),15
 8014021,-40,165,grey-faced petrel,1
-8014022,-40,165,[no birds recorded],NA
 8014023,-40,167,wandering albatross sensu lato pl3,1
 8014023,-40,167,wandering albatross sensu lato pl4,1
 8014024,-40,167,wandering albatross sensu lato pl3,1
@@ -16261,7 +16095,6 @@ record_id,lat,long,species,count
 8015018,-42.55,154.7,black-browed albatross sensu lato,1
 8015018,-42.55,154.7,giant petrel sensu lato,1
 8015018,-42.55,154.7,white-headed petrel,2
-8015019,-41,149,[no birds recorded],NA
 8015020,-40,149,grey-faced petrel,2
 8015021,-40,148,mollymawk (unidentified),2
 8015021,-40,148,giant petrel sensu lato,1
@@ -16492,11 +16325,9 @@ record_id,lat,long,species,count
 8017024,-40.733333333333334,148.46666666666667,yellow-nosed mollymawk sensu lato,2
 8017024,-40.733333333333334,148.46666666666667,fluttering / hutton's shearwater,3
 8017024,-40.733333333333334,148.46666666666667,subantarctic skua,1
-8017025,-40.6,148,[no birds recorded],NA
 8017026,-40,147,giant petrel sensu lato,2
 8017027,-39.81666666666667,146.73333333333332,yellow-nosed mollymawk sensu lato juv,1
 8017027,-39.81666666666667,146.73333333333332,pied shag,1
-8017028,-39.45,146.18333333333334,[no birds recorded],NA
 8017029,-39,145,shy / white-capped / salvin's /  chatham mollymawk,1
 8017029,-39,145,prion (unidentified),20
 8017029,-39,145,red-billed gull,3
@@ -16622,7 +16453,6 @@ record_id,lat,long,species,count
 8018021,-40.416666666666664,156.91666666666666,black-browed albatross sensu lato,4
 8018021,-40.416666666666664,156.91666666666666,cape petrel,4
 8018021,-40.416666666666664,156.91666666666666,grey-faced petrel,14
-8018022,-40,160,[no birds recorded],NA
 8018023,-40,160,wandering albatross sensu lato pl3,1
 8018023,-40,160,cape petrel,3
 8018023,-40,160,grey-faced petrel,4
@@ -16903,7 +16733,6 @@ record_id,lat,long,species,count
 8019021,-42.86666666666667,155.18333333333334,mollymawk (unidentified),1
 8019022,-42.666666666666664,154.56666666666666,prion (unidentified),100
 8019023,-42.6,154.33333333333334,prion (unidentified),50
-8019024,-42.65,154.45,[no birds recorded],NA
 8020001,-38.65,144.91666666666666,red-billed gull ad,10
 8020002,-39.166666666666664,146,wandering albatross sensu lato pl3,1
 8020002,-39.166666666666664,146,giant petrel sensu lato,1
@@ -17401,18 +17230,10 @@ record_id,lat,long,species,count
 8024003,-37,160,petrel (unidentified),2
 8024004,-37,161,wandering albatross sensu lato juv,1
 8024004,-37,161,red-billed gull ad,1
-8024005,-36,167,[no birds recorded],NA
-8024006,-35,168,[no birds recorded],NA
-8024007,-35,169,[no birds recorded],NA
-8024008,-35,170,[no birds recorded],NA
-8024009,-34,171,[no birds recorded],NA
-8025001,-38,156,[no birds recorded],NA
-8025002,-38,156,[no birds recorded],NA
 8025003,-38,155,wandering albatross sensu lato subad,1
 8025004,-38,154,wandering albatross sensu lato subad,1
 8025005,-38,154,short-tailed shearwater,35
 8025006,-38,153,wandering albatross sensu lato,3
-8026001,-39,149,[no birds recorded],NA
 8026002,-39,150,wandering albatross sensu lato subad,2
 8026003,-39,152,wandering albatross sensu lato,3
 8026004,-39,152,wandering albatross sensu lato,25
@@ -17455,7 +17276,6 @@ record_id,lat,long,species,count
 8027010,-34,160,petrel (unidentified),1
 8027011,-34,159,wandering albatross sensu lato ad,3
 8027011,-34,159,sooty shearwater,2
-8027012,-34,154,[no birds recorded],NA
 8027013,-33,153,wandering albatross sensu lato ad,4
 8027013,-33,153,short-tailed / sooty shearwater,2
 8028001,-35,156,wandering albatross sensu lato ad,2
@@ -17816,7 +17636,6 @@ record_id,lat,long,species,count
 8035012,-30,153,wedge-tailed shearwater,1
 8035013,-30.416666666666668,153.3,wedge-tailed shearwater,3
 8035013,-30.416666666666668,153.3,masked booby ad,1
-8035014,-30,153,[no birds recorded],NA
 8035015,-30,153,wedge-tailed shearwater,1
 8035016,-30,153,wedge-tailed shearwater,2
 8035017,-29,153,wedge-tailed shearwater,2
@@ -17834,7 +17653,6 @@ record_id,lat,long,species,count
 8037002,-23,152,brown booby ad,1
 8037002,-23,152,noddy (unidentified),2
 8037003,-23,152,great frigatebird adf,2
-8037004,-23,152,[no birds recorded],NA
 8037005,-23,152,wedge-tailed shearwater,4
 8037006,-23,152,wedge-tailed shearwater,1
 8037007,-23,152,wedge-tailed shearwater,1
@@ -18106,8 +17924,6 @@ record_id,lat,long,species,count
 8042035,-40.61666666666667,173.83333333333334,cape petrel,30
 8042035,-40.61666666666667,173.83333333333334,prion (unidentified),50
 8043001,-40.416666666666664,172.48333333333332,sooty shearwater,1
-8043002,-40.416666666666664,172.31666666666666,[no birds recorded],NA
-8043003,-40.38333333333333,172.08333333333334,[no birds recorded],NA
 8043004,-40.36666666666667,171.5,buller's shearwater,4
 8043004,-40.36666666666667,171.5,short-tailed / sooty shearwater,50
 8043005,-40.15,167.35,wandering albatross sensu lato pl2,1
@@ -18387,14 +18203,12 @@ record_id,lat,long,species,count
 8048004,-45.8,164.21666666666667,short-tailed / sooty shearwater,1
 8048005,-45.4,162.36666666666667,short-tailed / sooty shearwater,1
 8048005,-45.4,162.36666666666667,storm-petrel (unidentified),1
-8048006,-45.4,162.53333333333333,[no birds recorded],NA
 8048007,-45.2,161.68333333333334,wandering albatross sensu lato pl3,2
 8048007,-45.2,161.68333333333334,giant petrel sensu lato,1
 8048007,-45.2,161.68333333333334,westland / white-chinned petrel,1
 8048008,-45.18333333333333,161.58333333333334,wandering albatross sensu lato pl2,1
 8048008,-45.18333333333333,161.58333333333334,wandering albatross sensu lato pl3,1
 8048008,-45.18333333333333,161.58333333333334,westland / white-chinned petrel,1
-8048009,-45.11666666666667,161.31666666666666,[no birds recorded],NA
 8048010,-45.1,161.25,wandering albatross sensu lato pl3,1
 8048010,-45.1,161.25,westland / white-chinned petrel,1
 8048011,-45.05,161.06666666666666,wandering albatross sensu lato pl2,1
@@ -18481,7 +18295,6 @@ record_id,lat,long,species,count
 8048038,-40.75,148.33333333333334,short-tailed / sooty shearwater,1000
 8048039,-40.516666666666666,147.73333333333332,short-tailed / sooty shearwater,500
 8048039,-40.516666666666666,147.73333333333332,tern (unidentified),1
-8048040,-39.93333333333333,146.83333333333334,[no birds recorded],NA
 8048041,-39.333333333333336,145.95,shy / white-capped / salvin's /  chatham mollymawk,1
 8048041,-39.333333333333336,145.95,short-tailed shearwater,10
 8048042,-39.18333333333333,145.73333333333332,australasian gannet,1
@@ -18489,8 +18302,6 @@ record_id,lat,long,species,count
 8048043,-39.083333333333336,145.6,short-tailed / sooty shearwater,4
 8048044,-39.016666666666666,145.48333333333332,short-tailed shearwater,20
 8049001,-34,166,all dark petrel (unidentified),1
-8049002,-34,165,[no birds recorded],NA
-8049003,-34,164,[no birds recorded],NA
 8049004,-34,163,white-chinned petrel,1
 8049005,-34,158,wandering albatross sensu lato ad,2
 8049006,-34,157,wandering albatross sensu lato ad,1
@@ -18505,9 +18316,7 @@ record_id,lat,long,species,count
 8072002,-34.9,151.16666666666666,subantarctic skua,2
 8072002,-34.9,151.16666666666666,streaked shearwater,1
 8072003,-35,151,wandering albatross sensu lato pl4,1
-8072004,-35,151,[no birds recorded],NA
 8072005,-35,151,flesh-footed shearwater,1
-8072006,-35,150,[no birds recorded],NA
 8072007,-38,147,black-browed albatross sensu lato ad,1
 8072008,-38,147,shy / white-capped mollymawk ad,1
 8072009,-39,147,shy / white-capped mollymawk,1
@@ -18612,20 +18421,13 @@ record_id,lat,long,species,count
 8076011,-29,153,australasian gannet,100
 8076011,-29,153,crested tern ad,1
 8076011,-29,153,crested tern subad,1
-8076012,-28,153,[no birds recorded],NA
 8076013,-24,153,streaked shearwater,1
-8076014,-23,152,[no birds recorded],NA
 8076015,-23,151,wedge-tailed shearwater,4
 8076015,-23,151,fluttering / hutton's shearwater,3
-8076016,-20,149,[no birds recorded],NA
-8076017,-20,149,[no birds recorded],NA
-8076018,-20,149,[no birds recorded],NA
 8076019,-20,149,crested tern ad,1
 8076020,-19,148,red-billed gull ad,2
 8076020,-19,148,crested tern ad,1
-8077001,-19,147,[no birds recorded],NA
 8077002,-19,148,red-billed gull ad,4
-8077003,-19,148,[no birds recorded],NA
 8077004,-20,149,brown booby ad,2
 8077004,-20,149,crested tern,7
 8077005,-22,151,wedge-tailed shearwater,1
@@ -18830,7 +18632,6 @@ record_id,lat,long,species,count
 9001021,-40.81666666666667,167.03333333333333,wandering albatross sensu lato pl4,1
 9001021,-40.81666666666667,167.03333333333333,white-chinned petrel,1
 9001021,-40.81666666666667,167.03333333333333,buller's shearwater,1
-9001022,-40.666666666666664,169.96666666666667,[no birds recorded],NA
 9001023,-40.61666666666667,171.06666666666666,buller's shearwater,100
 9001024,-40.56666666666667,171.55,shy / white-capped / salvin's /  chatham mollymawk,1
 9001024,-40.56666666666667,171.55,buller's shearwater,50
@@ -18868,7 +18669,6 @@ record_id,lat,long,species,count
 9002011,-37,159,wandering albatross sensu lato subad,1
 9002011,-37,159,sooty shearwater,2
 9002011,-37,159,all dark petrel (unidentified),1
-9002012,-37,162,[no birds recorded],NA
 9002013,-36,162,wandering albatross sensu lato ad,4
 9002013,-36,162,giant petrel sensu lato,1
 9002014,-36,163,wandering albatross sensu lato ad,3
@@ -18896,37 +18696,25 @@ record_id,lat,long,species,count
 9002022,-34,172,buller's shearwater,1
 9002022,-34,172,all dark petrel (unidentified),3
 9002022,-34,172,australasian gannet ad,8
-9005001,-38,155,[no birds recorded],NA
 9005002,-38,156,wandering albatross sensu lato ad,2
 9005002,-38,156,black-browed albatross sensu lato ad,1
 9005003,-38,157,wandering albatross sensu lato ad,1
 9005004,-37,158,wandering albatross sensu lato ad,1
-9005005,-36,164,[no birds recorded],NA
-9005006,-36,165,[no birds recorded],NA
 9005007,-36,166,short-tailed shearwater,2
 9005007,-36,166,all dark petrel (unidentified),1
 9005008,-35,167,wandering albatross sensu lato ad,1
-9005009,-35,168,[no birds recorded],NA
 9005010,-34,173,black-browed albatross sensu lato ad,2
 9005010,-34,173,buller's shearwater,10
 9005010,-34,173,all dark petrel (unidentified),34
 9006001,-34,172,wandering albatross sensu lato ad,1
 9006001,-34,172,black-browed albatross sensu lato ad,1
 9006001,-34,172,buller's shearwater,1
-9006002,-34,170,[no birds recorded],NA
-9006003,-34,169,[no birds recorded],NA
-9006004,-34,168,[no birds recorded],NA
 9006005,-33,163,albatross (unidentified),3
 9006005,-33,163,white-chinned petrel,1
 9006005,-33,163,storm-petrel (unidentified),1
 9006006,-33,162,wandering albatross sensu lato ad,3
-9006007,-33,161,[no birds recorded],NA
 9006008,-33,160,wandering albatross sensu lato ad,2
-9006009,-33,159,[no birds recorded],NA
 9006010,-33,153,all dark petrel (unidentified),1
-9006011,-33,152,[no birds recorded],NA
-9007001,-37,160,[no birds recorded],NA
-9007002,-37,161,[no birds recorded],NA
 9007003,-37,162,wandering albatross sensu lato ad,5
 9007003,-37,162,wandering albatross sensu lato juv,1
 9007004,-36,163,wandering albatross sensu lato ad,3
@@ -19008,8 +18796,6 @@ record_id,lat,long,species,count
 9016003,-42,154,wandering albatross sensu lato juv,1
 9016003,-42,154,cape petrel,1
 9016003,-42,154,prion (unidentified),2
-9016004,-40,147,[no birds recorded],NA
-9016005,-39,146,[no birds recorded],NA
 9016006,-39,146,giant petrel sensu lato,1
 9016006,-39,146,cape petrel,1
 9017001,-37,161,wandering albatross sensu lato ad,4
@@ -19156,8 +18942,6 @@ record_id,lat,long,species,count
 9021006,-40,158,all dark petrel (unidentified),2
 9021007,-40,158,black-browed albatross sensu lato ad,3
 9021007,-40,158,all dark petrel (unidentified),3
-9021008,-40,163,[no birds recorded],NA
-9021009,-40,163,[no birds recorded],NA
 9021010,-40,164,black-browed albatross sensu lato ad,3
 9021010,-40,164,black-browed albatross sensu lato subad,1
 9021010,-40,164,all dark petrel (unidentified),2
@@ -19329,7 +19113,6 @@ record_id,lat,long,species,count
 9025015,-35.61666666666667,166.26666666666668,black-browed albatross sensu lato,2
 9025015,-35.61666666666667,166.26666666666668,grey-faced petrel,4
 9025016,-35.666666666666664,165.75,light-mantled sooty albatross,1
-9025017,-36.3,161.88333333333333,[no birds recorded],NA
 9025018,-36.31666666666667,161.75,mollymawk (unidentified),2
 9025018,-36.31666666666667,161.75,grey-faced petrel,2
 9025019,-36.35,161.51666666666668,wandering albatross sensu lato pl3,2
@@ -19359,9 +19142,6 @@ record_id,lat,long,species,count
 9025028,-37.8,154.35,wandering albatross sensu lato pl2,1
 9025028,-37.8,154.35,wandering albatross sensu lato pl3,2
 9025028,-37.8,154.35,black-browed albatross sensu lato,1
-9025029,-37.85,154.03333333333333,[no birds recorded],NA
-9025030,-37.93333333333333,153.63333333333333,[no birds recorded],NA
-9025031,-37.983333333333334,153.36666666666667,[no birds recorded],NA
 9025032,-38.016666666666666,152.98333333333332,black-browed albatross sensu lato ad,1
 9025032,-38.016666666666666,152.98333333333332,shy / white-capped / salvin's /  chatham mollymawk,2
 9025032,-38.016666666666666,152.98333333333332,giant petrel sensu lato,1
@@ -19574,13 +19354,10 @@ record_id,lat,long,species,count
 9029004,-35,165,wandering albatross sensu lato subad,2
 9029004,-35,165,grey-faced petrel,1
 9029004,-35,165,prion (unidentified),5
-9029005,-36,159,[no birds recorded],NA
 9029006,-36,159,wandering albatross sensu lato ad,2
 9029006,-36,159,prion (unidentified),2
 9029006,-36,159,white-chinned petrel,1
 9029006,-36,159,all dark petrel (unidentified),1
-9029007,-36,158,[no birds recorded],NA
-9029008,-37,153,[no birds recorded],NA
 9029009,-37,152,wandering albatross sensu lato ad,2
 9029009,-37,152,prion (unidentified),2
 9029009,-37,152,all dark petrel (unidentified),1
@@ -19631,7 +19408,6 @@ record_id,lat,long,species,count
 9030010,-40,170,cape petrel,7
 9030010,-40,170,prion (unidentified),1
 9030010,-40,170,white-chinned petrel,1
-9031001,-40,171,[no birds recorded],NA
 9031002,-40,170,cape petrel,1
 9031003,-40,169,cape petrel,9
 9031004,-40,168,wandering albatross sensu lato ad,3
@@ -19653,7 +19429,6 @@ record_id,lat,long,species,count
 9031006,-40,167,white-chinned petrel,1
 9031007,-39,162,black-browed albatross sensu lato ad,1
 9031007,-39,162,black-browed albatross sensu lato juv,1
-9031008,-39,161,[no birds recorded],NA
 9031009,-39,161,wandering albatross sensu lato subad,1
 9031009,-39,161,prion (unidentified),50
 9031010,-39,160,prion (unidentified),20
@@ -19728,7 +19503,6 @@ record_id,lat,long,species,count
 9032015,-40,168,all dark petrel (unidentified),1
 9032016,-40,169,wandering albatross sensu lato subad,2
 9032016,-40,169,sooty shearwater,2
-9032017,-40,170,[no birds recorded],NA
 9032018,-40,171,prion (unidentified),1
 9032018,-40,171,sooty shearwater,1
 9032019,-40,171,giant petrel sensu lato,2
@@ -20116,17 +19890,14 @@ record_id,lat,long,species,count
 9036013,-39.016666666666666,145.73333333333332,short-tailed / sooty shearwater,1
 9036013,-39.016666666666666,145.73333333333332,australasian gannet,2
 9036014,-38,145,short-tailed / sooty shearwater,200
-9037001,-40,171,[no birds recorded],NA
 9037002,-39,171,wandering albatross sensu lato subad,1
 9037002,-39,171,buller's shearwater,2
 9037003,-39,170,buller's shearwater,1
-9037004,-39,169,[no birds recorded],NA
 9037005,-39,168,wandering albatross sensu lato ad,1
 9037005,-39,168,wandering albatross sensu lato juv,1
 9037006,-38,167,short-tailed / sooty shearwater,1
 9037007,-37,164,wandering albatross sensu lato subad,1
 9037007,-37,164,all dark petrel (unidentified),1
-9037008,-37,163,[no birds recorded],NA
 9037009,-37,162,wandering albatross sensu lato subad,1
 9037010,-37,161,wandering albatross sensu lato ad,2
 9037010,-37,161,wandering albatross sensu lato subad,2
@@ -20135,19 +19906,14 @@ record_id,lat,long,species,count
 9037012,-36,160,wandering albatross sensu lato ad,1
 9037012,-36,160,wandering albatross sensu lato juv,1
 9037012,-36,160,wandering albatross sensu lato subad,1
-9037013,-35,156,[no birds recorded],NA
 9037014,-35,155,wandering albatross sensu lato ad,1
 9037014,-35,155,shearwater (unidentified),1
-9037015,-34,154,[no birds recorded],NA
-9037016,-34,153,[no birds recorded],NA
 9038001,-33,151,short-tailed shearwater,4
 9038002,-34,152,giant petrel sensu lato,2
 9038002,-34,152,great-winged / grey-faced petrel,5
 9038002,-34,152,white-chinned petrel,1
 9038002,-34,152,short-tailed shearwater,6
 9038003,-34,153,grey-faced petrel,2
-9038004,-34,154,[no birds recorded],NA
-9038005,-35,154,[no birds recorded],NA
 9038006,-35,155,grey-faced petrel,1
 9038007,-35,158,wandering albatross sensu lato ad,1
 9038008,-36,159,wandering albatross sensu lato ad,2
@@ -20645,7 +20411,6 @@ record_id,lat,long,species,count
 10000013,-39.6,158.81666666666666,wandering albatross sensu lato pl3,1
 10000014,-39.583333333333336,158.76666666666668,grey-faced petrel,1
 10000015,-39.56666666666667,158.1,grey-faced petrel,1
-10000016,-39.233333333333334,152.51666666666668,[no birds recorded],NA
 10000017,-39.21666666666667,151.83333333333334,wandering albatross sensu lato pl2,2
 10000017,-39.21666666666667,151.83333333333334,wandering albatross sensu lato pl3,1
 10000017,-39.21666666666667,151.83333333333334,grey-faced petrel,2
@@ -20712,7 +20477,6 @@ record_id,lat,long,species,count
 10002002,-34,171,red-billed gull ad,1
 10002003,-34,170,grey-faced petrel,5
 10002003,-34,170,red-billed gull ad,1
-10002004,-34,165,[no birds recorded],NA
 10002005,-34,164,buller's shearwater,1
 10002006,-34,163,black-winged petrel,6
 10002007,-34,162,grey-faced petrel,1
@@ -20726,8 +20490,6 @@ record_id,lat,long,species,count
 10002010,-34,157,grey-faced petrel,1
 10002011,-34,155,short-tailed shearwater,8
 10002012,-34,154,grey-faced petrel,1
-10003001,-34,153,[no birds recorded],NA
-10003002,-34,154,[no birds recorded],NA
 10003003,-34,155,wandering albatross sensu lato ad,1
 10003003,-34,155,australasian gannet ad,1
 10003004,-35,155,grey-faced petrel,1
@@ -20735,9 +20497,7 @@ record_id,lat,long,species,count
 10003005,-35,156,buller's shearwater,1
 10003005,-35,156,short-tailed shearwater,1
 10003005,-35,156,collared petrel,4
-10003006,-36,160,[no birds recorded],NA
 10003007,-36,161,wandering albatross sensu lato ad,1
-10003008,-37,162,[no birds recorded],NA
 10003009,-37,163,wandering albatross sensu lato ad,1
 10003009,-37,163,grey-faced petrel,1
 10003010,-38,167,wandering albatross sensu lato ad,3
@@ -20749,7 +20509,6 @@ record_id,lat,long,species,count
 10003013,-39,170,wandering albatross sensu lato juv,1
 10003013,-39,170,buller's shearwater,1
 10003013,-39,170,all dark petrel (unidentified),3
-10003014,-39,171,[no birds recorded],NA
 10003015,-40,171,wandering albatross sensu lato ad,3
 10003015,-40,171,wandering albatross sensu lato juv,2
 10003015,-40,171,buller's shearwater,3
@@ -20833,7 +20592,6 @@ record_id,lat,long,species,count
 10009002,-34,171,wandering albatross sensu lato ad,1
 10009002,-34,171,giant petrel sensu lato,2
 10009003,-34,167,all dark petrel (unidentified),1
-10009004,-34,166,[no birds recorded],NA
 10009005,-34,165,wandering albatross sensu lato ad,1
 10009006,-34,164,grey-faced petrel,1
 10009006,-34,164,sooty shearwater,2
@@ -20844,11 +20602,9 @@ record_id,lat,long,species,count
 10009009,-34,157,wandering albatross sensu lato ad,1
 10009009,-34,157,white-chinned petrel,1
 10009010,-33,157,wandering albatross sensu lato ad,2
-10009011,-33,152,[no birds recorded],NA
 10010001,-35,156,wandering albatross sensu lato ad,2
 10010001,-35,156,all dark petrel (unidentified),1
 10010002,-35,157,all dark petrel (unidentified),1
-10010003,-37,161,[no birds recorded],NA
 10010004,-37,162,wandering albatross sensu lato ad,1
 10010005,-37,163,wandering albatross sensu lato ad,3
 10010006,-38,164,wandering albatross sensu lato ad,2
@@ -20863,10 +20619,8 @@ record_id,lat,long,species,count
 10010010,-40,171,wandering albatross sensu lato ad,6
 10010010,-40,171,wandering albatross sensu lato juv,1
 10010010,-40,171,black-browed albatross sensu lato ad,1
-10011001,-34,171,[no birds recorded],NA
 10011002,-34,170,black-browed albatross sensu lato ad,1
 10011002,-34,170,northern giant petrel,2
-10011003,-34,166,[no birds recorded],NA
 10011004,-34,165,sooty shearwater,20
 10011005,-34,164,sooty shearwater,2
 10011006,-34,163,black-browed albatross sensu lato ad,1
@@ -20928,12 +20682,8 @@ record_id,lat,long,species,count
 10012015,-40,172,cape petrel,1
 10013001,-34,163,wandering albatross sensu lato ad,1
 10013001,-34,163,short-tailed shearwater,23
-10013002,-34,162,[no birds recorded],NA
 10013003,-34,161,wandering albatross sensu lato ad,1
 10013003,-34,161,all dark petrel (unidentified),1
-10013004,-34,160,[no birds recorded],NA
-10013005,-34,159,[no birds recorded],NA
-10013006,-33,154,[no birds recorded],NA
 10014001,-39,150,wandering albatross sensu lato ad,4
 10014001,-39,150,black-browed albatross sensu lato ad,1
 10014001,-39,150,all dark petrel (unidentified),1
@@ -20958,19 +20708,8 @@ record_id,lat,long,species,count
 10014009,-40,161,wandering albatross sensu lato ad,1
 10014009,-40,161,black-browed albatross sensu lato ad,1
 10014010,-40,167,black-browed albatross sensu lato ad,1
-10014011,-40,168,[no birds recorded],NA
 10014012,-40,169,cape petrel,6
-10014013,-40,170,[no birds recorded],NA
-10015001,-34,172,[no birds recorded],NA
-10015002,-34,171,[no birds recorded],NA
-10015003,-34,170,[no birds recorded],NA
-10015004,-34,169,[no birds recorded],NA
-10015005,-34,168,[no birds recorded],NA
-10015006,-34,167,[no birds recorded],NA
-10015007,-33,162,[no birds recorded],NA
-10015008,-33,161,[no birds recorded],NA
 10015009,-33,160,wandering albatross sensu lato juv,1
-10015010,-33,152,[no birds recorded],NA
 10015011,-33,159,wandering albatross sensu lato subad,1
 10031001,-36.2,175.75,australasian gannet,1
 10031001,-36.2,175.75,southern black-backed gull,1
@@ -21815,9 +21554,7 @@ record_id,lat,long,species,count
 11006006,-34,150,southern black-backed gull ad,2
 11006006,-34,150,red-billed gull,NA
 11006006,-34,150,crested tern,NA
-11007001,-34,161,[no birds recorded],NA
 11007002,-34,160,white-chinned petrel,1
-11007003,-34,159,[no birds recorded],NA
 11007004,-33,158,wandering albatross sensu lato ad,1
 11007005,-33,157,wandering albatross sensu lato ad,2
 11007005,-33,157,wandering albatross sensu lato subad,1
@@ -21850,37 +21587,25 @@ record_id,lat,long,species,count
 11008011,-36,163,buller's shearwater,1
 11008011,-36,163,petrel (unidentified),4
 11008011,-36,163,australasian gannet ad,1
-11008012,-35,167,[no birds recorded],NA
 11008013,-35,168,wandering albatross sensu lato ad,1
 11008014,-35,169,wandering albatross sensu lato ad,2
 11008015,-34,170,wandering albatross sensu lato ad,2
-11008016,-34,171,[no birds recorded],NA
 11008017,-34,172,buller's shearwater,25
 11009001,-34,168,northern giant petrel,5
 11009002,-34,166,wandering albatross sensu lato ad,1
 11009003,-34,165,wandering albatross sensu lato ad,1
-11009004,-34,164,[no birds recorded],NA
-11009005,-33,159,[no birds recorded],NA
 11009006,-33,159,white-naped petrel,5
 11009007,-33,158,buller's shearwater,2
 11009008,-33,157,sooty shearwater,1
 11009008,-33,157,storm-petrel (unidentified),1
-11009009,-33,156,[no birds recorded],NA
 11009010,-33,155,white-chinned petrel,1
 11009010,-33,155,buller's shearwater,1
-11010001,-39,147,[no birds recorded],NA
-11010002,-39,148,[no birds recorded],NA
 11010003,-39,149,wandering albatross sensu lato ad,1
 11010003,-39,149,white-chinned petrel,2
 11010004,-39,150,wandering albatross sensu lato ad,1
 11010005,-39,151,all dark petrel (unidentified),1
-11010006,-38,157,[no birds recorded],NA
 11010007,-38,158,wedge-tailed shearwater,1
 11010008,-37,159,wandering albatross sensu lato subad,1
-11010009,-37,160,[no birds recorded],NA
-11010010,-37,161,[no birds recorded],NA
-11010011,-36,166,[no birds recorded],NA
-11010012,-35,168,[no birds recorded],NA
 11010013,-35,169,all dark petrel (unidentified),1
 11010014,-35,170,buller's shearwater,1
 11011001,-34,164,wandering albatross sensu lato ad,2
@@ -21904,14 +21629,12 @@ record_id,lat,long,species,count
 11011008,-33,153,prion (unidentified),1
 11011009,-33,152,wandering albatross sensu lato ad,3
 11011009,-33,152,black-browed albatross sensu lato ad,1
-11012001,-39,148,[no birds recorded],NA
 11012002,-39,148,australasian gannet ad,3
 11012003,-39,149,wandering albatross sensu lato ad,1
 11012004,-39,150,wandering albatross sensu lato ad,3
 11012005,-38,151,wandering albatross sensu lato ad,5
 11012005,-38,151,wandering albatross sensu lato subad,2
 11012006,-38,152,wandering albatross sensu lato ad,3
-11012007,-38,157,[no birds recorded],NA
 11012008,-38,158,wandering albatross sensu lato ad,1
 11012008,-38,158,black-browed albatross sensu lato ad,2
 11012008,-38,158,all dark petrel (unidentified),2
@@ -21940,10 +21663,6 @@ record_id,lat,long,species,count
 11013006,-34,161,wandering albatross sensu lato ad,2
 11013006,-34,161,wandering albatross sensu lato juv,1
 11013006,-34,161,wandering albatross sensu lato subad,1
-11013007,-33,155,[no birds recorded],NA
-11013008,-33,154,[no birds recorded],NA
-11013009,-33,153,[no birds recorded],NA
-11013010,-33,152,[no birds recorded],NA
 11014001,-38,149,wandering albatross sensu lato ad,1
 11014001,-38,149,giant petrel sensu lato,2
 11014002,-38,150,wandering albatross sensu lato ad,1
@@ -21999,7 +21718,6 @@ record_id,lat,long,species,count
 11014015,-34,171,white-chinned petrel,1
 11014016,-34,171,wandering albatross sensu lato juv,2
 11014016,-34,171,wandering albatross sensu lato subad,3
-11015001,-34,172,[no birds recorded],NA
 11015002,-34,171,black-browed albatross sensu lato subad,1
 11015002,-34,171,cape petrel,1
 11015002,-34,171,white-chinned petrel,1
@@ -22008,7 +21726,6 @@ record_id,lat,long,species,count
 11015004,-34,169,wandering albatross sensu lato subad,1
 11015004,-34,169,cape petrel,2
 11015004,-34,169,white-chinned petrel,2
-11015005,-34,165,[no birds recorded],NA
 11015006,-34,164,black-browed albatross sensu lato subad,1
 11015006,-34,164,cape petrel,2
 11015007,-34,163,sooty shearwater,2
@@ -22021,7 +21738,6 @@ record_id,lat,long,species,count
 11015011,-33,156,black-browed albatross sensu lato ad,2
 11015012,-33,155,wandering albatross sensu lato ad,3
 11015012,-33,155,black-browed albatross sensu lato ad,1
-11016001,-39,148,[no birds recorded],NA
 11016002,-39,149,giant petrel sensu lato,1
 11016003,-39,150,wandering albatross sensu lato ad,1
 11016003,-39,150,wandering albatross sensu lato juv,1
@@ -22700,7 +22416,6 @@ record_id,lat,long,species,count
 11031004,-52.95,81.43333333333334,antarctic fulmar,9
 11031004,-52.95,81.43333333333334,cape petrel,4
 11031004,-52.95,81.43333333333334,blue petrel,4
-11031005,-52.4,86.41666666666667,[no birds recorded],NA
 11031006,-52.166666666666664,87.48333333333333,antarctic fulmar,1
 11031006,-52.166666666666664,87.48333333333333,kerguelen petrel,1
 11031006,-52.166666666666664,87.48333333333333,blue petrel,3
@@ -23393,30 +23108,20 @@ record_id,lat,long,species,count
 12001006,-34,166,buller's shearwater,1
 12001006,-34,166,australasian gannet ad,1
 12001007,-34,162,all dark petrel (unidentified),1
-12001008,-34,161,[no birds recorded],NA
 12001009,-33,160,all dark petrel (unidentified),2
 12001010,-33,159,white-chinned petrel,2
 12001010,-33,159,frigatebird (unidentified),1
-12001011,-34,158,[no birds recorded],NA
 12001012,-33,153,sooty shearwater,1
 12001013,-33,152,sooty shearwater,4
 12001014,-33,151,sooty shearwater,4
 12002001,-39,147,short-tailed shearwater,23
 12002001,-39,147,australasian gannet ad,2
 12002002,-39,148,wandering albatross sensu lato ad,1
-12002003,-39,149,[no birds recorded],NA
-12002004,-39,150,[no birds recorded],NA
 12002005,-39,151,wandering albatross sensu lato ad,1
 12002005,-39,151,wandering albatross sensu lato subad,1
 12002005,-39,151,short-tailed shearwater,1
-12002006,-39,152,[no birds recorded],NA
 12002007,-39,153,wandering albatross sensu lato subad,1
-12002008,-40,157,[no birds recorded],NA
-12002009,-40,158,[no birds recorded],NA
-12002010,-40,159,[no birds recorded],NA
-12002011,-40,160,[no birds recorded],NA
 12002012,-40,161,wandering albatross sensu lato subad,1
-12002013,-40,162,[no birds recorded],NA
 12002014,-40,163,wandering albatross sensu lato,2
 12002014,-40,163,sooty shearwater,1
 12002015,-40,167,wandering albatross sensu lato ad,2
@@ -23433,34 +23138,17 @@ record_id,lat,long,species,count
 12002020,-40,171,cape petrel,1
 12002020,-40,171,fluttering shearwater,1
 12002020,-40,171,all dark petrel (unidentified),2
-12003001,-34,170,[no birds recorded],NA
 12003002,-34,169,sooty shearwater,1
 12003003,-34,168,westland petrel,1
-12003004,-34,167,[no birds recorded],NA
-12003005,-34,166,[no birds recorded],NA
-12003006,-34,166,[no birds recorded],NA
-12003007,-34,161,[no birds recorded],NA
-12003008,-33,160,[no birds recorded],NA
-12003009,-33,159,[no birds recorded],NA
-12003010,-33,158,[no birds recorded],NA
 12003011,-33,158,wandering albatross sensu lato ad,1
 12003011,-33,158,sooty shearwater,1
 12003012,-33,156,wandering albatross sensu lato ad,1
 12004001,-38,149,short-tailed shearwater,1
-12004002,-38,150,[no birds recorded],NA
-12004003,-38,151,[no birds recorded],NA
-12004004,-38,152,[no birds recorded],NA
 12004005,-38,153,wandering albatross sensu lato ad,1
-12004006,-37,159,[no birds recorded],NA
 12004007,-37,160,wandering albatross sensu lato juv,1
-12004008,-37,161,[no birds recorded],NA
 12004009,-37,162,wandering albatross sensu lato ad,1
 12004009,-37,162,all dark petrel (unidentified),1
-12004010,-36,163,[no birds recorded],NA
-12004011,-35,167,[no birds recorded],NA
-12004012,-35,168,[no birds recorded],NA
 12004013,-35,169,wandering albatross sensu lato subad,2
-12004014,-35,170,[no birds recorded],NA
 12004015,-34,171,wandering albatross sensu lato subad,1
 12004015,-34,171,buller's shearwater,4
 12005001,-34,165,all dark petrel (unidentified),2
@@ -23469,12 +23157,10 @@ record_id,lat,long,species,count
 12005003,-34,163,wandering albatross sensu lato juv,1
 12005003,-34,163,black-browed albatross sensu lato ad,1
 12005003,-34,163,all dark petrel (unidentified),2
-12005004,-34,162,[no birds recorded],NA
 12005005,-33,157,black-browed albatross sensu lato ad,2
 12005005,-33,157,prion (unidentified),1
 12005006,-33,156,wandering albatross sensu lato subad,1
 12005006,-33,156,black-browed albatross sensu lato ad,1
-12005007,-33,154,[no birds recorded],NA
 12005008,-33,155,wandering albatross sensu lato ad,2
 12006001,-39,147,giant petrel sensu lato,1
 12006001,-39,147,southern black-backed gull ad,1
@@ -23482,7 +23168,6 @@ record_id,lat,long,species,count
 12006003,-39,149,giant petrel sensu lato,4
 12006004,-39,150,giant petrel sensu lato,3
 12006005,-39,151,giant petrel sensu lato,3
-12006006,-40,156,[no birds recorded],NA
 12006007,-40,157,black-browed albatross sensu lato ad,2
 12006008,-40,158,wandering albatross sensu lato ad,4
 12006008,-40,158,black-browed albatross sensu lato ad,2
@@ -24216,20 +23901,13 @@ record_id,lat,long,species,count
 12029003,-38,141,great-winged petrel,2
 12029003,-38,141,grey-faced petrel,1
 12029003,-38,141,thin-billed prion,1
-12030001,-34,171,[no birds recorded],NA
-12030002,-34,170,[no birds recorded],NA
-12030003,-34,169,[no birds recorded],NA
 12030004,-34,168,wandering albatross sensu lato ad,2
 12030004,-34,168,wandering albatross sensu lato subad,1
-12030005,-33,162,[no birds recorded],NA
-12030006,-33,161,[no birds recorded],NA
-12030007,-33,160,[no birds recorded],NA
 12030008,-33,159,wandering albatross sensu lato ad,2
 12030008,-33,159,wandering albatross sensu lato juv,2
 12030008,-33,159,giant petrel sensu lato,1
 12030008,-33,159,cape petrel,1
 12030008,-33,159,all dark petrel (unidentified),1
-12030009,-34,154,[no birds recorded],NA
 12030010,-33,153,wandering albatross sensu lato ad,2
 12030010,-33,153,sooty shearwater,1
 12031001,-39,146,giant petrel sensu lato,7
@@ -24275,18 +23953,14 @@ record_id,lat,long,species,count
 12032001,-34,172,black petrel,1
 12032001,-34,172,petrel (unidentified),4
 12032001,-34,172,australasian gannet ad,1
-12032002,-34,171,[no birds recorded],NA
 12032003,-34,170,wandering albatross sensu lato ad,2
 12032003,-34,170,all dark petrel (unidentified),1
-12032004,-34,169,[no birds recorded],NA
 12032005,-34,168,wandering albatross sensu lato ad,1
 12032006,-34,167,wandering albatross sensu lato ad,1
 12032006,-34,167,cape petrel,1
 12032007,-34,163,wandering albatross sensu lato ad,1
-12032008,-34,162,[no birds recorded],NA
 12032009,-34,161,wandering albatross sensu lato ad,1
 12032009,-34,161,wandering albatross sensu lato subad,1
-12032010,-34,160,[no birds recorded],NA
 12032011,-33,155,wandering albatross sensu lato ad,2
 12032011,-33,155,sooty shearwater,1
 12032011,-33,155,all dark petrel (unidentified),1
@@ -24294,7 +23968,6 @@ record_id,lat,long,species,count
 12032013,-33,153,wandering albatross sensu lato ad,6
 12032014,-33,152,wandering albatross sensu lato ad,6
 12032014,-33,152,wandering albatross sensu lato juv,1
-12033001,-39,147,[no birds recorded],NA
 12033002,-39,148,black-browed albatross sensu lato ad,1
 12033002,-39,148,shy / white-capped mollymawk ad,1
 12033002,-39,148,giant petrel sensu lato,1
@@ -24302,7 +23975,6 @@ record_id,lat,long,species,count
 12033002,-39,148,australasian gannet ad,1
 12033003,-39,149,giant petrel sensu lato,1
 12033004,-39,150,prion (unidentified),8
-12033005,-39,151,[no birds recorded],NA
 12033006,-40,156,wandering albatross sensu lato ad,1
 12033006,-40,156,wandering albatross sensu lato juv,1
 12033006,-40,156,sooty shearwater,44
@@ -24722,7 +24394,6 @@ record_id,lat,long,species,count
 13010001,-39,147,red-billed gull ad,3
 13010002,-39,148,giant petrel sensu lato,1
 13010002,-39,148,sooty shearwater,40
-13010003,-39,149,[no birds recorded],NA
 13010004,-39,150,wandering albatross sensu lato subad,1
 13010005,-39,155,wandering albatross sensu lato ad,6
 13010005,-39,155,wandering albatross sensu lato subad,1
@@ -24731,7 +24402,6 @@ record_id,lat,long,species,count
 13010007,-39,157,wandering albatross sensu lato ad,2
 13010007,-39,157,wandering albatross sensu lato juv,1
 13010007,-39,157,all dark petrel (unidentified),1
-13010008,-39,158,[no birds recorded],NA
 13010009,-39,159,wandering albatross sensu lato ad,1
 13010009,-39,159,wandering albatross sensu lato juv,1
 13010010,-39,160,wandering albatross sensu lato ad,1
@@ -24739,19 +24409,11 @@ record_id,lat,long,species,count
 13010011,-40,166,wandering albatross sensu lato ad,3
 13010012,-40,167,wandering albatross sensu lato ad,1
 13010013,-40,168,all dark petrel (unidentified),1
-13010014,-40,169,[no birds recorded],NA
-13011001,-34,169,[no birds recorded],NA
-13011002,-34,169,[no birds recorded],NA
 13011003,-33,167,all dark petrel (unidentified),1
 13011004,-33,164,wandering albatross sensu lato,1
 13011005,-33,163,short-tailed shearwater,2
-13011006,-33,162,[no birds recorded],NA
 13011007,-33,161,wandering albatross sensu lato ad,2
 13011008,-33,160,wandering albatross sensu lato ad,2
-13011009,-33,157,[no birds recorded],NA
-13011010,-33,156,[no birds recorded],NA
-13011011,-33,155,[no birds recorded],NA
-13011012,-33,154,[no birds recorded],NA
 13011013,-33,153,sooty shearwater,1
 13012001,-39,154,wandering albatross sensu lato ad,1
 13012001,-39,154,all dark petrel (unidentified),3
@@ -24785,11 +24447,8 @@ record_id,lat,long,species,count
 13013009,-34,157,sooty shearwater,1
 13013010,-33,156,wandering albatross sensu lato juv,1
 13013010,-33,156,sooty shearwater,1
-13013011,-33,153,[no birds recorded],NA
 13013012,-33,152,short-tailed shearwater,5
 13013013,-33,151,sooty shearwater,1
-13014001,-39,149,[no birds recorded],NA
-13014002,-39,150,[no birds recorded],NA
 13014003,-40,151,black-browed albatross sensu lato ad,1
 13014004,-40,152,wandering albatross sensu lato ad,1
 13014004,-40,152,wandering albatross sensu lato subad,1
@@ -24808,8 +24467,6 @@ record_id,lat,long,species,count
 13014011,-40,166,wandering albatross sensu lato ad,3
 13014012,-40,167,wandering albatross sensu lato ad,3
 13014013,-40,168,wandering albatross sensu lato ad,3
-13015001,-40,148,[no birds recorded],NA
-13015002,-41,149,[no birds recorded],NA
 13015003,-41,150,wandering albatross sensu lato ad,1
 13015003,-41,150,giant petrel sensu lato,3
 13015003,-41,150,cape petrel,2
@@ -24855,9 +24512,7 @@ record_id,lat,long,species,count
 13016005,-34,161,sooty shearwater,1
 13016006,-33,160,wandering albatross sensu lato ad,2
 13016006,-33,160,black-browed albatross sensu lato ad,2
-13016007,-33,159,[no birds recorded],NA
 13016008,-33,158,black petrel,2
-13016009,-33,154,[no birds recorded],NA
 13017001,-39,148,giant petrel sensu lato,3
 13017002,-39,149,wandering albatross sensu lato ad,1
 13017002,-39,149,giant petrel sensu lato,2
@@ -24931,13 +24586,10 @@ record_id,lat,long,species,count
 13018003,-33,162,wandering albatross sensu lato subad,1
 13018004,-33,161,wandering albatross sensu lato ad,2
 13018004,-33,161,wandering albatross sensu lato subad,1
-13018005,-33,160,[no birds recorded],NA
 13018006,-33,159,wandering albatross sensu lato ad,4
-13018007,-33,154,[no birds recorded],NA
 13018008,-33,153,wandering albatross sensu lato ad,1
 13019001,-39,147,wandering albatross sensu lato juv,2
 13019002,-39,148,short-tailed shearwater,100
-13019003,-39,149,[no birds recorded],NA
 13019004,-39,150,wandering albatross sensu lato ad,2
 13019004,-39,150,wandering albatross sensu lato juv,1
 13019005,-39,151,wandering albatross sensu lato ad,2
@@ -24980,23 +24632,11 @@ record_id,lat,long,species,count
 13019014,-40,167,wandering albatross sensu lato juv,1
 13019014,-40,167,black-browed albatross sensu lato ad,2
 13019014,-40,167,all dark petrel (unidentified),7
-13020001,-34,171,[no birds recorded],NA
-13020002,-34,170,[no birds recorded],NA
-13020003,-34,169,[no birds recorded],NA
 13020004,-34,168,wandering albatross sensu lato ad,3
-13020005,-33,164,[no birds recorded],NA
-13020006,-33,163,[no birds recorded],NA
 13020007,-33,162,wandering albatross sensu lato ad,1
-13020008,-33,161,[no birds recorded],NA
-13020009,-33,158,[no birds recorded],NA
-13020010,-33,157,[no birds recorded],NA
 13020011,-33,156,sooty shearwater,1
-13020012,-33,155,[no birds recorded],NA
 13020013,-33,154,jaeger (unidentified),3
 13021001,-39,148,black-browed albatross sensu lato ad,3
-13021002,-39,149,[no birds recorded],NA
-13021003,-39,150,[no birds recorded],NA
-13021004,-39,151,[no birds recorded],NA
 13021005,-39,156,wandering albatross sensu lato ad,2
 13021006,-39,157,wandering albatross sensu lato ad,1
 13021007,-40,158,wandering albatross sensu lato ad,1
@@ -25007,9 +24647,7 @@ record_id,lat,long,species,count
 13021010,-40,161,wandering albatross sensu lato ad,4
 13021010,-40,161,wandering albatross sensu lato juv,2
 13021010,-40,161,wandering albatross sensu lato subad,1
-13021011,-40,166,[no birds recorded],NA
 13021012,-40,167,wandering albatross sensu lato subad,1
-13021013,-40,168,[no birds recorded],NA
 13021014,-40,169,wandering albatross sensu lato ad,2
 13021014,-40,169,wandering albatross sensu lato juv,1
 13021015,-40,170,wandering albatross sensu lato ad,2
@@ -25022,8 +24660,6 @@ record_id,lat,long,species,count
 13021016,-40,171,buller's shearwater,5
 14001001,-34,165,all dark petrel (unidentified),5
 14001002,-34,164,all dark petrel (unidentified),2
-14001003,-34,163,[no birds recorded],NA
-14001004,-34,162,[no birds recorded],NA
 14001005,-33,158,light-mantled sooty albatross,2
 14001005,-33,158,black petrel,1
 14001006,-33,157,light-mantled sooty albatross,2
@@ -25032,12 +24668,10 @@ record_id,lat,long,species,count
 14001008,-33,155,wandering albatross sensu lato ad,1
 14001008,-33,155,white-chinned petrel,4
 14001008,-33,155,sooty shearwater,2
-14002001,-39,147,[no birds recorded],NA
 14002002,-39,148,black-browed albatross sensu lato ad,26
 14002002,-39,148,giant petrel sensu lato,1
 14002003,-38,149,wandering albatross sensu lato ad,2
 14002003,-38,149,shy / white-capped mollymawk,1
-14002004,-38,149,[no birds recorded],NA
 14002005,-37,154,wandering albatross sensu lato ad,1
 14002005,-37,154,black-browed albatross sensu lato ad,1
 14002005,-37,154,australasian gannet ad,1
@@ -25075,7 +24709,6 @@ record_id,lat,long,species,count
 14003004,-34,169,white-chinned petrel,5
 14003005,-33,165,wandering albatross sensu lato juv,1
 14003005,-33,165,sooty shearwater,1
-14003006,-33,164,[no birds recorded],NA
 14003007,-33,163,wandering albatross sensu lato ad,2
 14003007,-33,163,all dark petrel (unidentified),2
 14003008,-33,162,wandering albatross sensu lato ad,1
@@ -25084,12 +24717,10 @@ record_id,lat,long,species,count
 14003009,-33,158,buller's shearwater,3
 14003010,-33,157,wandering albatross sensu lato ad,1
 14003010,-33,157,wandering albatross sensu lato subad,1
-14003011,-33,156,[no birds recorded],NA
 14003012,-33,155,wandering albatross sensu lato ad,1
 14003012,-33,155,black petrel,1
 14004001,-39,148,australasian gannet ad,5
 14004002,-39,148,black-browed albatross sensu lato ad,1
-14004003,-39,149,[no birds recorded],NA
 14004004,-38,153,wandering albatross sensu lato ad,1
 14004004,-38,153,black petrel,1
 14004005,-38,154,wandering albatross sensu lato ad,4
@@ -25106,9 +24737,7 @@ record_id,lat,long,species,count
 14004011,-36,164,wandering albatross sensu lato ad,2
 14004011,-36,164,wandering albatross sensu lato juv,1
 14004011,-36,164,wandering albatross sensu lato subad,1
-14004012,-35,167,[no birds recorded],NA
 14004013,-35,168,wandering albatross sensu lato ad,2
-14004014,-35,169,[no birds recorded],NA
 14004015,-35,170,wandering albatross sensu lato ad,1
 14004015,-35,170,buller's shearwater,1
 14007001,-34,151,flesh-footed shearwater,3
@@ -25168,7 +24797,6 @@ record_id,lat,long,species,count
 14009003,-38,141,arctic skua subad drk,1
 14009003,-38,141,red-billed gull ad,6
 14009003,-38,141,crested tern,2
-14010001,-34,151,[no birds recorded],NA
 14010002,-34,151,great-winged / grey-faced petrel,1
 14010002,-34,151,providence petrel,2
 14010002,-34,151,flesh-footed shearwater,6
@@ -25735,7 +25363,6 @@ record_id,lat,long,species,count
 14017030,-43.016666666666666,158.28333333333333,white-faced storm petrel,1
 14017030,-43.016666666666666,158.28333333333333,black-bellied storm petrel,1
 14017030,-43.016666666666666,158.28333333333333,cook's petrel,1
-14017031,-44.38333333333333,158.95,[no birds recorded],NA
 14017032,-44,159,black-browed albatross sensu lato ad,1
 14017032,-44,159,white-chinned petrel,2
 14017032,-44,159,broad-billed prion,NA
@@ -27161,10 +26788,6 @@ record_id,lat,long,species,count
 60002100,-40,172,shy / white-capped / salvin's /  chatham mollymawk,2
 60002100,-40,172,cape petrel,3
 60002100,-40,172,prion (unidentified),11
-61001001,-39.7,170.31666666666666,[no birds recorded],NA
-61001002,-39,170,[no birds recorded],NA
-61001003,-39,169,[no birds recorded],NA
-61001004,-39,169,[no birds recorded],NA
 61001005,-39.5,169.65,buller's shearwater,1
 61001006,-39,169,grey-faced petrel,1
 61001007,-39,169,grey-faced petrel,1
@@ -27172,13 +26795,9 @@ record_id,lat,long,species,count
 61001008,-39,169,black-winged petrel,1
 61001009,-39,169,grey-faced petrel,1
 61001009,-39,169,flesh-footed shearwater,1
-61001010,-39.31666666666667,169.05,[no birds recorded],NA
-61001011,-39,168,[no birds recorded],NA
 61001012,-39,168,buller's shearwater,2
-61001013,-39.2,168.63333333333333,[no birds recorded],NA
 61001014,-39,168,black-winged petrel,1
 61001015,-39,168,black-winged petrel,1
-61001016,-39,168,[no birds recorded],NA
 61001017,-38,167,black-winged petrel,1
 61001018,-38,167,grey-faced petrel,1
 61001018,-38,167,buller's shearwater,2
@@ -27270,7 +26889,6 @@ record_id,lat,long,species,count
 61001048,-34,154,wedge-tailed shearwater,1
 61001049,-34.68333333333333,154.7,grey-faced petrel,1
 61001050,-34,154,wedge-tailed shearwater,1
-61001051,-34,154,[no birds recorded],NA
 61001052,-34,154,wandering albatross sensu lato pl3,1
 61001053,-34,154,wedge-tailed shearwater,1
 61001054,-34,154,grey-faced petrel,1
@@ -27295,7 +26913,6 @@ record_id,lat,long,species,count
 61002002,-34,152,wandering albatross sensu lato pl2,1
 61002002,-34,152,wedge-tailed shearwater,50
 61002002,-34,152,pomarine skua,2
-61002003,-34,152,[no birds recorded],NA
 61002004,-34,152,pomarine skua,1
 61002005,-34.3,152.66666666666666,wedge-tailed shearwater,1
 61002006,-34,152,grey-faced petrel,3
@@ -27304,7 +26921,6 @@ record_id,lat,long,species,count
 61002007,-34,153,grey-faced petrel,1
 61002008,-34.516666666666666,153.28333333333333,grey-faced petrel,2
 61002009,-34,153,grey-faced petrel,2
-61002010,-34,153,[no birds recorded],NA
 61002011,-34,153,wedge-tailed shearwater,1
 61002012,-34.766666666666666,154.13333333333333,grey-faced petrel,1
 61002013,-34,154,grey-faced petrel,1
@@ -28318,7 +27934,6 @@ record_id,lat,long,species,count
 64023003,-37.416666666666664,176.2,southern black-backed gull ad,1
 64023003,-37.416666666666664,176.2,southern black-backed gull subad,1
 64023003,-37.416666666666664,176.2,red-billed gull,1
-64023004,-37.333333333333336,176.2,[no birds recorded],NA
 64023005,-37.266666666666666,176.2,prion (unidentified),1
 64023005,-37.266666666666666,176.2,little shearwater,1
 64023005,-37.266666666666666,176.2,diving-petrel (unidentified),3
@@ -28486,9 +28101,7 @@ record_id,lat,long,species,count
 64023052,-34.06666666666667,160.58333333333334,grey-faced petrel,1
 64023053,-34.06666666666667,160.43333333333334,prion (unidentified),3
 64023054,-34.06666666666667,160.35,white-headed petrel,1
-64023055,-34.11666666666667,155.18333333333334,[no birds recorded],NA
 64023056,-34.11666666666667,155.03333333333333,grey-faced petrel,3
-64023057,-34.11666666666667,154.9,[no birds recorded],NA
 64023058,-34.11666666666667,154.56666666666666,black-browed albatross sensu lato ad,1
 64023058,-34.11666666666667,154.56666666666666,cape petrel,1
 64023058,-34.11666666666667,154.56666666666666,grey-faced petrel,1
@@ -28567,7 +28180,6 @@ record_id,lat,long,species,count
 64023084,-33.583333333333336,151.85,crested tern,1
 64023085,-33.65,151.61666666666667,australasian gannet ad,4
 64023085,-33.65,151.61666666666667,red-billed gull,1
-64023086,-33.86666666666667,151.58333333333334,[no birds recorded],NA
 64023087,-34,151.56666666666666,wandering albatross sensu lato pl1,1
 64023087,-34,151.56666666666666,yellow-nosed mollymawk sensu lato subad,1
 64023087,-34,151.56666666666666,australasian gannet ad,1
@@ -29020,10 +28632,6 @@ record_id,lat,long,species,count
 64035032,-39.96666666666667,165.51666666666668,black-browed albatross sensu lato ad,1
 64035032,-39.96666666666667,165.51666666666668,buller's shearwater,1
 64035033,-39.733333333333334,161.3,wandering albatross sensu lato pl2,1
-64035034,-39.733333333333334,161.13333333333333,[no birds recorded],NA
-64035035,-39.733333333333334,160.81666666666666,[no birds recorded],NA
-64035036,-39.733333333333334,160.73333333333332,[no birds recorded],NA
-64035037,-39.71666666666667,160.56666666666666,[no birds recorded],NA
 64035038,-39.71666666666667,160.65,grey-faced petrel,1
 64035038,-39.71666666666667,160.65,gould's petrel,1
 64035039,-39.7,159.91666666666666,wandering albatross sensu lato pl2,1
@@ -29101,7 +28709,6 @@ record_id,lat,long,species,count
 64035055,-39.4,154.5,wandering albatross sensu lato pl2,1
 64035055,-39.4,154.5,wandering albatross sensu lato pl3,2
 64035055,-39.4,154.5,black-browed albatross sensu lato ad,1
-64035056,-39.416666666666664,154.28333333333333,[no birds recorded],NA
 64035057,-39.4,154.1,wandering albatross sensu lato pl2,1
 64035057,-39.4,154.1,black-browed albatross sensu lato ad,1
 64035057,-39.4,154.1,gould's petrel,1
@@ -29189,7 +28796,6 @@ record_id,lat,long,species,count
 64035081,-39.11666666666667,147.6,prion (unidentified),20
 64035081,-39.11666666666667,147.6,short-tailed shearwater,6
 64035082,-39.11666666666667,147.46666666666667,short-tailed shearwater,6
-64035083,-39.11666666666667,147.38333333333333,[no birds recorded],NA
 64035084,-39.11666666666667,147.25,red-billed gull,1
 64035085,-39.11666666666667,147.18333333333334,red-billed gull,4
 64035086,-39.11666666666667,147.08333333333334,short-tailed shearwater,1
@@ -29238,7 +28844,6 @@ record_id,lat,long,species,count
 64036010,-39.333333333333336,147.68333333333334,shy / white-capped / salvin's /  chatham mollymawk,1
 64036010,-39.333333333333336,147.68333333333334,short-tailed shearwater,30
 64036011,-39.35,148.3,short-tailed shearwater,2
-64036012,-39.35,148.45,[no birds recorded],NA
 64036013,-39.35,148.5,shy / white-capped / salvin's /  chatham mollymawk,6
 64036013,-39.35,148.5,prion (unidentified),5
 64036013,-39.35,148.5,short-tailed shearwater,50
@@ -29362,7 +28967,6 @@ record_id,lat,long,species,count
 64036040,-39.88333333333333,162.45,wandering albatross sensu lato pl1,1
 64036040,-39.88333333333333,162.45,westland petrel,20
 64036040,-39.88333333333333,162.45,sooty shearwater,5
-64036041,-39.88333333333333,162.43333333333334,[no birds recorded],NA
 64036042,-39.9,162.7,black-winged petrel,1
 64036043,-39.9,162.93333333333334,sooty shearwater,4
 64036044,-39.916666666666664,163.11666666666667,wandering albatross sensu lato pl1,1
@@ -29448,14 +29052,11 @@ record_id,lat,long,species,count
 64036064,-40.233333333333334,169.15,wandering albatross sensu lato pl4,1
 64036065,-40.233333333333334,169.25,wandering albatross sensu lato pl4,1
 64036065,-40.233333333333334,169.25,grey-faced petrel,1
-64036066,-40.3,169.91666666666666,[no birds recorded],NA
 64036067,-40.6,173.86666666666667,prion (unidentified),300
 64036068,-40.6,174.01666666666668,prion (unidentified),50
-64038001,-41.13333333333333,173.25,[no birds recorded],NA
 64038002,-41.06666666666667,173.23333333333332,australasian gannet ad,1
 64038003,-41.016666666666666,173.23333333333332,australasian gannet ad,2
 64038004,-40.9,173.23333333333332,australasian gannet ad,1
-64038005,-40.78333333333333,173.23333333333332,[no birds recorded],NA
 64038006,-40.583333333333336,173.23333333333332,sooty shearwater,6
 64038006,-40.583333333333336,173.23333333333332,australasian gannet,50
 64038007,-40.53333333333333,173.23333333333332,sooty shearwater,1
@@ -29542,8 +29143,6 @@ record_id,lat,long,species,count
 64038031,-40.1,167.45,wandering albatross sensu lato pl2,2
 64038032,-40.1,167.3,wandering albatross sensu lato pl2,2
 64038033,-40.083333333333336,167.15,wandering albatross sensu lato pl2,1
-64038034,-40.06666666666667,167.06666666666666,[no birds recorded],NA
-64038035,-40.03333333333333,166.56666666666666,[no birds recorded],NA
 64038036,-40.03333333333333,166.4,wandering albatross sensu lato pl2,1
 64038036,-40.03333333333333,166.4,wandering albatross sensu lato pl3,1
 64038036,-40.03333333333333,166.4,wandering albatross sensu lato pl4,1
@@ -29650,7 +29249,6 @@ record_id,lat,long,species,count
 64038074,-39.516666666666666,156,wandering albatross sensu lato pl4,1
 64038075,-39.516666666666666,155.93333333333334,wandering albatross sensu lato pl1,1
 64038075,-39.516666666666666,155.93333333333334,wandering albatross sensu lato pl4,1
-64038076,-39.5,155.75,[no birds recorded],NA
 64038077,-39.5,155.63333333333333,wandering albatross sensu lato pl2,1
 64038077,-39.5,155.63333333333333,westland / white-chinned petrel,1
 64038078,-39.5,155.56666666666666,wandering albatross sensu lato pl2,2
@@ -29711,7 +29309,6 @@ record_id,lat,long,species,count
 64038095,-39.28333333333333,149.35,westland / white-chinned petrel,1
 64038095,-39.28333333333333,149.35,short-tailed shearwater,3
 64038096,-39.28333333333333,149.26666666666668,wandering albatross sensu lato pl3,1
-64038097,-39.266666666666666,149.18333333333334,[no birds recorded],NA
 64038098,-39.266666666666666,149.06666666666666,wandering albatross sensu lato pl3,1
 64038099,-39.25,148.98333333333332,wandering albatross sensu lato pl1,1
 64038099,-39.25,148.98333333333332,wandering albatross sensu lato pl2,1
@@ -29781,9 +29378,7 @@ record_id,lat,long,species,count
 64038116,-39.11666666666667,146.81666666666666,short-tailed shearwater,50
 65001001,-38.45,144.68333333333334,fluttering shearwater,1
 65001001,-38.45,144.68333333333334,australasian gannet ad,2
-65001002,-38.516666666666666,144.73333333333332,[no birds recorded],NA
 65001003,-38.583333333333336,144.8,crested tern,2
-65001004,-38.6,144.86666666666667,[no birds recorded],NA
 65001005,-38.63333333333333,144.91666666666666,short-tailed shearwater,30
 65001005,-38.63333333333333,144.91666666666666,fluttering shearwater,1
 65001006,-38.666666666666664,144.96666666666667,short-tailed shearwater,100
@@ -30534,8 +30129,6 @@ record_id,lat,long,species,count
 65007073,-36.916666666666664,159.13333333333333,grey-faced petrel,1
 65007073,-36.916666666666664,159.13333333333333,black petrel,1
 65007073,-36.916666666666664,159.13333333333333,black-winged petrel,1
-65007074,-36.88333333333333,159.08333333333334,[no birds recorded],NA
-65007075,-36.88333333333333,159.06666666666666,[no birds recorded],NA
 65007076,-36.88333333333333,159.03333333333333,wandering albatross sensu lato pl2,2
 65007076,-36.88333333333333,159.03333333333333,wandering albatross sensu lato pl4,1
 65007077,-36.916666666666664,158.91666666666666,wandering albatross sensu lato pl2,3
@@ -30704,8 +30297,6 @@ record_id,lat,long,species,count
 65007117,-38.333333333333336,150.58333333333334,wedge-tailed shearwater,1
 65007118,-38.86666666666667,147.58333333333334,short-tailed shearwater,3
 65007118,-38.86666666666667,147.58333333333334,pomarine skua,1
-65007119,-38.916666666666664,147.41666666666666,[no birds recorded],NA
-65007120,-38.93333333333333,147.31666666666666,[no birds recorded],NA
 65007121,-38.96666666666667,147.16666666666666,wandering albatross sensu lato pl2,1
 65007121,-38.96666666666667,147.16666666666666,short-tailed shearwater,58
 65007122,-39,147.1,wandering albatross sensu lato pl2,1
@@ -30714,7 +30305,6 @@ record_id,lat,long,species,count
 65007123,-39,147.03333333333333,short-tailed shearwater,50
 65007123,-39,147.03333333333333,australasian gannet ad,1
 65007124,-39.016666666666666,146.96666666666667,short-tailed shearwater,6
-65007125,-39.03333333333333,146.91666666666666,[no birds recorded],NA
 65007126,-39.06666666666667,146.78333333333333,black-faced cormorant,1
 65007127,-39.15,146.55,shy / white-capped / salvin's /  chatham mollymawk,1
 65007127,-39.15,146.55,short-tailed shearwater,100
@@ -31104,9 +30694,7 @@ record_id,lat,long,species,count
 65010024,-40.483333333333334,166.95,gould's petrel,1
 65010025,-40.483333333333334,166.86666666666667,grey-faced petrel,1
 65010025,-40.483333333333334,166.86666666666667,buller's shearwater,2
-65010026,-40.46666666666667,166.78333333333333,[no birds recorded],NA
 65010027,-40.46666666666667,166.7,kermadec petrel lght,1
-65010028,-40.46666666666667,166.63333333333333,[no birds recorded],NA
 65010029,-40.46666666666667,166.55,wandering albatross sensu lato pl2,1
 65010030,-40.46666666666667,166.48333333333332,wandering albatross sensu lato pl2,1
 65010030,-40.46666666666667,166.48333333333332,wandering albatross sensu lato pl3,1
@@ -31115,11 +30703,7 @@ record_id,lat,long,species,count
 65010031,-40.45,166.11666666666667,gould's petrel,1
 65010032,-40.43333333333333,165.95,wandering albatross sensu lato pl2,2
 65010032,-40.43333333333333,165.95,wandering albatross sensu lato pl3,1
-65010033,-40.4,165.6,[no birds recorded],NA
-65010034,-40.4,165.53333333333333,[no birds recorded],NA
-65010035,-40.4,165.45,[no birds recorded],NA
 65010036,-40.38333333333333,165.13333333333333,wandering albatross sensu lato pl3,1
-65010037,-40.36666666666667,165.06666666666666,[no birds recorded],NA
 65010038,-40.18333333333333,161.31666666666666,wandering albatross sensu lato pl3,1
 65010038,-40.18333333333333,161.31666666666666,australasian gannet ad,1
 65010039,-40.11666666666667,161.21666666666667,wandering albatross sensu lato pl3,1
@@ -31583,9 +31167,7 @@ record_id,lat,long,species,count
 65011087,-40.233333333333334,167.65,wandering albatross sensu lato pl4,1
 65011087,-40.233333333333334,167.65,buller's shearwater,1
 65011088,-40.38333333333333,172.08333333333334,buller's mollymawk,1
-65011089,-40.38333333333333,172.16666666666666,[no birds recorded],NA
 65011090,-40.4,172.45,australasian gannet ad,9
-65011091,-40.4,172.6,[no birds recorded],NA
 65011092,-40.4,172.7,shy / white-capped / salvin's /  chatham mollymawk,1
 65011092,-40.4,172.7,buller's shearwater,1
 65011092,-40.4,172.7,australasian gannet ad,11
@@ -31705,7 +31287,6 @@ record_id,lat,long,species,count
 65014013,-40.416666666666664,172.7,shy / white-capped / salvin's /  chatham mollymawk,1
 65014013,-40.416666666666664,172.7,westland petrel,4
 65014014,-40.416666666666664,172.53333333333333,westland petrel,2
-65014015,-40.416666666666664,172.45,[no birds recorded],NA
 65014016,-40.083333333333336,167.61666666666667,wandering albatross sensu lato pl1,1
 65014016,-40.083333333333336,167.61666666666667,wandering albatross sensu lato pl2,3
 65014016,-40.083333333333336,167.61666666666667,wandering albatross sensu lato pl3,1
@@ -31965,11 +31546,8 @@ record_id,lat,long,species,count
 65014066,-39.25,151.28333333333333,wandering albatross sensu lato pl3,1
 65014066,-39.25,151.28333333333333,black-browed albatross sensu lato ad,1
 65014066,-39.25,151.28333333333333,black-browed albatross sensu lato subad,1
-65014067,-39.25,151.21666666666667,[no birds recorded],NA
 65014068,-39.18333333333333,150.75,black-browed albatross sensu lato ad,1
 65014068,-39.18333333333333,150.75,shy / white-capped / salvin's /  chatham mollymawk,1
-65014069,-39.18333333333333,150.65,[no birds recorded],NA
-65014070,-39.18333333333333,150.56666666666666,[no birds recorded],NA
 65014071,-39.18333333333333,150.38333333333333,wandering albatross sensu lato pl2,2
 65014071,-39.18333333333333,150.38333333333333,wandering albatross sensu lato pl3,1
 65014071,-39.18333333333333,150.38333333333333,shy / white-capped / salvin's /  chatham mollymawk,1
@@ -32008,7 +31586,6 @@ record_id,lat,long,species,count
 65015002,-39.31666666666667,147.05,subantarctic skua,1
 65015003,-39.333333333333336,147.2,shy / white-capped / salvin's /  chatham mollymawk,2
 65015004,-39.333333333333336,147.28333333333333,shy / white-capped / salvin's /  chatham mollymawk,1
-65015005,-39.333333333333336,147.36666666666667,[no birds recorded],NA
 65015006,-39.333333333333336,147.45,black-browed albatross sensu lato ad,2
 65015006,-39.333333333333336,147.45,shy / white-capped / salvin's /  chatham mollymawk,3
 65015007,-39.333333333333336,147.53333333333333,black-browed albatross sensu lato ad,3
@@ -32347,7 +31924,6 @@ record_id,lat,long,species,count
 67002005,-34.31666666666667,172.58333333333334,buller's shearwater,1
 67002005,-34.31666666666667,172.58333333333334,australasian gannet ad,2
 67002006,-34.31666666666667,172.46666666666667,australasian gannet ad,1
-67002007,-34.31666666666667,172.36666666666667,[no birds recorded],NA
 67002008,-34.31666666666667,172.28333333333333,australasian gannet ad,1
 67002009,-34.31666666666667,172.18333333333334,black-browed albatross sensu lato ad,1
 67002009,-34.31666666666667,172.18333333333334,grey-faced petrel,1
@@ -32396,32 +31972,24 @@ record_id,lat,long,species,count
 67002030,-34.13333333333333,168.95,short-tailed shearwater,200
 67002031,-33.9,163.11666666666667,white-headed petrel,2
 67002031,-33.9,163.11666666666667,red-tailed tropicbird ad,NA
-67002032,-33.88333333333333,162.85,[no birds recorded],NA
 67002033,-33.88333333333333,162.73333333333332,gould's petrel,4
 67002034,-33.88333333333333,162.65,black-winged petrel,1
-67002035,-33.88333333333333,162.53333333333333,[no birds recorded],NA
 67002036,-33.86666666666667,162.43333333333334,wandering albatross sensu lato pl2,1
 67002036,-33.86666666666667,162.43333333333334,white-headed petrel,1
-67002037,-33.86666666666667,162.33333333333334,[no birds recorded],NA
 67002038,-33.86666666666667,162.23333333333332,black-winged petrel,1
 67002039,-33.86666666666667,162.13333333333333,kermadec petrel,1
 67002040,-33.86666666666667,162.05,white-headed petrel,3
 67002041,-33.86666666666667,161.66666666666666,grey-faced petrel,1
 67002041,-33.86666666666667,161.66666666666666,white-headed petrel,1
 67002041,-33.86666666666667,161.66666666666666,gould's petrel,1
-67002042,-33.86666666666667,161.56666666666666,[no birds recorded],NA
-67002043,-33.86666666666667,161.46666666666667,[no birds recorded],NA
 67002044,-33.86666666666667,161.28333333333333,white-headed petrel,1
 67002044,-33.86666666666667,161.28333333333333,gould's petrel,1
 67002045,-33.85,160.88333333333333,gould's petrel,3
 67002045,-33.85,160.88333333333333,stejneger's petrel,1
 67002046,-33.85,160.76666666666668,gould's petrel,1
-67002047,-33.85,160.58333333333334,[no birds recorded],NA
-67002048,-33.85,160.48333333333332,[no birds recorded],NA
 67002049,-33.85,160.38333333333333,white-headed petrel,1
 67002050,-33.85,160.26666666666668,grey-faced petrel,1
 67002050,-33.85,160.26666666666668,red-tailed tropicbird ad,1
-67002051,-33.85,160.16666666666666,[no birds recorded],NA
 67002052,-33.85,160.06666666666666,gould's petrel,1
 67002053,-33.85,159.86666666666667,wandering albatross sensu lato pl2,1
 67002053,-33.85,159.86666666666667,red-tailed tropicbird ad,1
@@ -32430,8 +31998,6 @@ record_id,lat,long,species,count
 67002054,-33.85,159.65,gould's petrel,2
 67002055,-33.833333333333336,159.55,white-headed petrel,1
 67002056,-33.833333333333336,159.35,gould's petrel,2
-67002057,-33.81666666666667,159.05,[no birds recorded],NA
-67002058,-33.81666666666667,158.98333333333332,[no birds recorded],NA
 67002059,-33.766666666666666,153.13333333333333,short-tailed shearwater,5
 67002060,-33.78333333333333,152.91666666666666,wedge-tailed shearwater,NA
 67002060,-33.78333333333333,152.91666666666666,short-tailed shearwater,8
@@ -32466,7 +32032,6 @@ record_id,lat,long,species,count
 67003004,-34.18333333333333,151.35,yellow-nosed mollymawk sensu lato ad,1
 67003005,-34.3,151.33333333333334,australasian gannet ad,1
 67003005,-34.3,151.33333333333334,red-billed gull,1
-67003006,-34.4,151.23333333333332,[no birds recorded],NA
 67003007,-34.483333333333334,151.18333333333334,yellow-nosed mollymawk sensu lato,2
 67003008,-34.56666666666667,151.15,yellow-nosed mollymawk sensu lato,1
 67003008,-34.56666666666667,151.15,wedge-tailed shearwater,1
@@ -32492,9 +32057,6 @@ record_id,lat,long,species,count
 67003020,-36.18333333333333,150.53333333333333,short-tailed shearwater,7
 67003021,-36.266666666666666,150.5,black-browed albatross sensu lato ad,1
 67003021,-36.266666666666666,150.5,short-tailed shearwater,4
-67003022,-36.31666666666667,150.65,[no birds recorded],NA
-67003023,-39,149.95,[no birds recorded],NA
-67003024,-38.916666666666664,149.7,[no birds recorded],NA
 67003025,-38.833333333333336,149.53333333333333,short-tailed shearwater,200
 67003026,-38.81666666666667,149.46666666666667,black-browed albatross sensu lato ad,1
 67003026,-38.81666666666667,149.46666666666667,shy / white-capped / salvin's /  chatham mollymawk,1
@@ -32547,23 +32109,14 @@ record_id,lat,long,species,count
 67004015,-39.4,149.01666666666668,wandering albatross sensu lato pl3,1
 67004015,-39.4,149.01666666666668,shy / white-capped / salvin's /  chatham mollymawk,1
 67004015,-39.4,149.01666666666668,prion (unidentified),1
-67004016,-39.416666666666664,149.46666666666667,[no birds recorded],NA
 67004017,-39.416666666666664,149.55,wandering albatross sensu lato pl2,1
 67004017,-39.416666666666664,149.55,wandering albatross sensu lato pl3,1
 67004017,-39.416666666666664,149.55,yellow-nosed mollymawk sensu lato,1
 67004018,-39.416666666666664,149.66666666666666,wandering albatross sensu lato pl3,1
 67004018,-39.416666666666664,149.66666666666666,black-browed albatross sensu lato ad,1
-67004019,-39.43333333333333,149.78333333333333,[no birds recorded],NA
 67004020,-39.43333333333333,149.88333333333333,shy / white-capped / salvin's /  chatham mollymawk,1
 67004021,-39.43333333333333,150.1,wandering albatross sensu lato pl2,1
-67004022,-39.43333333333333,150.18333333333334,[no birds recorded],NA
-67004023,-39.43333333333333,150.5,[no birds recorded],NA
-67004024,-39.45,150.6,[no birds recorded],NA
-67004025,-39.5,150.73333333333332,[no birds recorded],NA
-67004026,-39.5,150.85,[no birds recorded],NA
-67004027,-39.5,150.95,[no birds recorded],NA
 67004028,-39.516666666666666,151.08333333333334,short-tailed shearwater,1
-67004029,-39.53333333333333,151.15,[no birds recorded],NA
 67004030,-39.766666666666666,156.96666666666667,wandering albatross sensu lato pl3,1
 67004031,-39.766666666666666,157.18333333333334,wandering albatross sensu lato pl3,1
 67004032,-39.766666666666666,157.28333333333333,wandering albatross sensu lato pl3,1
@@ -32798,19 +32351,12 @@ record_id,lat,long,species,count
 67006011,-34.28333333333333,171.28333333333333,grey-faced petrel,2
 67006011,-34.28333333333333,171.28333333333333,prion (unidentified),2
 67006011,-34.28333333333333,171.28333333333333,buller's shearwater,2
-67006012,-34.266666666666666,170.98333333333332,[no birds recorded],NA
-67006013,-34.266666666666666,170.9,[no birds recorded],NA
 67006014,-34.25,170.78333333333333,cape petrel,1
 67006014,-34.25,170.78333333333333,grey-faced petrel,1
 67006015,-34.25,170.71666666666667,cape petrel,1
 67006016,-34.233333333333334,170.41666666666666,wandering albatross sensu lato pl2,1
 67006016,-34.233333333333334,170.41666666666666,wandering albatross sensu lato pl3,1
 67006016,-34.233333333333334,170.41666666666666,grey-faced petrel,1
-67006017,-34.21666666666667,170.01666666666668,[no birds recorded],NA
-67006018,-34.21666666666667,169.95,[no birds recorded],NA
-67006019,-34.21666666666667,169.86666666666667,[no birds recorded],NA
-67006020,-34.2,169.76666666666668,[no birds recorded],NA
-67006021,-34.2,169.68333333333334,[no birds recorded],NA
 67006022,-34.2,169.6,wandering albatross sensu lato pl2,1
 67006022,-34.2,169.6,wandering albatross sensu lato pl3,1
 67006023,-34.18333333333333,169.51666666666668,wandering albatross sensu lato pl2,1
@@ -32818,7 +32364,6 @@ record_id,lat,long,species,count
 67006024,-34.18333333333333,169.45,wandering albatross sensu lato pl2,1
 67006024,-34.18333333333333,169.45,wandering albatross sensu lato pl3,1
 67006024,-34.18333333333333,169.45,grey-faced petrel,2
-67006025,-34.18333333333333,169.35,[no birds recorded],NA
 67006026,-34.18333333333333,169.15,wandering albatross sensu lato pl2,1
 67006026,-34.18333333333333,169.15,wandering albatross sensu lato pl3,1
 67006026,-34.18333333333333,169.15,grey-faced petrel,1
@@ -32830,11 +32375,7 @@ record_id,lat,long,species,count
 67006029,-34.15,168.41666666666666,wandering albatross sensu lato pl2,1
 67006029,-34.15,168.41666666666666,wandering albatross sensu lato pl3,1
 67006030,-34.03333333333333,163.15,white-headed petrel,2
-67006031,-34.03333333333333,162.86666666666667,[no birds recorded],NA
 67006032,-34.03333333333333,162.75,prion (unidentified),11
-67006033,-34.03333333333333,162.68333333333334,[no birds recorded],NA
-67006034,-34.03333333333333,162.58333333333334,[no birds recorded],NA
-67006035,-34.03333333333333,162.48333333333332,[no birds recorded],NA
 67006036,-34.03333333333333,162.41666666666666,wandering albatross sensu lato pl2,2
 67006036,-34.03333333333333,162.41666666666666,wandering albatross sensu lato pl3,1
 67006036,-34.03333333333333,162.41666666666666,white-headed petrel,2
@@ -32889,7 +32430,6 @@ record_id,lat,long,species,count
 67006054,-33.96666666666667,160.33333333333334,wandering albatross sensu lato pl3,1
 67006054,-33.96666666666667,160.33333333333334,grey-faced petrel,1
 67006054,-33.96666666666667,160.33333333333334,white-headed petrel,2
-67006055,-33.96666666666667,160.26666666666668,[no birds recorded],NA
 67006056,-33.95,160.2,wandering albatross sensu lato pl3,1
 67006057,-33.95,159.95,wandering albatross sensu lato pl2,1
 67006057,-33.95,159.95,wandering albatross sensu lato pl3,1
@@ -32918,18 +32458,7 @@ record_id,lat,long,species,count
 67006064,-33.88333333333333,154.76666666666668,providence petrel,1
 67006065,-33.81666666666667,154.61666666666667,providence petrel,1
 67006066,-33.78333333333333,154.33333333333334,providence petrel,3
-67006067,-33.78333333333333,154.25,[no birds recorded],NA
-67006068,-33.766666666666666,154.06666666666666,[no birds recorded],NA
-67006069,-33.8,153.66666666666666,[no birds recorded],NA
-67006070,-33.8,153.55,[no birds recorded],NA
 67006071,-33.8,153.46666666666667,grey-faced petrel,1
-67006072,-33.8,153.38333333333333,[no birds recorded],NA
-67006073,-33.8,153.28333333333333,[no birds recorded],NA
-67006074,-33.8,153.2,[no birds recorded],NA
-67006075,-33.81666666666667,153.13333333333333,[no birds recorded],NA
-67006076,-33.81666666666667,152.96666666666667,[no birds recorded],NA
-67006077,-33.81666666666667,152.85,[no birds recorded],NA
-67006078,-33.81666666666667,152.7,[no birds recorded],NA
 67006079,-33.81666666666667,152.6,grey-faced petrel,1
 67006080,-34.266666666666666,151.73333333333332,black-browed albatross sensu lato subad,1
 67006080,-34.266666666666666,151.73333333333332,short-tailed shearwater,8
@@ -32963,17 +32492,14 @@ record_id,lat,long,species,count
 67006093,-34.583333333333336,151.83333333333334,providence petrel,1
 67006094,-34.6,151.85,wandering albatross sensu lato pl3,1
 67006095,-34.61666666666667,151.85,wandering albatross sensu lato pl3,1
-67006096,-34.68333333333333,151.85,[no birds recorded],NA
 67006097,-34.7,151.83333333333334,wandering albatross sensu lato pl3,1
 67006097,-34.7,151.83333333333334,providence petrel,1
 67006098,-34.7,151.83333333333334,wandering albatross sensu lato pl3,1
 67006098,-34.7,151.83333333333334,grey-faced petrel,1
 67006099,-34.71666666666667,151.85,wandering albatross sensu lato pl3,1
 67006099,-34.71666666666667,151.85,providence petrel,1
-67007001,-34.96666666666667,150.98333333333332,[no birds recorded],NA
 67007002,-35.03333333333333,150.96666666666667,subantarctic skua,2
 67007003,-35.18333333333333,150.91666666666666,subantarctic skua,2
-67007004,-35.28333333333333,150.88333333333333,[no birds recorded],NA
 67007005,-35.333333333333336,150.85,wandering albatross sensu lato pl2,1
 67007005,-35.333333333333336,150.85,black-browed albatross sensu lato ad,2
 67007005,-35.333333333333336,150.85,shy / white-capped / salvin's /  chatham mollymawk,2
@@ -32981,13 +32507,9 @@ record_id,lat,long,species,count
 67007005,-35.333333333333336,150.85,subantarctic skua,1
 67007006,-35.4,150.81666666666666,black-browed albatross sensu lato ad,1
 67007007,-35.483333333333334,150.78333333333333,shy / white-capped / salvin's /  chatham mollymawk,1
-67007008,-35.56666666666667,150.76666666666668,[no birds recorded],NA
 67007009,-35.63333333333333,150.73333333333332,black-browed albatross sensu lato ad,2
 67007010,-35.71666666666667,150.71666666666667,prion (unidentified),1
 67007011,-35.85,150.66666666666666,shy / white-capped / salvin's /  chatham mollymawk,3
-67007012,-35.96666666666667,150.61666666666667,[no birds recorded],NA
-67007013,-36.03333333333333,150.6,[no birds recorded],NA
-67007014,-36.1,150.58333333333334,[no birds recorded],NA
 67007015,-36.18333333333333,150.55,shy / white-capped / salvin's /  chatham mollymawk,2
 67007015,-36.18333333333333,150.55,yellow-nosed mollymawk sensu lato ad,1
 67007015,-36.18333333333333,150.55,white-fronted tern ad,1
@@ -33129,8 +32651,6 @@ record_id,lat,long,species,count
 67008021,-39.35,148.08333333333334,australasian gannet ad,2
 67008022,-39.35,148.31666666666666,shy / white-capped / salvin's /  chatham mollymawk,6
 67008022,-39.35,148.31666666666666,giant petrel sensu lato,4
-67008023,-39.56666666666667,154.68333333333334,[no birds recorded],NA
-67008024,-39.56666666666667,154.76666666666668,[no birds recorded],NA
 67008025,-39.56666666666667,154.86666666666667,wandering albatross sensu lato pl3,1
 67008025,-39.56666666666667,154.86666666666667,wandering albatross sensu lato pl4,1
 67008025,-39.56666666666667,154.86666666666667,prion (unidentified),6
@@ -35753,17 +35273,11 @@ record_id,lat,long,species,count
 84004008,-36.483333333333334,173.16666666666666,buller's shearwater,1
 84004008,-36.483333333333334,173.16666666666666,black-winged petrel,2
 84004009,-36.36666666666667,173.13333333333333,grey-faced petrel,2
-84004010,-35.833333333333336,172.91666666666666,[no birds recorded],NA
 84004011,-35.7,172.85,buller's mollymawk,1
 84004011,-35.7,172.85,black-winged petrel,1
-84004012,-35.56666666666667,172.81666666666666,[no birds recorded],NA
 84004013,-35.5,172.8,grey-faced petrel,1
 84004014,-35.43333333333333,172.75,flesh-footed shearwater,2
 84004014,-35.43333333333333,172.75,buller's shearwater,1
-84004015,-35.333333333333336,172.71666666666667,[no birds recorded],NA
-84004016,-35.28333333333333,172.7,[no birds recorded],NA
-84004017,-35.21666666666667,172.66666666666666,[no birds recorded],NA
-84004018,-35.016666666666666,172.58333333333334,[no birds recorded],NA
 84004019,-34.95,172.55,buller's shearwater,3
 84004020,-34.86666666666667,172.53333333333333,buller's shearwater,1
 84004020,-34.86666666666667,172.53333333333333,australasian gannet ad,1
@@ -35850,7 +35364,6 @@ record_id,lat,long,species,count
 84007001,-37.583333333333336,176.18333333333334,southern black-backed gull ad,2
 84007001,-37.583333333333336,176.18333333333334,southern black-backed gull imm,8
 84007002,-37.516666666666666,176.38333333333333,australasian gannet ad,20
-84007003,-37.5,176.46666666666667,[no birds recorded],NA
 84007004,-37.483333333333334,176.56666666666666,flesh-footed shearwater,1
 84007004,-37.483333333333334,176.56666666666666,buller's shearwater,6
 84007005,-37.483333333333334,176.63333333333333,flesh-footed shearwater,1
@@ -36477,8 +35990,6 @@ record_id,lat,long,species,count
 84012043,-43.516666666666666,172.95,spotted shag,4
 84013001,-40.96666666666667,174.48333333333332,giant petrel sensu lato,2
 84013001,-40.96666666666667,174.48333333333332,southern black-backed gull subad,1
-84013002,-40.833333333333336,174.43333333333334,[no birds recorded],NA
-84013003,-40.78333333333333,174.4,[no birds recorded],NA
 84013004,-40.71666666666667,174.35,shy / white-capped / salvin's /  chatham mollymawk,1
 84013005,-40.6,174.25,giant petrel sensu lato,1
 84013006,-40.53333333333333,174.25,shy / white-capped / salvin's /  chatham mollymawk,1
@@ -36488,7 +35999,6 @@ record_id,lat,long,species,count
 84013009,-40.3,174.13333333333333,giant petrel sensu lato,3
 84013010,-40.25,174.1,giant petrel sensu lato,3
 84013010,-40.25,174.1,prion (unidentified),3
-84013011,-40.18333333333333,174.06666666666666,[no birds recorded],NA
 84013012,-40.13333333333333,174.03333333333333,giant petrel sensu lato,1
 84013013,-40,173.96666666666667,shy / white-capped / salvin's /  chatham mollymawk,1
 84013013,-40,173.96666666666667,giant petrel sensu lato,1
@@ -36513,13 +36023,8 @@ record_id,lat,long,species,count
 84014001,-38.95,174.01666666666668,southern black-backed gull ad,3
 84014001,-38.95,174.01666666666668,southern black-backed gull imm,4
 84014001,-38.95,174.01666666666668,southern black-backed gull subad,3
-84014002,-38.81666666666667,173.96666666666667,[no birds recorded],NA
 84014003,-38.75,173.91666666666666,australasian gannet ad,2
-84014004,-38.7,173.91666666666666,[no birds recorded],NA
-84014005,-38.63333333333333,173.9,[no birds recorded],NA
 84014006,-38.583333333333336,173.86666666666667,buller's shearwater,1
-84014007,-38.53333333333333,173.85,[no birds recorded],NA
-84014008,-38.333333333333336,173.78333333333333,[no birds recorded],NA
 84014009,-38.266666666666666,173.75,australasian gannet ad,7
 84014010,-38.21666666666667,173.73333333333332,buller's shearwater,1
 84014010,-38.21666666666667,173.73333333333332,australasian gannet ad,7
@@ -36543,12 +36048,9 @@ record_id,lat,long,species,count
 84014017,-37.28333333333333,173.38333333333333,grey-faced petrel,3
 84014017,-37.28333333333333,173.38333333333333,black-winged petrel,3
 84014018,-37.233333333333334,173.36666666666667,buller's shearwater,1
-84014019,-37.11666666666667,173.33333333333334,[no birds recorded],NA
 84014020,-37.06666666666667,173.31666666666666,grey-faced petrel,2
 84014020,-37.06666666666667,173.31666666666666,buller's shearwater,1
 84014021,-37.016666666666666,173.3,grey-faced petrel,2
-84014022,-36.95,173.28333333333333,[no birds recorded],NA
-84014023,-36.766666666666666,173.21666666666667,[no birds recorded],NA
 84014024,-36.53333333333333,173.13333333333333,grey-faced petrel,1
 84014025,-35.016666666666666,174.2,flesh-footed shearwater,3
 84014025,-35.016666666666666,174.2,buller's shearwater,12
@@ -36625,7 +36127,6 @@ record_id,lat,long,species,count
 84015012,-36.68333333333333,176.33333333333334,flesh-footed shearwater,4
 84015012,-36.68333333333333,176.33333333333334,buller's shearwater,1
 84015012,-36.68333333333333,176.33333333333334,cook's petrel,1
-84015013,-36.833333333333336,176.68333333333334,[no birds recorded],NA
 84015014,-36.86666666666667,176.75,grey-faced petrel,3
 84015014,-36.86666666666667,176.75,flesh-footed shearwater,1
 84015015,-36.916666666666664,176.88333333333333,grey-faced petrel,4
@@ -37101,13 +36602,10 @@ record_id,lat,long,species,count
 84021016,-44.516666666666666,172.25,buller's shearwater,1
 84021017,-44.46666666666667,172.3,cape petrel,3
 84022001,-37.46666666666667,177.76666666666668,black-browed albatross sensu lato ad,1
-84022002,-37.45,177.43333333333334,[no birds recorded],NA
-84022003,-37.46666666666667,177.26666666666668,[no birds recorded],NA
 84022004,-37.43333333333333,177.11666666666667,black-browed albatross sensu lato subad,1
 84022004,-37.43333333333333,177.11666666666667,grey-faced petrel,1
 84022004,-37.43333333333333,177.11666666666667,little shearwater,1
 84022005,-37.46666666666667,176.78333333333333,wandering albatross sensu lato pl1,1
-84022006,-37.483333333333334,176.61666666666667,[no birds recorded],NA
 84025001,-37.05,176.28333333333333,black-browed albatross sensu lato subad,1
 84025001,-37.05,176.28333333333333,grey-faced petrel,6
 84025001,-37.05,176.28333333333333,prion (unidentified),1
@@ -37255,7 +36753,6 @@ record_id,lat,long,species,count
 84027006,-34.983333333333334,172.53333333333333,prion (unidentified),5
 84027007,-34.93333333333333,172.51666666666668,prion (unidentified),4
 84027007,-34.93333333333333,172.51666666666668,white-fronted tern,2
-84027008,-34.86666666666667,172.5,[no birds recorded],NA
 84027009,-34.8,172.46666666666667,shy / white-capped / salvin's /  chatham mollymawk,1
 84027009,-34.8,172.46666666666667,prion (unidentified),100
 84027009,-34.8,172.46666666666667,australasian gannet ad,7
@@ -37676,7 +37173,6 @@ record_id,lat,long,species,count
 84029012,-46.666666666666664,168.53333333333333,southern black-backed gull subad,3
 84029013,-46.666666666666664,168.53333333333333,southern black-backed gull ad,20
 84029013,-46.666666666666664,168.53333333333333,southern black-backed gull subad,20
-84030001,-46.7,168.41666666666666,[no birds recorded],NA
 84030002,-46.7,168.5,southern black-backed gull ad,4
 84030002,-46.7,168.5,southern black-backed gull subad,1
 84030002,-46.7,168.5,stewart island shag,1
@@ -38248,9 +37744,6 @@ record_id,lat,long,species,count
 84033019,-40.95,176.36666666666667,cape petrel,2
 84033019,-40.95,176.36666666666667,prion (unidentified),6
 84033019,-40.95,176.36666666666667,southern black-backed gull ad,2
-84034001,-39.63333333333333,173.11666666666667,[no birds recorded],NA
-84034002,-39.516666666666666,173.1,[no birds recorded],NA
-84034003,-39.38333333333333,173.08333333333334,[no birds recorded],NA
 84034004,-39.333333333333336,173.08333333333334,cape petrel,2
 84034004,-39.333333333333336,173.08333333333334,prion (unidentified),1
 84034005,-39.266666666666666,173.06666666666666,prion (unidentified),2
@@ -38319,7 +37812,6 @@ record_id,lat,long,species,count
 84034022,-34.61666666666667,173.55,australasian gannet ad,1
 84034023,-34.666666666666664,173.61666666666667,black-browed albatross sensu lato ad,1
 84034023,-34.666666666666664,173.61666666666667,cape petrel,2
-84034024,-34.7,173.68333333333334,[no birds recorded],NA
 84034025,-34.733333333333334,173.73333333333332,giant petrel sensu lato,1
 84034025,-34.733333333333334,173.73333333333332,grey-faced petrel,4
 84034025,-34.733333333333334,173.73333333333332,australasian gannet ad,3
@@ -38330,11 +37822,9 @@ record_id,lat,long,species,count
 84034028,-34.833333333333336,173.93333333333334,black-browed albatross sensu lato ad,1
 84034028,-34.833333333333336,173.93333333333334,black-browed albatross sensu lato subad,1
 84034028,-34.833333333333336,173.93333333333334,southern black-backed gull ad,1
-84034029,-34.9,174.05,[no birds recorded],NA
 84034030,-34.983333333333334,174.16666666666666,yellow-nosed mollymawk sensu lato,1
 84034030,-34.983333333333334,174.16666666666666,prion (unidentified),2
 84034030,-34.983333333333334,174.16666666666666,australasian gannet ad,1
-84034031,-35.016666666666666,174.05,[no birds recorded],NA
 84034032,-35.05,174.28333333333333,yellow-nosed mollymawk sensu lato,1
 84034033,-35.083333333333336,174.33333333333334,little shearwater,1
 84034034,-35.11666666666667,174.38333333333333,black-browed albatross sensu lato subad,2
@@ -38702,7 +38192,6 @@ record_id,lat,long,species,count
 85006032,-37.416666666666664,177.65,grey-faced petrel,2
 85006032,-37.416666666666664,177.65,buller's shearwater,1
 85006032,-37.416666666666664,177.65,black-winged petrel,1
-85006033,-37.416666666666664,177.56666666666666,[no birds recorded],NA
 85006034,-37.416666666666664,177.51666666666668,grey-faced petrel,4
 85006034,-37.416666666666664,177.51666666666668,flesh-footed shearwater,1
 85006035,-37.416666666666664,177.33333333333334,giant petrel sensu lato,1
@@ -39148,7 +38637,6 @@ record_id,lat,long,species,count
 85017008,-37.68333333333333,174.18333333333334,buller's shearwater,1
 85017008,-37.68333333333333,174.18333333333334,australasian gannet ad,2
 85017009,-37.8,174.11666666666667,australasian gannet ad,1
-85017010,-37.9,174.06666666666666,[no birds recorded],NA
 85017011,-38.11666666666667,174.03333333333333,cape petrel,1
 85017011,-38.11666666666667,174.03333333333333,grey-faced petrel,1
 85017012,-38.18333333333333,174.01666666666668,giant petrel sensu lato,1
@@ -39487,17 +38975,12 @@ record_id,lat,long,species,count
 85022004,-38.63333333333333,173.9,australasian gannet ad,1
 85022005,-38.56666666666667,173.86666666666667,giant petrel sensu lato,1
 85022005,-38.56666666666667,173.86666666666667,prion (unidentified),20
-85022006,-38.266666666666666,173.8,[no birds recorded],NA
-85022007,-38.13333333333333,173.73333333333332,[no birds recorded],NA
 85022008,-38.016666666666666,173.71666666666667,prion (unidentified),1
-85022009,-37.95,173.66666666666666,[no birds recorded],NA
 85022010,-37.88333333333333,173.65,wandering albatross sensu lato pl1,1
 85022011,-37.46666666666667,173.5,wandering albatross sensu lato pl1,1
 85022011,-37.46666666666667,173.5,wandering albatross sensu lato pl2,1
 85022011,-37.46666666666667,173.5,arctic skua,1
 85022012,-37.4,173.46666666666667,wandering albatross sensu lato pl2,1
-85022013,-37.15,173.38333333333333,[no birds recorded],NA
-85022014,-37.03333333333333,173.35,[no birds recorded],NA
 85022015,-34.35,172.66666666666666,giant petrel sensu lato,1
 85022015,-34.35,172.66666666666666,australasian gannet ad,12
 85022016,-34.35,172.86666666666667,giant petrel sensu lato,1
@@ -39645,8 +39128,6 @@ record_id,lat,long,species,count
 85023019,-35.56666666666667,174.61666666666667,prion (unidentified),200
 85023019,-35.56666666666667,174.61666666666667,black petrel,2
 85023019,-35.56666666666667,174.61666666666667,australasian gannet ad,50
-85023020,-34.96666666666667,172.58333333333334,[no birds recorded],NA
-85023021,-35.06666666666667,172.6,[no birds recorded],NA
 85023022,-35.11666666666667,172.63333333333333,wandering albatross sensu lato pl2,1
 85023023,-35.166666666666664,172.65,grey-faced petrel,1
 85023023,-35.166666666666664,172.65,little shearwater,2
@@ -39716,14 +39197,10 @@ record_id,lat,long,species,count
 85024007,-38.53333333333333,173.78333333333333,giant petrel sensu lato,1
 85024007,-38.53333333333333,173.78333333333333,westland petrel,2
 85024007,-38.53333333333333,173.78333333333333,australasian gannet ad,2
-85024008,-38.25,173.66666666666666,[no birds recorded],NA
-85024009,-38.18333333333333,173.65,[no birds recorded],NA
-85024010,-38.11666666666667,173.63333333333333,[no birds recorded],NA
 85024011,-38.06666666666667,173.6,wandering albatross sensu lato pl1,1
 85024011,-38.06666666666667,173.6,wandering albatross sensu lato pl2,1
 85024012,-37.88333333333333,173.53333333333333,wandering albatross sensu lato pl2,1
 85024013,-37.81666666666667,173.5,wandering albatross sensu lato pl2,1
-85024014,-37.766666666666666,173.46666666666667,[no birds recorded],NA
 85024015,-37.6,173.4,wandering albatross sensu lato pl2,1
 85024016,-37.55,173.38333333333333,wandering albatross sensu lato pl2,1
 85024017,-37.483333333333334,173.35,wandering albatross sensu lato pl1,2
@@ -39820,31 +39297,20 @@ record_id,lat,long,species,count
 85025004,-35.233333333333334,174.43333333333334,buller's shearwater,200
 85025004,-35.233333333333334,174.43333333333334,australasian gannet ad,1
 85025005,-35.25,172.68333333333334,flesh-footed shearwater,1
-85025006,-35.43333333333333,172.7,[no birds recorded],NA
 85025007,-35.516666666666666,172.75,black petrel,1
 85025007,-35.516666666666666,172.75,sooty shearwater,2
 85025007,-35.516666666666666,172.75,australasian gannet ad,1
-85025008,-35.61666666666667,172.78333333333333,[no birds recorded],NA
 85025009,-35.733333333333334,172.83333333333334,black petrel,1
 85025009,-35.733333333333334,172.83333333333334,buller's shearwater,4
 85025009,-35.733333333333334,172.83333333333334,little shearwater,2
-85025010,-35.78333333333333,172.86666666666667,[no birds recorded],NA
-85025011,-35.96666666666667,172.93333333333334,[no birds recorded],NA
 85025012,-36.03333333333333,172.95,buller's shearwater,1
-85025013,-36.083333333333336,172.96666666666667,[no birds recorded],NA
-85025014,-36.13333333333333,172.98333333333332,[no birds recorded],NA
 85025015,-36.2,173.01666666666668,buller's shearwater,1
-85025016,-36.31666666666667,173.05,[no birds recorded],NA
 85025017,-36.63333333333333,173.18333333333334,buller's shearwater,1
 85025017,-36.63333333333333,173.18333333333334,australasian gannet ad,1
-85025018,-36.68333333333333,173.2,[no birds recorded],NA
 85025019,-36.75,173.21666666666667,australasian gannet ad,1
 85025020,-36.96666666666667,173.26666666666668,buller's shearwater,1
 85025021,-37.03333333333333,173.31666666666666,buller's shearwater,1
 85025021,-37.03333333333333,173.31666666666666,cook's petrel,1
-85025022,-37.083333333333336,173.33333333333334,[no birds recorded],NA
-85025023,-37.21666666666667,173.36666666666667,[no birds recorded],NA
-85025024,-37.266666666666666,173.38333333333333,[no birds recorded],NA
 85025025,-38.13333333333333,173.55,wandering albatross sensu lato pl2,1
 85025025,-38.13333333333333,173.55,flesh-footed shearwater,3
 85025025,-38.13333333333333,173.55,buller's shearwater,9
@@ -40077,8 +39543,6 @@ record_id,lat,long,species,count
 85029006,-35.166666666666664,174.41666666666666,australasian gannet,2
 85029007,-35.11666666666667,174.4,australasian gannet ad,1
 85029008,-35.083333333333336,174.31666666666666,prion (unidentified),2
-85029009,-35.05,174.26666666666668,[no birds recorded],NA
-85029010,-35,174.2,[no birds recorded],NA
 85029011,-34.85,173.93333333333334,black petrel,2
 85029011,-34.85,173.93333333333334,flesh-footed shearwater,1
 85029012,-34.8,173.86666666666667,black-browed albatross sensu lato ad,1
@@ -40105,8 +39569,6 @@ record_id,lat,long,species,count
 85029019,-37.2,172.75,buller's shearwater,12
 85029020,-37.35,172.78333333333333,buller's shearwater,4
 85029021,-37.53333333333333,172.8,prion (unidentified),1
-85029022,-37.583333333333336,172.8,[no birds recorded],NA
-85029023,-37.666666666666664,172.81666666666666,[no birds recorded],NA
 85029024,-37.733333333333334,172.81666666666666,westland petrel,1
 85029024,-37.733333333333334,172.81666666666666,buller's shearwater,2
 85029025,-38.11666666666667,172.86666666666667,westland petrel,3
@@ -40117,13 +39579,7 @@ record_id,lat,long,species,count
 85029029,-38.65,172.96666666666667,australasian gannet ad,1
 85029030,-38.71666666666667,172.98333333333332,shy / white-capped / salvin's /  chatham mollymawk,1
 85029031,-38.78333333333333,173,shy / white-capped / salvin's /  chatham mollymawk,1
-85029032,-38.85,173,[no birds recorded],NA
-85029033,-38.916666666666664,173.01666666666668,[no birds recorded],NA
 85029034,-38.983333333333334,173.01666666666668,australasian gannet ad,2
-85029035,-39.28333333333333,173.08333333333334,[no birds recorded],NA
-85029036,-39.333333333333336,174.08333333333334,[no birds recorded],NA
-85029037,-39.416666666666664,173.1,[no birds recorded],NA
-85029038,-39.483333333333334,173.11666666666667,[no birds recorded],NA
 85029039,-40.05,173.16666666666666,wandering albatross sensu lato pl1,1
 85029039,-40.05,173.16666666666666,giant petrel sensu lato,1
 85029039,-40.05,173.16666666666666,sooty shearwater,1
@@ -40131,26 +39587,17 @@ record_id,lat,long,species,count
 85029040,-40.11666666666667,173.16666666666666,giant petrel sensu lato,2
 85029040,-40.11666666666667,173.16666666666666,prion (unidentified),1
 85029040,-40.11666666666667,173.16666666666666,buller's shearwater,1
-85029041,-40.3,173.2,[no birds recorded],NA
 85029042,-40.43333333333333,173.25,shy / white-capped / salvin's /  chatham mollymawk,1
 85029042,-40.43333333333333,173.25,prion (unidentified),12
 85029042,-40.43333333333333,173.25,australasian gannet ad,3
 85030001,-37.05,173.3,black petrel,1
 85030001,-37.05,173.3,sooty shearwater,1
-85030002,-36.983333333333334,173.28333333333333,[no birds recorded],NA
-85030003,-36.916666666666664,173.28333333333333,[no birds recorded],NA
-85030004,-36.61666666666667,173.15,[no birds recorded],NA
 85030005,-36.36666666666667,173.05,grey-faced petrel,1
-85030006,-36.21666666666667,173.01666666666668,[no birds recorded],NA
-85030007,-36.18333333333333,173.01666666666668,[no birds recorded],NA
-85030008,-36.13333333333333,172.98333333333332,[no birds recorded],NA
-85030009,-35.88333333333333,172.9,[no birds recorded],NA
 85030010,-35.56666666666667,172.8,grey-faced petrel,1
 85030011,-35.5,172.76666666666668,buller's shearwater,1
 85030011,-35.5,172.76666666666668,white-faced storm petrel,1
 85030011,-35.5,172.76666666666668,black-winged petrel,1
 85030012,-35.43333333333333,172.73333333333332,buller's shearwater,1
-85030013,-35.36666666666667,172.71666666666667,[no birds recorded],NA
 85030014,-35.233333333333334,172.66666666666666,black petrel,1
 85030014,-35.233333333333334,172.66666666666666,buller's shearwater,1
 85030014,-35.233333333333334,172.66666666666666,white-faced storm petrel,4
@@ -40596,7 +40043,6 @@ record_id,lat,long,species,count
 85034031,-41.35,174.43333333333334,giant petrel sensu lato,1
 85034031,-41.35,174.43333333333334,sooty shearwater,1
 85034032,-41.11666666666667,174.5,sooty shearwater,1
-85034033,-41.06666666666667,174.5,[no birds recorded],NA
 85034034,-40.916666666666664,174.38333333333333,giant petrel sensu lato,7
 85034034,-40.916666666666664,174.38333333333333,prion (unidentified),6
 85034035,-40.7,173.83333333333334,giant petrel sensu lato,5
@@ -40607,8 +40053,6 @@ record_id,lat,long,species,count
 85034035,-40.7,173.83333333333334,australasian gannet ad,4
 85035001,-37.3,172.81666666666666,grey-faced petrel,2
 85035002,-37.233333333333334,172.8,grey-faced petrel,1
-85035003,-37.166666666666664,172.78333333333333,[no birds recorded],NA
-85035004,-37.03333333333333,172.76666666666668,[no birds recorded],NA
 85035005,-36.96666666666667,172.76666666666668,grey-faced petrel,1
 85035006,-36.78333333333333,172.71666666666667,grey-faced petrel,1
 85035007,-36.516666666666666,172.68333333333334,buller's shearwater,5
@@ -40640,11 +40084,8 @@ record_id,lat,long,species,count
 86001006,-37.833333333333336,173.6,grey-faced petrel,8
 86001006,-37.833333333333336,173.6,black petrel,2
 86001006,-37.833333333333336,173.6,black-winged petrel,1
-86001007,-37.56666666666667,173.5,[no birds recorded],NA
 86001008,-37,173.3,grey-faced petrel,1
-86001009,-36.93333333333333,173.26666666666668,[no birds recorded],NA
 86001010,-36.86666666666667,173.25,wandering albatross sensu lato pl2,1
-86001011,-36.8,173.23333333333332,[no birds recorded],NA
 86001012,-36.55,173.13333333333333,wandering albatross sensu lato pl1,1
 86001012,-36.55,173.13333333333333,wandering albatross sensu lato pl2,1
 86001012,-36.55,173.13333333333333,grey-faced petrel,1
@@ -40840,7 +40281,6 @@ record_id,lat,long,species,count
 86005009,-40.166666666666664,173.18333333333334,prion (unidentified),20
 86005009,-40.166666666666664,173.18333333333334,australasian gannet ad,1
 86005010,-39.81666666666667,173.13333333333333,prion (unidentified),2
-86005011,-39.13333333333333,173.05,[no birds recorded],NA
 86005012,-39.083333333333336,173.03333333333333,black-browed albatross sensu lato ad,1
 86005013,-39.016666666666666,173.03333333333333,black-browed albatross sensu lato ad,1
 86005014,-38.95,173.01666666666668,black-browed albatross sensu lato ad,1
@@ -42252,8 +41692,6 @@ record_id,lat,long,species,count
 86011084,-37.233333333333334,178.55,grey-faced petrel,1
 86011085,-37.233333333333334,176.4,grey-faced petrel,2
 86011086,-37.233333333333334,176.25,grey-faced petrel,1
-86011087,-37.233333333333334,176.21666666666667,[no birds recorded],NA
-86011088,-37.233333333333334,176.1,[no birds recorded],NA
 86011089,-37.233333333333334,175.96666666666667,wandering albatross sensu lato pl1,1
 86011089,-37.233333333333334,175.96666666666667,grey-faced petrel,2
 86011089,-37.233333333333334,175.96666666666667,sooty shearwater,2
@@ -42293,8 +41731,6 @@ record_id,lat,long,species,count
 86011102,-36.483333333333334,176.98333333333332,cook's petrel,1
 86011103,-36.46666666666667,177.05,black-browed albatross sensu lato subad,1
 86011103,-36.46666666666667,177.05,grey-faced petrel,1
-86011104,-36.483333333333334,177.13333333333333,[no birds recorded],NA
-86011105,-36.483333333333334,177.21666666666667,[no birds recorded],NA
 86011106,-36.483333333333334,177.25,cook's petrel,1
 86011106,-36.483333333333334,177.25,black-winged petrel,1
 86011107,-36.483333333333334,177.31666666666666,grey-faced petrel,1
@@ -43302,7 +42738,6 @@ record_id,lat,long,species,count
 86012023,-40.266666666666666,171.06666666666666,shy / white-capped / salvin's /  chatham mollymawk,1
 86012023,-40.266666666666666,171.06666666666666,cape petrel,4
 86012023,-40.266666666666666,171.06666666666666,prion (unidentified),4
-86012024,-40.3,171.11666666666667,[no birds recorded],NA
 86012025,-40.38333333333333,171.2,cape petrel,1
 86012026,-40.38333333333333,171.2,wandering albatross sensu lato pl2,1
 86012026,-40.38333333333333,171.2,shy / white-capped / salvin's /  chatham mollymawk,1
@@ -43339,16 +42774,12 @@ record_id,lat,long,species,count
 86012032,-40.21666666666667,171.01666666666668,sooty shearwater,1
 86012033,-40.2,170.96666666666667,westland / white-chinned petrel,1
 86012034,-40.18333333333333,170.91666666666666,prion (unidentified),1
-86012035,-40.15,170.86666666666667,[no birds recorded],NA
 86012036,-40.083333333333336,170.68333333333334,wandering albatross sensu lato pl3,1
 86012036,-40.083333333333336,170.68333333333334,cape petrel,3
 86012036,-40.083333333333336,170.68333333333334,westland petrel,1
 86012037,-40.083333333333336,170.68333333333334,prion (unidentified),1
 86012037,-40.083333333333336,170.68333333333334,westland petrel,1
 86012038,-40.083333333333336,170.68333333333334,westland petrel,1
-86012039,-40.083333333333336,170.68333333333334,[no birds recorded],NA
-86012040,-40.15,170.56666666666666,[no birds recorded],NA
-86012041,-40.233333333333334,170.51666666666668,[no birds recorded],NA
 86012042,-40.31666666666667,170.46666666666667,westland / white-chinned petrel,2
 86012043,-40.2,170.46666666666667,westland petrel,1
 86012043,-40.2,170.46666666666667,sooty shearwater,1
@@ -43417,8 +42848,6 @@ record_id,lat,long,species,count
 86012065,-41.7,171.45,westland petrel,2
 86012065,-41.7,171.45,southern black-backed gull ad,15
 86012065,-41.7,171.45,southern black-backed gull subad,10
-86012066,-41.7,171.48333333333332,[no birds recorded],NA
-86012067,-41.68333333333333,171.41666666666666,[no birds recorded],NA
 86012068,-42.21666666666667,170.55,shy / white-capped / salvin's /  chatham mollymawk,2
 86012068,-42.21666666666667,170.55,cape petrel,2
 86012068,-42.21666666666667,170.55,westland petrel,3
@@ -44328,12 +43757,10 @@ record_id,lat,long,species,count
 86012210,-43.1,169.98333333333332,southern black-backed gull ad,2
 86012211,-43.05,170.06666666666666,southern black-backed gull ad,3
 86012211,-43.05,170.06666666666666,fiordland crested penguin,1
-86012212,-42.95,170.21666666666667,[no birds recorded],NA
 86012213,-42.916666666666664,170.26666666666668,shy / white-capped / salvin's /  chatham mollymawk,1
 86012213,-42.916666666666664,170.26666666666668,cape petrel,1
 86012213,-42.916666666666664,170.26666666666668,southern black-backed gull ad,5
 86012213,-42.916666666666664,170.26666666666668,southern black-backed gull subad,1
-86012214,-42.88333333333333,170.31666666666666,[no birds recorded],NA
 86012215,-42.78333333333333,170.43333333333334,sooty shearwater,1
 86012215,-42.78333333333333,170.43333333333334,southern black-backed gull ad,1
 86012216,-42.733333333333334,170.51666666666668,southern black-backed gull ad,30
@@ -44591,30 +44018,15 @@ record_id,lat,long,species,count
 86012302,-37.5,172.98333333333332,prion (unidentified),2
 86012303,-37.5,172.98333333333332,giant petrel sensu lato,1
 86012304,-37.5,172.98333333333332,giant petrel sensu lato,1
-86012305,-37.5,172.98333333333332,[no birds recorded],NA
 86012306,-37.483333333333334,172.96666666666667,wandering albatross sensu lato pl1,2
 86012306,-37.483333333333334,172.96666666666667,wandering albatross sensu lato pl2,1
 86012306,-37.483333333333334,172.96666666666667,prion (unidentified),2
-86012307,-37.55,172.88333333333333,[no birds recorded],NA
 86012308,-37.65,172.8,shy / white-capped / salvin's /  chatham mollymawk,1
 86012309,-37.68333333333333,172.78333333333333,prion (unidentified),1
 86012310,-37.75,172.76666666666668,wandering albatross sensu lato pl2,1
 86012310,-37.75,172.76666666666668,prion (unidentified),2
-86012311,-37.916666666666664,172.58333333333334,[no birds recorded],NA
-86012312,-37.95,172.55,[no birds recorded],NA
-86012313,-38,172.48333333333332,[no birds recorded],NA
-86012314,-38.016666666666666,172.5,[no birds recorded],NA
-86012315,-38.03333333333333,172.53333333333333,[no birds recorded],NA
-86012316,-38.05,172.56666666666666,[no birds recorded],NA
-86012317,-38.083333333333336,172.61666666666667,[no birds recorded],NA
-86012318,-38.18333333333333,172.75,[no birds recorded],NA
 86012319,-38.2,172.78333333333333,shy / white-capped / salvin's /  chatham mollymawk,1
 86012320,-38.2,172.78333333333333,prion (unidentified),1
-86012321,-38.2,172.78333333333333,[no birds recorded],NA
-86012322,-38.2,172.78333333333333,[no birds recorded],NA
-86012323,-38.21666666666667,172.81666666666666,[no birds recorded],NA
-86012324,-38.3,172.93333333333334,[no birds recorded],NA
-86012325,-38.333333333333336,173,[no birds recorded],NA
 86012326,-38.38333333333333,173.06666666666666,prion (unidentified),2
 86012326,-38.38333333333333,173.06666666666666,sooty shearwater,1
 86012327,-39.31666666666667,173.45,giant petrel sensu lato,2
@@ -44788,23 +44200,12 @@ record_id,lat,long,species,count
 86013001,-38.983333333333334,174.01666666666668,white-fronted tern,4
 86013002,-38.916666666666664,173.98333333333332,flesh-footed shearwater,1
 86013003,-38.81666666666667,173.95,flesh-footed shearwater,1
-86013004,-38.75,173.93333333333334,[no birds recorded],NA
-86013005,-38.666666666666664,173.9,[no birds recorded],NA
-86013006,-38.55,173.86666666666667,[no birds recorded],NA
 86013007,-38.25,173.76666666666668,australasian gannet ad,300
 86013008,-38.18333333333333,173.73333333333332,australasian gannet ad,8
 86013008,-38.18333333333333,173.73333333333332,southern black-backed gull ad,1
 86013009,-38.13333333333333,173.71666666666667,australasian gannet ad,2
 86013010,-37.766666666666666,173.6,southern black-backed gull ad,1
-86013011,-37.7,173.56666666666666,[no birds recorded],NA
-86013012,-37.63333333333333,173.56666666666666,[no birds recorded],NA
-86013013,-37.56666666666667,173.53333333333333,[no birds recorded],NA
-86013014,-37.5,173.5,[no birds recorded],NA
 86013015,-37.21666666666667,173.4,buller's shearwater,1
-86013016,-37.15,173.36666666666667,[no birds recorded],NA
-86013017,-37.03333333333333,173.33333333333334,[no birds recorded],NA
-86013018,-36.233333333333334,173.23333333333332,[no birds recorded],NA
-86013019,-36.166666666666664,173.2,[no birds recorded],NA
 86013020,-34.416666666666664,173.2,australasian gannet ad,3
 86013021,-34.6,173.5,prion (unidentified),12
 86013021,-34.6,173.5,black petrel,2
@@ -44891,7 +44292,6 @@ record_id,lat,long,species,count
 87001015,-39.8,177.26666666666668,wandering albatross sensu lato pl2,1
 87001015,-39.8,177.26666666666668,giant petrel sensu lato,1
 87001015,-39.8,177.26666666666668,cape petrel,1
-87001016,-39.61666666666667,177.75,[no birds recorded],NA
 87001017,-39.53333333333333,177.81666666666666,buller's shearwater,2
 87001017,-39.53333333333333,177.81666666666666,australasian gannet ad,1
 87001018,-39.483333333333334,177.86666666666667,buller's shearwater,2
@@ -45018,7 +44418,6 @@ record_id,lat,long,species,count
 87009013,-40.11666666666667,174.05,prion (unidentified),200
 87009014,-39.96666666666667,173.98333333333332,cape petrel,3
 87009014,-39.96666666666667,173.98333333333332,prion (unidentified),50
-87010001,-38.55,173.86666666666667,[no birds recorded],NA
 87010002,-38.45,173.83333333333334,prion (unidentified),3
 87010003,-38.31666666666667,173.78333333333333,shy / white-capped / salvin's /  chatham mollymawk,1
 87010003,-38.31666666666667,173.78333333333333,white-fronted tern,2
@@ -45034,9 +44433,6 @@ record_id,lat,long,species,count
 87010008,-37.95,173.65,grey-faced petrel,5
 87010009,-37.7,173.56666666666666,grey-faced petrel,3
 87010010,-37.56666666666667,173.53333333333333,grey-faced petrel,2
-87010011,-37.333333333333336,173.43333333333334,[no birds recorded],NA
-87010012,-37.266666666666666,173.41666666666666,[no birds recorded],NA
-87010013,-37.2,173.4,[no birds recorded],NA
 87010014,-36.95,173.3,grey-faced petrel,1
 87010014,-36.95,173.3,prion (unidentified),2
 87010015,-36.9,173.28333333333333,grey-faced petrel,6
@@ -45044,7 +44440,6 @@ record_id,lat,long,species,count
 87010016,-36.666666666666664,173.2,prion (unidentified),1
 87010017,-36.6,173.18333333333334,grey-faced petrel,1
 87010018,-36.416666666666664,173.11666666666667,grey-faced petrel,2
-87010019,-36.233333333333334,173.06666666666666,[no birds recorded],NA
 87010020,-35.083333333333336,174.31666666666666,little shearwater,8
 87010020,-35.083333333333336,174.31666666666666,australasian gannet ad,2
 87010021,-35.166666666666664,174.4,prion (unidentified),200
@@ -45099,7 +44494,6 @@ record_id,lat,long,species,count
 87011009,-36.416666666666664,175.6,australasian gannet ad,2
 87011010,-36.46666666666667,175.68333333333334,diving-petrel (unidentified),8
 87011010,-36.46666666666667,175.68333333333334,australasian gannet ad,1
-87011011,-36.483333333333334,175.81666666666666,[no birds recorded],NA
 87011012,-36.56666666666667,176.1,grey-faced petrel,11
 87011012,-36.56666666666667,176.1,prion (unidentified),6
 87011012,-36.56666666666667,176.1,little shearwater,2
@@ -45322,9 +44716,6 @@ record_id,lat,long,species,count
 87014020,-41.81666666666667,174.31666666666666,cape petrel,2
 87014021,-41.61666666666667,174.4,shy / white-capped / salvin's /  chatham mollymawk,1
 87014021,-41.61666666666667,174.4,cape petrel,3
-87015001,-39.03333333333333,174.05,[no birds recorded],NA
-87015002,-38.833333333333336,173.95,[no birds recorded],NA
-87015003,-38.766666666666666,173.93333333333334,[no birds recorded],NA
 87015004,-38.7,173.91666666666666,yellow-nosed mollymawk sensu lato,1
 87015004,-38.7,173.91666666666666,prion (unidentified),1
 87015004,-38.7,173.91666666666666,australasian gannet ad,3
@@ -45339,7 +44730,6 @@ record_id,lat,long,species,count
 87015007,-38.46666666666667,173.83333333333334,australasian gannet ad,3
 87015008,-38.4,173.8,prion (unidentified),2
 87015008,-38.4,173.8,australasian gannet ad,3
-87015009,-38.13333333333333,173.75,[no birds recorded],NA
 87015010,-34.71666666666667,172.5,australasian gannet ad,1
 87015011,-34.65,172.48333333333332,little shearwater,15
 87015011,-34.65,172.48333333333332,australasian gannet ad,3
@@ -45375,23 +44765,13 @@ record_id,lat,long,species,count
 87015022,-34.38333333333333,173.13333333333333,prion (unidentified),100
 87015022,-34.38333333333333,173.13333333333333,australasian gannet ad,40
 87015023,-34.46666666666667,173.26666666666668,australasian gannet ad,8
-87015024,-34.63333333333333,173.51666666666668,[no birds recorded],NA
-87015025,-34.65,173.58333333333334,[no birds recorded],NA
-87015026,-34.7,173.65,[no birds recorded],NA
-87015027,-34.733333333333334,173.7,[no birds recorded],NA
-87015028,-34.766666666666666,173.76666666666668,[no birds recorded],NA
-87015029,-34.8,173.81666666666666,[no birds recorded],NA
-87015030,-34.833333333333336,173.88333333333333,[no birds recorded],NA
-87015031,-34.86666666666667,173.95,[no birds recorded],NA
 87015032,-34.916666666666664,174.01666666666668,prion (unidentified),6
 87015033,-34.95,174.08333333333334,cape petrel,1
 87015033,-34.95,174.08333333333334,prion (unidentified),2
 87015033,-34.95,174.08333333333334,fluttering shearwater,1
 87015034,-34.983333333333334,174.16666666666666,cape petrel,1
-87015035,-35.03333333333333,174.23333333333332,[no birds recorded],NA
 87015036,-35.083333333333336,174.3,prion (unidentified),3
 87015036,-35.083333333333336,174.3,australasian gannet ad,5
-87015037,-35.25,174.43333333333334,[no birds recorded],NA
 87016001,-36.016666666666666,174.66666666666666,grey-faced petrel,13
 87016001,-36.016666666666666,174.66666666666666,australasian gannet ad,2
 87016001,-36.016666666666666,174.66666666666666,southern black-backed gull ad,6
@@ -45407,7 +44787,6 @@ record_id,lat,long,species,count
 87016005,-36.35,174.91666666666666,grey-faced petrel,1
 87016005,-36.35,174.91666666666666,fluttering shearwater,200
 87016005,-36.35,174.91666666666666,white-fronted tern,4
-87016006,-36.416666666666664,174.95,[no birds recorded],NA
 87017001,-36.75,174.83333333333334,southern black-backed gull ad,4
 87017001,-36.75,174.83333333333334,southern black-backed gull subad,2
 87017001,-36.75,174.83333333333334,red-billed gull,30
@@ -45940,14 +45319,12 @@ record_id,lat,long,species,count
 87022016,-37.266666666666666,173.38333333333333,grey-faced petrel,1
 87022017,-37.21666666666667,173.35,black-browed albatross sensu lato ad,1
 87022017,-37.21666666666667,173.35,grey-faced petrel,2
-87022018,-37.15,173.33333333333334,[no birds recorded],NA
 87022019,-36.96666666666667,173.26666666666668,black-browed albatross sensu lato ad,1
 87022020,-36.916666666666664,173.23333333333332,black-browed albatross sensu lato ad,1
 87022020,-36.916666666666664,173.23333333333332,grey-faced petrel,1
 87022021,-36.85,173.21666666666667,wandering albatross sensu lato pl2,1
 87022021,-36.85,173.21666666666667,grey-faced petrel,3
 87022022,-36.4,173.05,grey-faced petrel,2
-87022023,-34.833333333333336,173.93333333333334,[no birds recorded],NA
 87022024,-34.95,174.11666666666667,little shearwater,4
 87022024,-34.95,174.11666666666667,australasian gannet ad,8
 87022025,-34.983333333333334,174.16666666666666,yellow-nosed mollymawk sensu lato,1
@@ -46018,13 +45395,10 @@ record_id,lat,long,species,count
 87023007,-36.28333333333333,175.08333333333334,grey-faced petrel,1
 87023007,-36.28333333333333,175.08333333333334,australasian gannet ad,8
 87023008,-36.3,175.15,australasian gannet ad,2
-87023009,-38.083333333333336,178.6,[no birds recorded],NA
 87023010,-38.21666666666667,178.58333333333334,southern black-backed gull ad,1
-87023011,-38.266666666666666,178.58333333333334,[no birds recorded],NA
 87023012,-38.36666666666667,178.56666666666666,southern black-backed gull subad,1
 87023013,-38.43333333333333,178.55,southern black-backed gull ad,2
 87023014,-38.55,178.55,southern black-backed gull subad,1
-87023015,-38.61666666666667,178.53333333333333,[no birds recorded],NA
 87023016,-38.65,178.5,australasian gannet ad,1
 87023016,-38.65,178.5,white-fronted tern,1
 87023017,-38.766666666666666,178.41666666666666,giant petrel sensu lato,2
@@ -46395,7 +45769,6 @@ record_id,lat,long,species,count
 87026014,-36.25,173.05,grey-faced petrel,7
 87026015,-36.016666666666666,172.95,grey-faced petrel,3
 87026015,-36.016666666666666,172.95,white-fronted tern,3
-87026016,-35.96666666666667,172.93333333333334,[no birds recorded],NA
 87026017,-35.9,172.91666666666666,black-browed albatross sensu lato ad,1
 87026017,-35.9,172.91666666666666,black-browed albatross sensu lato subad,1
 87026017,-35.9,172.91666666666666,grey-faced petrel,1
@@ -46403,12 +45776,10 @@ record_id,lat,long,species,count
 87026018,-35.833333333333336,172.88333333333333,grey-faced petrel,1
 87026019,-35.78333333333333,172.86666666666667,white-fronted tern,6
 87026020,-35.71666666666667,172.85,black-browed albatross sensu lato ad,1
-87026021,-35.65,172.81666666666666,[no birds recorded],NA
 87026022,-35.416666666666664,172.73333333333332,little penguin,2
 87026022,-35.416666666666664,172.73333333333332,yellow-nosed mollymawk sensu lato,3
 87026022,-35.416666666666664,172.73333333333332,white-fronted tern,1
 87026023,-35.36666666666667,172.71666666666667,white-fronted tern,1
-87026024,-35.3,172.68333333333334,[no birds recorded],NA
 87026025,-35.25,172.66666666666666,diving-petrel (unidentified),4
 87026026,-35.18333333333333,172.63333333333333,yellow-nosed mollymawk sensu lato,2
 87026026,-35.18333333333333,172.63333333333333,prion (unidentified),20
@@ -46823,7 +46194,6 @@ record_id,lat,long,species,count
 87030004,-37.516666666666666,176.41666666666666,australasian gannet ad,1
 87030005,-37.5,176.56666666666666,flesh-footed shearwater,2
 87030005,-37.5,176.56666666666666,sooty shearwater,1
-87030006,-37.483333333333334,176.85,[no birds recorded],NA
 87030007,-37.483333333333334,176.91666666666666,black-browed albatross sensu lato subad,3
 87030007,-37.483333333333334,176.91666666666666,flesh-footed shearwater,6
 87030007,-37.483333333333334,176.91666666666666,buller's shearwater,2
@@ -46938,13 +46308,8 @@ record_id,lat,long,species,count
 87030043,-41.416666666666664,174.66666666666666,southern black-backed gull ad,1
 87030044,-41.38333333333333,174.6,westland petrel,1
 87030045,-41.233333333333334,174.53333333333333,shy / white-capped / salvin's /  chatham mollymawk,1
-87030046,-41.13333333333333,174.53333333333333,[no birds recorded],NA
 87030047,-41.06666666666667,174.53333333333333,shy / white-capped / salvin's /  chatham mollymawk,1
-87030048,-41.016666666666666,174.53333333333333,[no birds recorded],NA
 87030049,-40.85,174.48333333333332,cape petrel,1
-87030050,-40.81666666666667,174.43333333333334,[no birds recorded],NA
-87030051,-40.833333333333336,174.35,[no birds recorded],NA
-87030052,-40.68333333333333,174.13333333333333,[no birds recorded],NA
 87030053,-40.61666666666667,173.93333333333334,prion (unidentified),200
 87030053,-40.61666666666667,173.93333333333334,sooty shearwater,2
 87030054,-40.63333333333333,173.86666666666667,prion (unidentified),100
@@ -46953,22 +46318,11 @@ record_id,lat,long,species,count
 87031001,-37.266666666666666,173.4,prion (unidentified),1
 87031001,-37.266666666666666,173.4,flesh-footed shearwater,1
 87031001,-37.266666666666666,173.4,black-winged petrel,1
-87031002,-37.1,173.33333333333334,[no birds recorded],NA
 87031003,-37.03333333333333,173.31666666666666,wandering albatross sensu lato pl1,1
 87031003,-37.03333333333333,173.31666666666666,cook's petrel,2
 87031004,-36.983333333333334,173.3,giant petrel sensu lato,1
-87031005,-36.916666666666664,173.28333333333333,[no birds recorded],NA
-87031006,-36.85,173.25,[no birds recorded],NA
 87031007,-36.8,173.23333333333332,cook's petrel,1
-87031008,-36.733333333333334,173.21666666666667,[no birds recorded],NA
-87031009,-36.666666666666664,173.18333333333334,[no birds recorded],NA
 87031010,-36.483333333333334,173.11666666666667,gould's petrel,1
-87031011,-36.43333333333333,173.1,[no birds recorded],NA
-87031012,-36.483333333333334,173.08333333333334,[no birds recorded],NA
-87031013,-36.233333333333334,173.03333333333333,[no birds recorded],NA
-87031014,-36.13333333333333,172.98333333333332,[no birds recorded],NA
-87031015,-36.06666666666667,172.96666666666667,[no birds recorded],NA
-87031016,-36.016666666666666,172.95,[no birds recorded],NA
 87031017,-35.96666666666667,172.93333333333334,buller's shearwater,5
 87031018,-35.88333333333333,172.91666666666666,buller's shearwater,5
 87031019,-35.65,172.83333333333334,short-tailed / sooty shearwater,1
@@ -47016,7 +46370,6 @@ record_id,lat,long,species,count
 87031031,-34.733333333333334,172.5,australasian gannet ad,3
 87031032,-34.65,172.48333333333332,grey-faced petrel,1
 87031032,-34.65,172.48333333333332,australasian gannet ad,2
-87031033,-34.6,172.46666666666667,[no birds recorded],NA
 87031034,-34.56666666666667,172.45,buller's shearwater,2
 87031035,-34.5,172.41666666666666,hutton's shearwater,2
 87031035,-34.5,172.41666666666666,little shearwater,3
@@ -47057,10 +46410,7 @@ record_id,lat,long,species,count
 87031043,-35.916666666666664,174.58333333333334,australasian gannet ad,8
 87031043,-35.916666666666664,174.58333333333334,southern black-backed gull ad,11
 87031043,-35.916666666666664,174.58333333333334,red-billed gull,6
-87032001,-37.1,177.38333333333333,[no birds recorded],NA
-87032002,-37.2,177.63333333333333,[no birds recorded],NA
 87032003,-37.233333333333334,177.68333333333334,grey-faced petrel,2
-87032004,-37.28333333333333,177.8,[no birds recorded],NA
 87032005,-37.31666666666667,177.88333333333333,grey-faced petrel,1
 87032006,-37.35,177.96666666666667,flesh-footed shearwater,3
 87032006,-37.35,177.96666666666667,buller's shearwater,2
@@ -47724,8 +47074,6 @@ record_id,lat,long,species,count
 87037005,-36,172.93333333333334,wandering albatross sensu lato pl1,1
 87037005,-36,172.93333333333334,wandering albatross sensu lato pl2,2
 87037005,-36,172.93333333333334,wandering albatross sensu lato pl3,1
-87037006,-35.85,172.9,[no birds recorded],NA
-87037007,-35.68333333333333,172.83333333333334,[no birds recorded],NA
 87037008,-35.63333333333333,172.81666666666666,wandering albatross sensu lato pl1,1
 87037008,-35.63333333333333,172.81666666666666,wandering albatross sensu lato pl2,1
 87037009,-35.516666666666666,172.76666666666668,wandering albatross sensu lato pl1,1
@@ -47993,14 +47341,10 @@ record_id,lat,long,species,count
 87039004,-39.63333333333333,177.2,australasian gannet ad,6
 87039004,-39.63333333333333,177.2,white-fronted tern,3
 87039005,-39.88333333333333,177.11666666666667,australasian gannet ad,6
-87039006,-39.983333333333334,177.05,[no birds recorded],NA
-87039007,-40.016666666666666,177.03333333333333,[no birds recorded],NA
 87039008,-40.1,177,giant petrel sensu lato,1
 87039008,-40.1,177,buller's shearwater,120
 87039009,-40.15,176.96666666666667,sooty shearwater,1
-87039010,-40.2,176.91666666666666,[no birds recorded],NA
 87039011,-40.25,176.88333333333333,giant petrel sensu lato,1
-87039012,-40.5,176.71666666666667,[no birds recorded],NA
 87039013,-40.55,176.68333333333334,buller's shearwater,230
 87039013,-40.55,176.68333333333334,sooty shearwater,20
 87039014,-40.6,176.66666666666666,buller's shearwater,50
@@ -48040,15 +47384,9 @@ record_id,lat,long,species,count
 87039026,-41.416666666666664,175.96666666666667,grey-faced petrel,2
 87039026,-41.416666666666664,175.96666666666667,sooty shearwater,3
 87040001,-41.416666666666664,174.7,southern black-backed gull ad,6
-87040002,-41.25,174.51666666666668,[no birds recorded],NA
 87040003,-41.15,174.5,southern black-backed gull ad,1
-87040004,-41.083333333333336,174.5,[no birds recorded],NA
 87040005,-41.03333333333333,174.48333333333332,prion (unidentified),2
-87040006,-40.96666666666667,174.46666666666667,[no birds recorded],NA
-87040007,-40.71666666666667,174.35,[no birds recorded],NA
 87040008,-40.483333333333334,174.23333333333332,giant petrel sensu lato,1
-87040009,-40.3,174.13333333333333,[no birds recorded],NA
-87040010,-40.21666666666667,174.1,[no birds recorded],NA
 87040011,-39.81666666666667,173.9,shy / white-capped / salvin's /  chatham mollymawk,1
 87040011,-39.81666666666667,173.9,giant petrel sensu lato,1
 87040011,-39.81666666666667,173.9,grey-faced petrel,1
@@ -48066,7 +47404,6 @@ record_id,lat,long,species,count
 87041002,-38.93333333333333,174,southern black-backed gull subad,2
 87041003,-36.03333333333333,172.96666666666667,wandering albatross sensu lato pl1,1
 87041003,-36.03333333333333,172.96666666666667,grey-faced petrel,1
-87041004,-35.88333333333333,172.9,[no birds recorded],NA
 87041005,-35.81666666666667,172.88333333333333,grey-faced petrel,1
 87041006,-35.766666666666666,172.85,wandering albatross sensu lato pl2,1
 87041007,-35.68333333333333,172.83333333333334,grey-faced petrel,2
@@ -48303,10 +47640,8 @@ record_id,lat,long,species,count
 87043031,-38.35,173.75,prion (unidentified),50
 87043032,-38.4,173.76666666666668,black-browed albatross sensu lato ad,1
 87043032,-38.4,173.76666666666668,giant petrel sensu lato,13
-87043033,-38.45,173.8,[no birds recorded],NA
 87043034,-38.516666666666666,173.81666666666666,giant petrel sensu lato,1
 87043035,-38.56666666666667,173.83333333333334,shy / white-capped / salvin's /  chatham mollymawk,1
-87043036,-38.61666666666667,173.85,[no birds recorded],NA
 87043037,-38.8,173.93333333333334,giant petrel sensu lato,3
 87043037,-38.8,173.93333333333334,southern black-backed gull ad,3
 87043038,-38.85,173.95,giant petrel sensu lato,1
@@ -48338,20 +47673,15 @@ record_id,lat,long,species,count
 87044010,-38.25,173.76666666666668,giant petrel sensu lato,4
 87044010,-38.25,173.76666666666668,prion (unidentified),20
 87044011,-38.11666666666667,173.7,giant petrel sensu lato,2
-87044012,-38.05,173.68333333333334,[no birds recorded],NA
-87044013,-38,173.65,[no birds recorded],NA
 87044014,-37.88333333333333,173.61666666666667,giant petrel sensu lato,2
 87044015,-37.6,173.53333333333333,giant petrel sensu lato,3
 87044016,-37.53333333333333,173.51666666666668,giant petrel sensu lato,3
 87044017,-37.4,173.45,giant petrel sensu lato,2
-87044018,-37.11666666666667,173.36666666666667,[no birds recorded],NA
 87044019,-37.05,173.33333333333334,black petrel,1
 87044020,-36.96666666666667,173.31666666666666,giant petrel sensu lato,1
 87044020,-36.96666666666667,173.31666666666666,black petrel,1
 87044021,-36.9,173.3,giant petrel sensu lato,1
-87044022,-36.85,173.28333333333333,[no birds recorded],NA
 87044023,-36.56666666666667,173.2,giant petrel sensu lato,1
-87044024,-36.5,173.16666666666666,[no birds recorded],NA
 87044025,-34.43333333333333,173.21666666666667,grey-faced petrel,2
 87044025,-34.43333333333333,173.21666666666667,flesh-footed shearwater,1
 87044025,-34.43333333333333,173.21666666666667,buller's shearwater,8
@@ -48363,7 +47693,6 @@ record_id,lat,long,species,count
 87044029,-34.8,173.83333333333334,wandering albatross sensu lato pl3,1
 87044029,-34.8,173.83333333333334,buller's shearwater,1
 87044029,-34.8,173.83333333333334,sooty shearwater,4
-87044030,-34.81666666666667,173.88333333333333,[no birds recorded],NA
 87044031,-34.86666666666667,173.95,sooty shearwater,4
 87044031,-34.86666666666667,173.95,australasian gannet ad,1
 87044032,-34.9,174.01666666666668,prion (unidentified),3
@@ -48374,7 +47703,6 @@ record_id,lat,long,species,count
 87044034,-34.983333333333334,174.13333333333333,buller's shearwater,2
 87044035,-35.016666666666666,174.18333333333334,black petrel,2
 87044035,-35.016666666666666,174.18333333333334,buller's shearwater,1
-87044036,-35.083333333333336,174.31666666666666,[no birds recorded],NA
 87044037,-35.31666666666667,174.46666666666667,giant petrel sensu lato,1
 87044037,-35.31666666666667,174.46666666666667,black petrel,1
 87044037,-35.31666666666667,174.46666666666667,australasian gannet ad,30
@@ -48466,7 +47794,6 @@ record_id,lat,long,species,count
 88001016,-37.93333333333333,178.61666666666667,sooty shearwater,150
 88001016,-37.93333333333333,178.61666666666667,fluttering shearwater,1000
 88001016,-37.93333333333333,178.61666666666667,southern black-backed gull subad,2
-88001017,-38.11666666666667,178.6,[no birds recorded],NA
 88001018,-38.166666666666664,178.6,buller's shearwater,10
 88001018,-38.166666666666664,178.6,sooty shearwater,20
 88001018,-38.166666666666664,178.6,fluttering shearwater,250
@@ -48689,10 +48016,6 @@ record_id,lat,long,species,count
 88002014,-43.86666666666667,173.18333333333334,southern black-backed gull subad,20
 88002014,-43.86666666666667,173.18333333333334,white-fronted tern,50
 88002014,-43.86666666666667,173.18333333333334,black-billed gull,200
-88002015,-40.68333333333333,174.13333333333333,[no birds recorded],NA
-88002016,-40.63333333333333,173.96666666666667,[no birds recorded],NA
-88002017,-40.65,173.83333333333334,[no birds recorded],NA
-88002018,-40.75,173.73333333333332,[no birds recorded],NA
 88002019,-40.8,173.66666666666666,westland petrel,1
 88002019,-40.8,173.66666666666666,australasian gannet ad,1
 88002019,-40.8,173.66666666666666,southern black-backed gull ad,1
@@ -48705,12 +48028,9 @@ record_id,lat,long,species,count
 88002022,-41.016666666666666,173.4,southern black-backed gull subad,1
 88002023,-41.1,173.33333333333334,southern black-backed gull ad,4
 88002023,-41.1,173.33333333333334,southern black-backed gull subad,6
-88003001,-35.5,172.76666666666668,[no birds recorded],NA
 88003002,-35.45,172.73333333333332,grey-faced petrel,1
-88003003,-35.38333333333333,172.71666666666667,[no birds recorded],NA
 88003004,-35.333333333333336,172.7,prion (unidentified),3
 88003004,-35.333333333333336,172.7,buller's shearwater,70
-88003005,-35.15,172.63333333333333,[no birds recorded],NA
 88003006,-35.083333333333336,172.61666666666667,prion (unidentified),15
 88003006,-35.083333333333336,172.61666666666667,buller's shearwater,1
 88003007,-34.8,172.5,grey-faced petrel,1
@@ -48770,8 +48090,6 @@ record_id,lat,long,species,count
 88003021,-34.63333333333333,173.58333333333334,prion (unidentified),3
 88003021,-34.63333333333333,173.58333333333334,black petrel,2
 88003021,-34.63333333333333,173.58333333333334,buller's shearwater,40
-88004001,-36.016666666666666,174.66666666666666,[no birds recorded],NA
-88004002,-36.05,174.71666666666667,[no birds recorded],NA
 88004003,-36.083333333333336,174.75,black-browed mollymawk ad,1
 88004004,-36.13333333333333,174.81666666666666,australasian gannet ad,5
 88004005,-36.21666666666667,174.93333333333334,buller's shearwater,3
@@ -48810,7 +48128,6 @@ record_id,lat,long,species,count
 88004017,-38.983333333333334,178.26666666666668,giant petrel sensu lato,1
 88004017,-38.983333333333334,178.26666666666668,cape petrel,1
 88004017,-38.983333333333334,178.26666666666668,grey-faced petrel,1
-88004018,-39.1,178.16666666666666,[no birds recorded],NA
 88004019,-39.2,178.1,wandering albatross sensu lato pl3,1
 88004019,-39.2,178.1,giant petrel sensu lato,1
 88004019,-39.2,178.1,cape petrel,3
@@ -48840,18 +48157,13 @@ record_id,lat,long,species,count
 88004025,-39.4,177.41666666666666,australasian gannet ad,4
 88004025,-39.4,177.41666666666666,southern black-backed gull ad,1
 88004025,-39.4,177.41666666666666,southern black-backed gull subad,6
-88004026,-39.4,177.31666666666666,[no birds recorded],NA
 88005001,-40.61666666666667,176.65,shy / white-capped / salvin's /  chatham mollymawk,1
 88005001,-40.61666666666667,176.65,prion (unidentified),2
 88005001,-40.61666666666667,176.65,diving-petrel (unidentified),1
-88005002,-40.68333333333333,176.61666666666667,[no birds recorded],NA
 88005003,-40.7,176.6,cape petrel,1
-88005004,-40.733333333333334,176.56666666666666,[no birds recorded],NA
-88005005,-40.833333333333336,176.53333333333333,[no birds recorded],NA
 88005006,-40.86666666666667,176.5,buller's mollymawk,1
 88005006,-40.86666666666667,176.5,prion (unidentified),4
 88005006,-40.86666666666667,176.5,diving-petrel (unidentified),5
-88005007,-40.93333333333333,176.45,[no birds recorded],NA
 88005008,-41.06666666666667,176.31666666666666,shy / white-capped / salvin's /  chatham mollymawk,1
 88005008,-41.06666666666667,176.31666666666666,cape petrel,1
 88005009,-41.11666666666667,176.26666666666668,prion (unidentified),2
@@ -48934,7 +48246,6 @@ record_id,lat,long,species,count
 88006008,-40.46666666666667,173.41666666666666,prion (unidentified),30
 88006008,-40.46666666666667,173.41666666666666,southern black-backed gull ad,3
 88007001,-38.9,173.96666666666667,australasian gannet ad,1
-88007002,-38.833333333333336,173.96666666666667,[no birds recorded],NA
 88007003,-38.78333333333333,173.95,australasian gannet ad,1
 88007004,-38.43333333333333,173.83333333333334,black-browed albatross sensu lato ad,2
 88007004,-38.43333333333333,173.83333333333334,shy / white-capped / salvin's /  chatham mollymawk,3
@@ -48980,12 +48291,9 @@ record_id,lat,long,species,count
 88007018,-34.5,173.35,australasian gannet ad,30
 88007019,-34.55,173.4,prion (unidentified),1
 88007020,-34.65,173.58333333333334,fluttering shearwater,1
-88007021,-34.88333333333333,173.98333333333332,[no birds recorded],NA
-88007022,-34.916666666666664,174.03333333333333,[no birds recorded],NA
 88007023,-34.96666666666667,174.1,diving-petrel (unidentified),1
 88007023,-34.96666666666667,174.1,australasian gannet ad,1
 88007024,-35,174.16666666666666,australasian gannet ad,11
-88007025,-35.03333333333333,174.21666666666667,[no birds recorded],NA
 88007026,-35.18333333333333,174.38333333333333,diving-petrel (unidentified),1
 88007026,-35.18333333333333,174.38333333333333,australasian gannet ad,6
 88007027,-35.21666666666667,174.41666666666666,australasian gannet ad,2

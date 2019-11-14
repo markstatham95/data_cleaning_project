@@ -3,6 +3,9 @@ title: "R Notebook"
 output: html_notebook
 ---
 
+
+
+
 Task 3 Analysis 
 
 ```{r}
@@ -32,13 +35,10 @@ seabird_clean %>%
 ```{r}
 seabird_clean %>% 
   group_by(species) %>%
-  summarise(total_count = sum(count)) %>% 
+  summarise(total_count = sum(count, na.rm = TRUE)) %>% 
   arrange(desc(total_count))
 
-#problem here - when i pull these commands through a lot of the data comes back as na - for example 'wandering albatross sensu lato pl2' should be in the top counts, but comes back as na...
-
-
-
+#na.rm seems like the most reasonable 
 
 ```
 
@@ -69,9 +69,10 @@ seabird_clean %>%
 5. How many penguins were seen? (Hint: there are many types of penguin)
 
 ```{r}
-seabird_clean %>% 
+seabird_clean %>%  
   filter(str_detect(species, "penguin")) %>% 
-  summarise(n(), na.rm = TRUE)
+  group_by(species) %>%
+  summarise(sum(!is.na(count)))
   
 ```
 

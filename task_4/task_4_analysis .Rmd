@@ -1,0 +1,231 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+Task 4 analysis 
+
+```{r}
+library(tidyverse)
+
+
+#found i needed to specify col_types when loading in the csv...
+
+full_candy <- read_csv("clean_data/full_candy.csv", col_types = "ccicccd"
+
+head(full_candy)
+```
+
+
+
+
+
+
+1. What is the total number of candy ratings given across the three years. (number of candy ratings, not number of raters. Don’t count missing values)
+
+```{r}
+
+#need to create a pipe that filters for ratings that have a value (are not na)
+
+#after filtering, try to summarise using n() - which will count the number of rows that have a value in rating - giving us the number of ratings in the data 
+
+full_candy %>%
+  filter(!is.na(rating)) %>%
+  summarise(n())
+```
+
+
+
+2. What was the average age of people who are going out trick or treating and the average age of people not going trick or treating?
+```{r}
+
+#group_by needed here for trick or treating 
+
+boxplot(full_candy$age)
+
+mean(full_candy$age, na.rm = TRUE)
+
+#have a horrendous outlier in the ages column!!
+
+
+#going to create a dataset without outliers 
+
+library(outliers)
+
+
+class(full_candy$age)
+age_zscores <- outliers::scores(unique(full_candy$age))
+
+age_zscores
+
+is_age_outlier <- age_zscores > 3 | age_zscores < -3
+
+full_candy <- full_candy %>%
+  mutate(is_age_outlier = is_age_outlier)
+
+head(full_candy)
+
+full_candy %>%
+  group_by(trick_or_treat) %>%
+  summarise(mean(age, na.rm = TRUE))
+
+
+full_candy %>% 
+  arrange(desc(age))
+
+## go back to question and filter for non-outliers 
+full_candy_sans_outliers %>%
+  group_by(trick_or_treat) %>%
+  summarise(mean(age, na.rm = TRUE))
+
+
+  
+
+```
+
+
+
+3. For each of joy, despair and meh, which candy bar received the most of these ratings?
+```{r}
+#for Joy
+full_candy %>%
+  filter(rating == "joy") %>%
+  group_by(candy) %>%
+  summarise(no_of_joy = n()) %>%
+  arrange(desc(no_of_joy)) %>%
+  top_n(3)
+
+
+#for despair 
+full_candy %>%
+  filter(rating == "despair") %>%
+  group_by(candy) %>%
+  summarise(no_of_joy = n()) %>%
+  arrange(desc(no_of_joy)) %>%
+  top_n(3)
+
+#for meh
+
+full_candy %>%
+  filter(rating == "despair") %>%
+  group_by(candy) %>%
+  summarise(no_of_joy = n()) %>%
+  arrange(desc(no_of_joy)) %>%
+  top_n(3)
+
+```
+
+4. How many people rated starburst as despair? 
+
+```{r}
+full_candy %>%
+  filter(candy == "starburst") %>%
+  filter(rating =="despair") %>%
+  summarise(n())
+```
+
+
+Now need to count despair as -1, joy as +1 and meh as 0 
+Wrangle 
+```{r}
+
+#create a new tibble with an ordinal rating measure 
+
+full_candy_rating_ordinal <- full_candy %>%
+  mutate(rating_ordinal = recode(rating, "despair" = -1, "meh" = 0, "joy" = 1))
+
+
+class(full_candy_rating_ordinal$rating_ordinal)
+
+#as it is numeric - it should be easier to work with 
+
+
+
+```
+
+
+6. What was the most popular candy bar by this rating system for each gender in the dataset?
+```{r}
+
+table(full_candy_rating_ordinal$gender)
+
+#I think easiest way is to do this for each gender - filtering for gender each time 
+
+#firstly, for "female"
+
+full_candy_rating_ordinal %>%
+  filter(gender == "Female") %>%
+  group_by(candy) %>%
+  summarise(candy_popularity = sum(rating_ordinal, na.rm = TRUE)) %>%
+  arrange(desc(candy_popularity)) %>%
+  top_n(1)
+
+
+#then for "i'd rather not say"
+full_candy_rating_ordinal %>%
+  filter(gender == "I'd rather not say") %>%
+  group_by(candy) %>%
+  summarise(candy_popularity = sum(rating_ordinal, na.rm = TRUE)) %>%
+  arrange(desc(candy_popularity)) %>%
+  top_n(1)
+
+
+#for male
+full_candy_rating_ordinal %>%
+  filter(gender == "Male") %>%
+  group_by(candy) %>%
+  summarise(candy_popularity = sum(rating_ordinal, na.rm = TRUE)) %>%
+  arrange(desc(candy_popularity)) %>%
+  top_n(1)
+
+
+
+```
+7. What was the most popular candy bar in each year?
+
+```{r}
+#filter for the year, then do as above 
+
+full_candy_rating_ordinal %>%
+  filter(year == 2015) %>%
+  group_by(candy) %>%
+  summarise(candy_popularity = sum(rating_ordinal, na.rm = TRUE)) %>%
+  arrange(desc(candy_popularity)) %>%
+  top_n(1)
+
+
+  
+```
+
+8.What was the most popular candy bar by this rating for people in US, Canada, UK and all other countries?
+```{r}
+
+#for the US 
+full_candy_rating_ordinal %>%
+  filter(country == "usa") %>%
+  group_by(candy) %>%
+  summarise(candy_popularity = sum(rating_ordinal, na.rm = TRUE)) %>%
+  arrange(desc(candy_popularity)) %>%
+  top_n(1)
+
+#for the uk
+
+full_candy_rating_ordinal %>%
+  filter(country == "uk") %>%
+  group_by(candy) %>%
+  summarise(candy_popularity = sum(rating_ordinal, na.rm = TRUE)) %>%
+  arrange(desc(candy_popularity)) %>%
+  top_n(1)
+
+#all other country
+
+full_candy_rating_ordinal %>%
+  filter(country != "usa") %>%
+  group_by(candy) %>%
+  summarise(candy_popularity = sum(rating_ordinal, na.rm = TRUE)) %>%
+  arrange(desc(candy_popularity)) %>%
+  top_n(1)
+
+
+
+```
+

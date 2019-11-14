@@ -1,0 +1,340 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Import data 
+
+```{r}
+library(tidyverse)
+library(readr)
+library(readxl)
+library(janitor)
+library(here)
+```
+
+
+I'm going to start by loading in the 2015 data, having a look at it, and tidying it as best as I can 
+
+```{r}
+raw_candy_2015 <- read_excel(here("raw_data/candy_ranking_data/boing-boing-candy-2015.xlsx"))
+
+#these data are extremely long, need to pivot longer 
+#also a lot of extra pointless questions at the end can go 
+
+#start simple - clean the names 
+clean_names_candy_2015 <- clean_names(raw_candy_2015)
+
+names(clean_names_candy_2015)
+
+clean_candy_2015 <- clean_names_candy_2015 %>% 
+  pivot_longer(cols = 4:96, 
+               names_to = "candy", 
+               values_to = "rating")
+
+clean_candy_2015 <- clean_candy_2015 %>%
+  select(timestamp, how_old_are_you, are_you_going_actually_going_trick_or_treating_yourself, candy, rating)
+
+#now we have a long tibble - should we adjust timestamp so that it just has year?
+
+clean_candy_2015 <- clean_candy_2015 %>% 
+  select(-timestamp) %>%
+  add_column(year = 2015)
+
+head(clean_candy_2015)
+
+#now make names clearer 
+
+clean_candy_2015 <- clean_candy_2015 %>% 
+  rename(age = how_old_are_you) %>% 
+  rename(trick_or_treat = are_you_going_actually_going_trick_or_treating_yourself)
+
+class(clean_candy_2015$age)
+
+#turning age into an integer introduced some NAs by coercion -- might be worth saving it as a separate tibble 
+
+clean_candy_2015<- clean_candy_2015 %>% 
+  mutate(age = as.integer(age))
+
+
+
+```
+
+Only remaining issue is that of country - can I infer that the 2015 survey was conducted only in the USA? Best not to do that - I will make it NA when I join the data 
+
+
+Now onto the 2015 data 
+```{r}
+
+#load in the data 
+raw_candy_2016 <- read_excel(here("raw_data/candy_ranking_data/boing-boing-candy-2016.xlsx"))
+
+
+#clean names 
+clean_names_candy_2016 <- clean_names(raw_candy_2016)
+
+names(clean_names_candy_2016)
+
+#pivot longer so that candy names is one col and ratings one col 
+clean_candy_2016 <- clean_names_candy_2016 %>% 
+  pivot_longer(cols = 7:106, 
+               names_to = "candy", 
+               values_to = "rating")
+
+#select only the columns needed for analysis 
+names(clean_candy_2016)
+clean_candy_2016 <- clean_candy_2016 %>% 
+  select(timestamp, are_you_going_actually_going_trick_or_treating_yourself, your_gender, how_old_are_you, which_country_do_you_live_in, candy, rating)
+
+#rename the columns so that they match 2015 and are easier to read 
+clean_candy_2016 <- clean_candy_2016 %>% 
+  rename(trick_or_treat = are_you_going_actually_going_trick_or_treating_yourself) %>% 
+  rename(gender = your_gender) %>% 
+  rename(country = which_country_do_you_live_in) %>% 
+  rename(age = how_old_are_you)
+
+#add a year column and remove the timestamp column 
+clean_candy_2016 <- clean_candy_2016 %>% 
+  select(-timestamp) %>% 
+  add_column(year = 2016)
+
+
+#turn the age data into integers 
+clean_candy_2016 <- clean_candy_2016 %>% 
+  mutate(age = as.integer(age))
+
+
+```
+
+
+Now onto the 2017 data 
+
+```{r}
+#as above, begin by loading in using read_excel 
+
+raw_candy_2017 <- read_excel(here("raw_data/candy_ranking_data/boing-boing-candy-2017.xlsx"))
+
+
+#clean the column names 
+clean_names_candy_2017 <- clean_names(raw_candy_2017)
+
+
+#check the names so I know how to pivot 
+
+names(clean_names_candy_2017)
+
+#pivot longer - can use "starts_with()"
+
+clean_candy_2017 <- clean_names_candy_2017 %>% 
+  pivot_longer(cols = starts_with("q6"), 
+               names_to = "candy", 
+               values_to = "rating")
+
+#select only the cols needed for analysis 
+
+clean_candy_2017 <- clean_candy_2017 %>%
+  select(q1_going_out, q2_gender, q3_age, q4_country, candy, rating) %>%
+  rename(trick_or_treat = q1_going_out, gender = q2_gender, age = q3_age, country = q4_country) %>%
+  add_column(year = 2017)
+
+#finally, turn age into an integer 
+
+clean_candy_2017 <- clean_candy_2017 %>% 
+  mutate(age = as.integer(age))
+
+#noticed a problem with my data - in the candy column, every name begins with a "q6" - need to use stringr to replace with nothing
+
+clean_candy_2017 <- clean_candy_2017 %>% 
+  mutate(candy = str_replace(candy, "q6_", ""))
+
+
+```
+
+
+Now I want to join my tibbles together - using a full join? or a row bind??
+
+```{r}
+head(clean_candy_2015)
+head(clean_candy_2016)
+head(clean_candy_2017)
+
+#need to make candy_2015 in the same order as others 
+
+
+clean_candy_2015 <- clean_candy_2015 %>% 
+  add_column(gender = NA, country = NA) %>% 
+  select(trick_or_treat, gender, age, country, candy, rating, year)
+
+#now use bind_rows() to bring all the tibbles together 
+
+candy_clean <- bind_rows(clean_candy_2015, clean_candy_2016, clean_candy_2017)
+
+
+#cool - that gives us a combined tibble! 
+
+head(candy_clean)
+tail(candy_clean)
+
+```
+
+Now need to tidy up some of the values in the cols of my tibble 
+
+```{r}
+candy_clean <- candy_clean %>% 
+  mutate(rating = str_to_lower(rating))
+
+
+#check the candy names 
+
+candy_clean <- candy_clean %>% 
+  mutate(candy = str_replace(candy, "x100_grand_bar", "100_grand_bar"))
+
+
+#check that there aren't any repeating candy names
+candy_clean %>% 
+  distinct(candy)
+
+```
+
+
+
+Now need to move on to the country column 
+
+```{r}
+candy_clean %>% 
+  distinct(country)
+
+#need to tidy these strings up! got a lot of different ways to say the USA here 
+
+candy_clean <- candy_clean %>% 
+  mutate(country = str_to_lower(country))
+
+full_candy <- candy_clean %>%
+  mutate(country = str_replace_all(country, "^us", "usa")) %>% 
+  mutate(country = str_replace_all(country, "usa(.*)", "usa")) %>%
+  mutate(country = str_replace_all(country, "united s(.*)", "usa")) %>% 
+  mutate(country = str_replace_all(country, "u.s(.*)", "usa")) %>%
+  mutate(country = str_replace_all(country, "merica(.*)", "usa")) %>%
+  mutate(country = str_replace_all(country, "murica(.*)", "usa")) %>%
+  mutate(country = str_replace_all(country, "^aus(.*)", "australia")) %>%
+  mutate(country = str_replace_all(country, "a tropical island south of the equator", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "united kindom", "uk")) %>%
+  mutate(country = str_replace_all(country, "neverland", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "this one", "usa")) %>%
+  mutate(country = str_replace_all(country, "units states", "usa")) %>%
+  mutate(country = str_replace_all(country, "the best one - usa", "usa")) %>%
+  mutate(country = str_replace_all(country, "cascadia", "usa")) %>%
+  mutate(country = str_replace_all(country, "the yoo ess of aaayyyyyy", "usa")) %>%
+  mutate(country = str_replace_all(country, "somewhere", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "god's country", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "there isn't one for old men", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "eua", "usa")) %>%
+  mutate(country = str_replace_all(country, "merca(.*)", "usa")) %>%
+  mutate(country = str_replace_all(country, "united(.*)", "usa")) %>%
+  mutate(country = str_replace_all(country, "trump(.*)", "usa")) %>%
+  mutate(country = str_replace_all(country, "un(.*)", "usa")) %>%
+  mutate(country = str_replace_all(country, "the usa", "usa")) %>%
+  mutate(country = str_replace_all(country, "insanity lately", "usa")) %>%
+  mutate(country = str_replace_all(country, "north carolina", "usa")) %>%
+  mutate(country = str_replace_all(country, "'usa", "usa")) %>%
+  mutate(country = str_replace_all(country, "new(.*)", "usa")) %>%
+  mutate(country = str_replace_all(country, "california", "usa")) %>%
+  mutate(country = str_replace_all(country, "eua", "usa")) %>%
+  mutate(country = str_replace_all(country, "^i pretend(.*)", "usa")) %>%
+  mutate(country = str_replace_all(country, "ahem(.*)", "usa")) %>%
+  mutate(country = str_replace_all(country, "sub(.*)", "usa")) %>%
+  mutate(country = str_replace_all(country, "see above", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "denial", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "the republic of usa", "usa")) %>%
+  mutate(country = str_replace_all(country, "europe", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "earth", NA_character_)) %>% 
+  mutate(country = str_replace_all(country, "pittsburgh", "usa")) %>%
+  mutate(country = str_replace_all(country, "u.k.", "uk")) %>%
+  mutate(country = str_replace_all(country, "husa", "usa")) %>%
+  mutate(country = str_replace_all(country, "españa", "spain")) %>%
+  mutate(country = str_replace_all(country, "not usa", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "^([1-9][0-9].*)$", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "susa", "usa")) %>%
+  mutate(country = str_replace_all(country, "n. ausa", "usa")) %>%
+  mutate(country = str_replace_all(country, "atlantis", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "narnia", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "fear and loathing", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "endland", "uk")) %>%
+  mutate(country = str_replace_all(country, "murrika", "usa")) %>%
+  mutate(country = str_replace_all(country, "alaska", "usa")) %>%
+  mutate(country = str_replace_all(country, "soviet canukistan", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "canada'", "canada")) %>%
+  mutate(country = str_replace_all(country, "not usa", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "ud", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "canae", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "can", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "^a$", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "^1$", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "i don't know anymore", NA_character_)) %>%
+  mutate(country = str_replace_all(country, "^netherlands$", "the netherlands"))
+   
+    
+full_candy %>% 
+  distinct(country)
+           
+
+ 
+
+#it is done!!!
+
+
+
+
+```
+
+Now I need to deal with the outliers 
+
+```{r}
+
+# we need to look at age 
+boxplot(full_candy$age)
+
+
+library(outliers)
+
+
+class(full_candy$age)
+age_zscores <- outliers::scores(unique(full_candy$age))
+
+age_zscores
+
+is_age_outlier <- age_zscores > 3 | age_zscores < -3
+
+
+full_candy <- full_candy %>%
+  mutate(is_age_outlier = is_age_outlier)
+
+head(full_candy)
+
+
+#i'm going to remove any data with age as above 
+
+```
+
+
+
+
+
+
+
+
+
+
+
+export the cleaned data 
+```{r}
+write_csv(full_candy, "~/data_cleaning_project/task_4/clean_data/full_candy.csv")
+```
+
+
+
+
+
+
+
+
